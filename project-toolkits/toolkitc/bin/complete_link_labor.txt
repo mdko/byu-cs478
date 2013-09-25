@@ -1,0 +1,1825 @@
+Dataset name: ../data/laborWithoutID.arff
+Number of instances (rows): 57
+Number of attributes (cols): 17
+Learning algorithm: clustering
+Evaluation method: training
+--------------
+Iteration 0
+--------------
+Merging clusters 33 and 44	Distance: 2.23607
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 
+Cluster 11: 11 
+Cluster 12: 12 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 34 
+Cluster 35: 35 
+Cluster 36: 36 
+Cluster 37: 37 
+Cluster 38: 38 
+Cluster 39: 39 
+Cluster 40: 40 
+Cluster 41: 41 
+Cluster 42: 42 
+Cluster 43: 43 
+Cluster 44: 45 
+Cluster 45: 46 
+Cluster 46: 47 
+Cluster 47: 48 
+Cluster 48: 49 
+Cluster 49: 50 
+Cluster 50: 51 
+Cluster 51: 52 
+Cluster 52: 53 
+Cluster 53: 54 
+Cluster 54: 55 
+Cluster 55: 56 
+--------------
+Iteration 1
+--------------
+Merging clusters 25 and 34	Distance: 2.29347
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 
+Cluster 11: 11 
+Cluster 12: 12 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 
+Cluster 39: 40 
+Cluster 40: 41 
+Cluster 41: 42 
+Cluster 42: 43 
+Cluster 43: 45 
+Cluster 44: 46 
+Cluster 45: 47 
+Cluster 46: 48 
+Cluster 47: 49 
+Cluster 48: 50 
+Cluster 49: 51 
+Cluster 50: 52 
+Cluster 51: 53 
+Cluster 52: 54 
+Cluster 53: 55 
+Cluster 54: 56 
+--------------
+Iteration 2
+--------------
+Merging clusters 12 and 43	Distance: 2.44949
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 
+Cluster 39: 40 
+Cluster 40: 41 
+Cluster 41: 42 
+Cluster 42: 43 
+Cluster 43: 46 
+Cluster 44: 47 
+Cluster 45: 48 
+Cluster 46: 49 
+Cluster 47: 50 
+Cluster 48: 51 
+Cluster 49: 52 
+Cluster 50: 53 
+Cluster 51: 54 
+Cluster 52: 55 
+Cluster 53: 56 
+--------------
+Iteration 3
+--------------
+Merging clusters 4 and 52	Distance: 2.54951
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 
+Cluster 39: 40 
+Cluster 40: 41 
+Cluster 41: 42 
+Cluster 42: 43 
+Cluster 43: 46 
+Cluster 44: 47 
+Cluster 45: 48 
+Cluster 46: 49 
+Cluster 47: 50 
+Cluster 48: 51 
+Cluster 49: 52 
+Cluster 50: 53 
+Cluster 51: 54 
+Cluster 52: 56 
+--------------
+Iteration 4
+--------------
+Merging clusters 28 and 45	Distance: 2.69258
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 
+Cluster 39: 40 
+Cluster 40: 41 
+Cluster 41: 42 
+Cluster 42: 43 
+Cluster 43: 46 
+Cluster 44: 47 
+Cluster 45: 49 
+Cluster 46: 50 
+Cluster 47: 51 
+Cluster 48: 52 
+Cluster 49: 53 
+Cluster 50: 54 
+Cluster 51: 56 
+--------------
+Iteration 5
+--------------
+Merging clusters 43 and 45	Distance: 2.77308
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 
+Cluster 39: 40 
+Cluster 40: 41 
+Cluster 41: 42 
+Cluster 42: 43 
+Cluster 43: 46 49 
+Cluster 44: 47 
+Cluster 45: 50 
+Cluster 46: 51 
+Cluster 47: 52 
+Cluster 48: 53 
+Cluster 49: 54 
+Cluster 50: 56 
+--------------
+Iteration 6
+--------------
+Merging clusters 10 and 47	Distance: 2.83019
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 
+Cluster 39: 40 
+Cluster 40: 41 
+Cluster 41: 42 
+Cluster 42: 43 
+Cluster 43: 46 49 
+Cluster 44: 47 
+Cluster 45: 50 
+Cluster 46: 51 
+Cluster 47: 53 
+Cluster 48: 54 
+Cluster 49: 56 
+--------------
+Iteration 7
+--------------
+Merging clusters 38 and 43	Distance: 2.94788
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 46 49 
+Cluster 39: 40 
+Cluster 40: 41 
+Cluster 41: 42 
+Cluster 42: 43 
+Cluster 43: 47 
+Cluster 44: 50 
+Cluster 45: 51 
+Cluster 46: 53 
+Cluster 47: 54 
+Cluster 48: 56 
+--------------
+Iteration 8
+--------------
+Merging clusters 18 and 39	Distance: 3
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 40 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 46 49 
+Cluster 39: 41 
+Cluster 40: 42 
+Cluster 41: 43 
+Cluster 42: 47 
+Cluster 43: 50 
+Cluster 44: 51 
+Cluster 45: 53 
+Cluster 46: 54 
+Cluster 47: 56 
+--------------
+Iteration 9
+--------------
+Merging clusters 21 and 41	Distance: 3
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 40 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 43 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 35 
+Cluster 35: 36 
+Cluster 36: 37 
+Cluster 37: 38 
+Cluster 38: 39 46 49 
+Cluster 39: 41 
+Cluster 40: 42 
+Cluster 41: 47 
+Cluster 42: 50 
+Cluster 43: 51 
+Cluster 44: 53 
+Cluster 45: 54 
+Cluster 46: 56 
+--------------
+Iteration 10
+--------------
+Merging clusters 31 and 34	Distance: 3
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 40 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 43 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 35 
+Cluster 32: 32 
+Cluster 33: 33 44 
+Cluster 34: 36 
+Cluster 35: 37 
+Cluster 36: 38 
+Cluster 37: 39 46 49 
+Cluster 38: 41 
+Cluster 39: 42 
+Cluster 40: 47 
+Cluster 41: 50 
+Cluster 42: 51 
+Cluster 43: 53 
+Cluster 44: 54 
+Cluster 45: 56 
+--------------
+Iteration 11
+--------------
+Merging clusters 12 and 33	Distance: 3.04138
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 33 44 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 
+Cluster 18: 18 40 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 43 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 35 
+Cluster 32: 32 
+Cluster 33: 36 
+Cluster 34: 37 
+Cluster 35: 38 
+Cluster 36: 39 46 49 
+Cluster 37: 41 
+Cluster 38: 42 
+Cluster 39: 47 
+Cluster 40: 50 
+Cluster 41: 51 
+Cluster 42: 53 
+Cluster 43: 54 
+Cluster 44: 56 
+--------------
+Iteration 12
+--------------
+Merging clusters 17 and 34	Distance: 3.08058
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 33 44 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 37 
+Cluster 18: 18 40 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 43 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 30 
+Cluster 31: 31 35 
+Cluster 32: 32 
+Cluster 33: 36 
+Cluster 34: 38 
+Cluster 35: 39 46 49 
+Cluster 36: 41 
+Cluster 37: 42 
+Cluster 38: 47 
+Cluster 39: 50 
+Cluster 40: 51 
+Cluster 41: 53 
+Cluster 42: 54 
+Cluster 43: 56 
+--------------
+Iteration 13
+--------------
+Merging clusters 4 and 30	Distance: 3.08221
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 33 44 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 37 
+Cluster 18: 18 40 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 43 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 31 35 
+Cluster 31: 32 
+Cluster 32: 36 
+Cluster 33: 38 
+Cluster 34: 39 46 49 
+Cluster 35: 41 
+Cluster 36: 42 
+Cluster 37: 47 
+Cluster 38: 50 
+Cluster 39: 51 
+Cluster 40: 53 
+Cluster 41: 54 
+Cluster 42: 56 
+--------------
+Iteration 14
+--------------
+Merging clusters 35 and 39	Distance: 3.16228
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 33 44 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 37 
+Cluster 18: 18 40 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 43 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 31 35 
+Cluster 31: 32 
+Cluster 32: 36 
+Cluster 33: 38 
+Cluster 34: 39 46 49 
+Cluster 35: 41 51 
+Cluster 36: 42 
+Cluster 37: 47 
+Cluster 38: 50 
+Cluster 39: 53 
+Cluster 40: 54 
+Cluster 41: 56 
+--------------
+Iteration 15
+--------------
+Merging clusters 26 and 37	Distance: 3.16544
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 
+Cluster 11: 11 
+Cluster 12: 12 45 33 44 
+Cluster 13: 13 
+Cluster 14: 14 
+Cluster 15: 15 
+Cluster 16: 16 
+Cluster 17: 17 37 
+Cluster 18: 18 40 
+Cluster 19: 19 
+Cluster 20: 20 
+Cluster 21: 21 43 
+Cluster 22: 22 
+Cluster 23: 23 
+Cluster 24: 24 
+Cluster 25: 25 34 
+Cluster 26: 26 47 
+Cluster 27: 27 
+Cluster 28: 28 48 
+Cluster 29: 29 
+Cluster 30: 31 35 
+Cluster 31: 32 
+Cluster 32: 36 
+Cluster 33: 38 
+Cluster 34: 39 46 49 
+Cluster 35: 41 51 
+Cluster 36: 42 
+Cluster 37: 50 
+Cluster 38: 53 
+Cluster 39: 54 
+Cluster 40: 56 
+--------------
+Iteration 16
+--------------
+Merging clusters 10 and 13	Distance: 3.2187
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 
+Cluster 3: 3 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 6 
+Cluster 7: 7 
+Cluster 8: 8 
+Cluster 9: 9 
+Cluster 10: 10 52 13 
+Cluster 11: 11 
+Cluster 12: 12 45 33 44 
+Cluster 13: 14 
+Cluster 14: 15 
+Cluster 15: 16 
+Cluster 16: 17 37 
+Cluster 17: 18 40 
+Cluster 18: 19 
+Cluster 19: 20 
+Cluster 20: 21 43 
+Cluster 21: 22 
+Cluster 22: 23 
+Cluster 23: 24 
+Cluster 24: 25 34 
+Cluster 25: 26 47 
+Cluster 26: 27 
+Cluster 27: 28 48 
+Cluster 28: 29 
+Cluster 29: 31 35 
+Cluster 30: 32 
+Cluster 31: 36 
+Cluster 32: 38 
+Cluster 33: 39 46 49 
+Cluster 34: 41 51 
+Cluster 35: 42 
+Cluster 36: 50 
+Cluster 37: 53 
+Cluster 38: 54 
+Cluster 39: 56 
+--------------
+Iteration 17
+--------------
+Merging clusters 2 and 6	Distance: 3.31662
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 
+Cluster 3: 3 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 10 52 13 
+Cluster 10: 11 
+Cluster 11: 12 45 33 44 
+Cluster 12: 14 
+Cluster 13: 15 
+Cluster 14: 16 
+Cluster 15: 17 37 
+Cluster 16: 18 40 
+Cluster 17: 19 
+Cluster 18: 20 
+Cluster 19: 21 43 
+Cluster 20: 22 
+Cluster 21: 23 
+Cluster 22: 24 
+Cluster 23: 25 34 
+Cluster 24: 26 47 
+Cluster 25: 27 
+Cluster 26: 28 48 
+Cluster 27: 29 
+Cluster 28: 31 35 
+Cluster 29: 32 
+Cluster 30: 36 
+Cluster 31: 38 
+Cluster 32: 39 46 49 
+Cluster 33: 41 51 
+Cluster 34: 42 
+Cluster 35: 50 
+Cluster 36: 53 
+Cluster 37: 54 
+Cluster 38: 56 
+--------------
+Iteration 18
+--------------
+Merging clusters 29 and 31	Distance: 3.3541
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 
+Cluster 3: 3 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 10 52 13 
+Cluster 10: 11 
+Cluster 11: 12 45 33 44 
+Cluster 12: 14 
+Cluster 13: 15 
+Cluster 14: 16 
+Cluster 15: 17 37 
+Cluster 16: 18 40 
+Cluster 17: 19 
+Cluster 18: 20 
+Cluster 19: 21 43 
+Cluster 20: 22 
+Cluster 21: 23 
+Cluster 22: 24 
+Cluster 23: 25 34 
+Cluster 24: 26 47 
+Cluster 25: 27 
+Cluster 26: 28 48 
+Cluster 27: 29 
+Cluster 28: 31 35 
+Cluster 29: 32 38 
+Cluster 30: 36 
+Cluster 31: 39 46 49 
+Cluster 32: 41 51 
+Cluster 33: 42 
+Cluster 34: 50 
+Cluster 35: 53 
+Cluster 36: 54 
+Cluster 37: 56 
+--------------
+Iteration 19
+--------------
+Merging clusters 3 and 9	Distance: 3.36006
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 
+Cluster 16: 19 
+Cluster 17: 20 
+Cluster 18: 21 43 
+Cluster 19: 22 
+Cluster 20: 23 
+Cluster 21: 24 
+Cluster 22: 25 34 
+Cluster 23: 26 47 
+Cluster 24: 27 
+Cluster 25: 28 48 
+Cluster 26: 29 
+Cluster 27: 31 35 
+Cluster 28: 32 38 
+Cluster 29: 36 
+Cluster 30: 39 46 49 
+Cluster 31: 41 51 
+Cluster 32: 42 
+Cluster 33: 50 
+Cluster 34: 53 
+Cluster 35: 54 
+Cluster 36: 56 
+--------------
+Iteration 20
+--------------
+Merging clusters 2 and 35	Distance: 3.37046
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 
+Cluster 16: 19 
+Cluster 17: 20 
+Cluster 18: 21 43 
+Cluster 19: 22 
+Cluster 20: 23 
+Cluster 21: 24 
+Cluster 22: 25 34 
+Cluster 23: 26 47 
+Cluster 24: 27 
+Cluster 25: 28 48 
+Cluster 26: 29 
+Cluster 27: 31 35 
+Cluster 28: 32 38 
+Cluster 29: 36 
+Cluster 30: 39 46 49 
+Cluster 31: 41 51 
+Cluster 32: 42 
+Cluster 33: 50 
+Cluster 34: 53 
+Cluster 35: 56 
+--------------
+Iteration 21
+--------------
+Merging clusters 12 and 25	Distance: 3.39116
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 
+Cluster 16: 19 
+Cluster 17: 20 
+Cluster 18: 21 43 
+Cluster 19: 22 
+Cluster 20: 23 
+Cluster 21: 24 
+Cluster 22: 25 34 
+Cluster 23: 26 47 
+Cluster 24: 27 
+Cluster 25: 29 
+Cluster 26: 31 35 
+Cluster 27: 32 38 
+Cluster 28: 36 
+Cluster 29: 39 46 49 
+Cluster 30: 41 51 
+Cluster 31: 42 
+Cluster 32: 50 
+Cluster 33: 53 
+Cluster 34: 56 
+--------------
+Iteration 22
+--------------
+Merging clusters 12 and 17	Distance: 3.49285
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 
+Cluster 16: 19 
+Cluster 17: 21 43 
+Cluster 18: 22 
+Cluster 19: 23 
+Cluster 20: 24 
+Cluster 21: 25 34 
+Cluster 22: 26 47 
+Cluster 23: 27 
+Cluster 24: 29 
+Cluster 25: 31 35 
+Cluster 26: 32 38 
+Cluster 27: 36 
+Cluster 28: 39 46 49 
+Cluster 29: 41 51 
+Cluster 30: 42 
+Cluster 31: 50 
+Cluster 32: 53 
+Cluster 33: 56 
+--------------
+Iteration 23
+--------------
+Merging clusters 17 and 21	Distance: 3.5
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 23 
+Cluster 20: 24 
+Cluster 21: 26 47 
+Cluster 22: 27 
+Cluster 23: 29 
+Cluster 24: 31 35 
+Cluster 25: 32 38 
+Cluster 26: 36 
+Cluster 27: 39 46 49 
+Cluster 28: 41 51 
+Cluster 29: 42 
+Cluster 30: 50 
+Cluster 31: 53 
+Cluster 32: 56 
+--------------
+Iteration 24
+--------------
+Merging clusters 4 and 27	Distance: 3.52704
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 23 
+Cluster 20: 24 
+Cluster 21: 26 47 
+Cluster 22: 27 
+Cluster 23: 29 
+Cluster 24: 31 35 
+Cluster 25: 32 38 
+Cluster 26: 36 
+Cluster 27: 41 51 
+Cluster 28: 42 
+Cluster 29: 50 
+Cluster 30: 53 
+Cluster 31: 56 
+--------------
+Iteration 25
+--------------
+Merging clusters 27 and 28	Distance: 3.53553
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 23 
+Cluster 20: 24 
+Cluster 21: 26 47 
+Cluster 22: 27 
+Cluster 23: 29 
+Cluster 24: 31 35 
+Cluster 25: 32 38 
+Cluster 26: 36 
+Cluster 27: 41 51 42 
+Cluster 28: 50 
+Cluster 29: 53 
+Cluster 30: 56 
+--------------
+Iteration 26
+--------------
+Merging clusters 15 and 26	Distance: 3.60555
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 36 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 23 
+Cluster 20: 24 
+Cluster 21: 26 47 
+Cluster 22: 27 
+Cluster 23: 29 
+Cluster 24: 31 35 
+Cluster 25: 32 38 
+Cluster 26: 41 51 42 
+Cluster 27: 50 
+Cluster 28: 53 
+Cluster 29: 56 
+--------------
+Iteration 27
+--------------
+Merging clusters 8 and 19	Distance: 3.66606
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 23 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 36 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 24 
+Cluster 20: 26 47 
+Cluster 21: 27 
+Cluster 22: 29 
+Cluster 23: 31 35 
+Cluster 24: 32 38 
+Cluster 25: 41 51 42 
+Cluster 26: 50 
+Cluster 27: 53 
+Cluster 28: 56 
+--------------
+Iteration 28
+--------------
+Merging clusters 4 and 27	Distance: 3.77492
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 53 
+Cluster 5: 5 
+Cluster 6: 7 
+Cluster 7: 8 
+Cluster 8: 9 23 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 36 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 24 
+Cluster 20: 26 47 
+Cluster 21: 27 
+Cluster 22: 29 
+Cluster 23: 31 35 
+Cluster 24: 32 38 
+Cluster 25: 41 51 42 
+Cluster 26: 50 
+Cluster 27: 56 
+--------------
+Iteration 29
+--------------
+Merging clusters 6 and 26	Distance: 3.77624
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 53 
+Cluster 5: 5 
+Cluster 6: 7 50 
+Cluster 7: 8 
+Cluster 8: 9 23 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 36 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 24 
+Cluster 20: 26 47 
+Cluster 21: 27 
+Cluster 22: 29 
+Cluster 23: 31 35 
+Cluster 24: 32 38 
+Cluster 25: 41 51 42 
+Cluster 26: 56 
+--------------
+Iteration 30
+--------------
+Merging clusters 2 and 20	Distance: 3.80789
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 26 47 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 53 
+Cluster 5: 5 
+Cluster 6: 7 50 
+Cluster 7: 8 
+Cluster 8: 9 23 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 36 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 24 
+Cluster 20: 27 
+Cluster 21: 29 
+Cluster 22: 31 35 
+Cluster 23: 32 38 
+Cluster 24: 41 51 42 
+Cluster 25: 56 
+--------------
+Iteration 31
+--------------
+Merging clusters 5 and 21	Distance: 3.87298
+Cluster 0: 0 
+Cluster 1: 1 
+Cluster 2: 2 6 54 26 47 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 53 
+Cluster 5: 5 29 
+Cluster 6: 7 50 
+Cluster 7: 8 
+Cluster 8: 9 23 
+Cluster 9: 11 
+Cluster 10: 12 45 33 44 
+Cluster 11: 14 
+Cluster 12: 15 28 48 20 
+Cluster 13: 16 
+Cluster 14: 17 37 
+Cluster 15: 18 40 36 
+Cluster 16: 19 
+Cluster 17: 21 43 25 34 
+Cluster 18: 22 
+Cluster 19: 24 
+Cluster 20: 27 
+Cluster 21: 31 35 
+Cluster 22: 32 38 
+Cluster 23: 41 51 42 
+Cluster 24: 56 
+--------------
+Iteration 32
+--------------
+Merging clusters 0 and 10	Distance: 3.90512
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 
+Cluster 2: 2 6 54 26 47 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 53 
+Cluster 5: 5 29 
+Cluster 6: 7 50 
+Cluster 7: 8 
+Cluster 8: 9 23 
+Cluster 9: 11 
+Cluster 10: 14 
+Cluster 11: 15 28 48 20 
+Cluster 12: 16 
+Cluster 13: 17 37 
+Cluster 14: 18 40 36 
+Cluster 15: 19 
+Cluster 16: 21 43 25 34 
+Cluster 17: 22 
+Cluster 18: 24 
+Cluster 19: 27 
+Cluster 20: 31 35 
+Cluster 21: 32 38 
+Cluster 22: 41 51 42 
+Cluster 23: 56 
+--------------
+Iteration 33
+--------------
+Merging clusters 1 and 12	Distance: 3.98623
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 53 
+Cluster 5: 5 29 
+Cluster 6: 7 50 
+Cluster 7: 8 
+Cluster 8: 9 23 
+Cluster 9: 11 
+Cluster 10: 14 
+Cluster 11: 15 28 48 20 
+Cluster 12: 17 37 
+Cluster 13: 18 40 36 
+Cluster 14: 19 
+Cluster 15: 21 43 25 34 
+Cluster 16: 22 
+Cluster 17: 24 
+Cluster 18: 27 
+Cluster 19: 31 35 
+Cluster 20: 32 38 
+Cluster 21: 41 51 42 
+Cluster 22: 56 
+--------------
+Iteration 34
+--------------
+Merging clusters 20 and 21	Distance: 4.15331
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 
+Cluster 3: 3 10 52 13 
+Cluster 4: 4 55 30 39 46 49 53 
+Cluster 5: 5 29 
+Cluster 6: 7 50 
+Cluster 7: 8 
+Cluster 8: 9 23 
+Cluster 9: 11 
+Cluster 10: 14 
+Cluster 11: 15 28 48 20 
+Cluster 12: 17 37 
+Cluster 13: 18 40 36 
+Cluster 14: 19 
+Cluster 15: 21 43 25 34 
+Cluster 16: 22 
+Cluster 17: 24 
+Cluster 18: 27 
+Cluster 19: 31 35 
+Cluster 20: 32 38 41 51 42 
+Cluster 21: 56 
+--------------
+Iteration 35
+--------------
+Merging clusters 2 and 4	Distance: 4.29069
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 
+Cluster 3: 3 10 52 13 
+Cluster 4: 5 29 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 
+Cluster 8: 11 
+Cluster 9: 14 
+Cluster 10: 15 28 48 20 
+Cluster 11: 17 37 
+Cluster 12: 18 40 36 
+Cluster 13: 19 
+Cluster 14: 21 43 25 34 
+Cluster 15: 22 
+Cluster 16: 24 
+Cluster 17: 27 
+Cluster 18: 31 35 
+Cluster 19: 32 38 41 51 42 
+Cluster 20: 56 
+--------------
+Iteration 36
+--------------
+Merging clusters 4 and 17	Distance: 4.38748
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 
+Cluster 3: 3 10 52 13 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 
+Cluster 8: 11 
+Cluster 9: 14 
+Cluster 10: 15 28 48 20 
+Cluster 11: 17 37 
+Cluster 12: 18 40 36 
+Cluster 13: 19 
+Cluster 14: 21 43 25 34 
+Cluster 15: 22 
+Cluster 16: 24 
+Cluster 17: 31 35 
+Cluster 18: 32 38 41 51 42 
+Cluster 19: 56 
+--------------
+Iteration 37
+--------------
+Merging clusters 7 and 16	Distance: 4.38748
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 
+Cluster 3: 3 10 52 13 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 24 
+Cluster 8: 11 
+Cluster 9: 14 
+Cluster 10: 15 28 48 20 
+Cluster 11: 17 37 
+Cluster 12: 18 40 36 
+Cluster 13: 19 
+Cluster 14: 21 43 25 34 
+Cluster 15: 22 
+Cluster 16: 31 35 
+Cluster 17: 32 38 41 51 42 
+Cluster 18: 56 
+--------------
+Iteration 38
+--------------
+Merging clusters 14 and 16	Distance: 4.40568
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 
+Cluster 3: 3 10 52 13 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 24 
+Cluster 8: 11 
+Cluster 9: 14 
+Cluster 10: 15 28 48 20 
+Cluster 11: 17 37 
+Cluster 12: 18 40 36 
+Cluster 13: 19 
+Cluster 14: 21 43 25 34 31 35 
+Cluster 15: 22 
+Cluster 16: 32 38 41 51 42 
+Cluster 17: 56 
+--------------
+Iteration 39
+--------------
+Merging clusters 3 and 13	Distance: 4.5
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 
+Cluster 3: 3 10 52 13 19 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 24 
+Cluster 8: 11 
+Cluster 9: 14 
+Cluster 10: 15 28 48 20 
+Cluster 11: 17 37 
+Cluster 12: 18 40 36 
+Cluster 13: 21 43 25 34 31 35 
+Cluster 14: 22 
+Cluster 15: 32 38 41 51 42 
+Cluster 16: 56 
+--------------
+Iteration 40
+--------------
+Merging clusters 11 and 13	Distance: 4.54313
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 
+Cluster 3: 3 10 52 13 19 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 24 
+Cluster 8: 11 
+Cluster 9: 14 
+Cluster 10: 15 28 48 20 
+Cluster 11: 17 37 21 43 25 34 31 35 
+Cluster 12: 18 40 36 
+Cluster 13: 22 
+Cluster 14: 32 38 41 51 42 
+Cluster 15: 56 
+--------------
+Iteration 41
+--------------
+Merging clusters 9 and 14	Distance: 4.82183
+Cluster 0: 0 12 45 33 44 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 
+Cluster 3: 3 10 52 13 19 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 24 
+Cluster 8: 11 
+Cluster 9: 14 32 38 41 51 42 
+Cluster 10: 15 28 48 20 
+Cluster 11: 17 37 21 43 25 34 31 35 
+Cluster 12: 18 40 36 
+Cluster 13: 22 
+Cluster 14: 56 
+--------------
+Iteration 42
+--------------
+Merging clusters 0 and 12	Distance: 4.89898
+Cluster 0: 0 12 45 33 44 18 40 36 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 
+Cluster 3: 3 10 52 13 19 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 24 
+Cluster 8: 11 
+Cluster 9: 14 32 38 41 51 42 
+Cluster 10: 15 28 48 20 
+Cluster 11: 17 37 21 43 25 34 31 35 
+Cluster 12: 22 
+Cluster 13: 56 
+--------------
+Iteration 43
+--------------
+Merging clusters 2 and 10	Distance: 4.9
+Cluster 0: 0 12 45 33 44 18 40 36 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 
+Cluster 3: 3 10 52 13 19 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 
+Cluster 6: 8 
+Cluster 7: 9 23 24 
+Cluster 8: 11 
+Cluster 9: 14 32 38 41 51 42 
+Cluster 10: 17 37 21 43 25 34 31 35 
+Cluster 11: 22 
+Cluster 12: 56 
+--------------
+Iteration 44
+--------------
+Merging clusters 5 and 8	Distance: 5.34509
+Cluster 0: 0 12 45 33 44 18 40 36 
+Cluster 1: 1 16 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 
+Cluster 3: 3 10 52 13 19 
+Cluster 4: 5 29 27 
+Cluster 5: 7 50 11 
+Cluster 6: 8 
+Cluster 7: 9 23 24 
+Cluster 8: 14 32 38 41 51 42 
+Cluster 9: 17 37 21 43 25 34 31 35 
+Cluster 10: 22 
+Cluster 11: 56 
+--------------
+Iteration 45
+--------------
+Merging clusters 1 and 4	Distance: 5.39815
+Cluster 0: 0 12 45 33 44 18 40 36 
+Cluster 1: 1 16 5 29 27 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 
+Cluster 3: 3 10 52 13 19 
+Cluster 4: 7 50 11 
+Cluster 5: 8 
+Cluster 6: 9 23 24 
+Cluster 7: 14 32 38 41 51 42 
+Cluster 8: 17 37 21 43 25 34 31 35 
+Cluster 9: 22 
+Cluster 10: 56 
+--------------
+Iteration 46
+--------------
+Merging clusters 0 and 8	Distance: 6.32456
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 
+Cluster 1: 1 16 5 29 27 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 
+Cluster 3: 3 10 52 13 19 
+Cluster 4: 7 50 11 
+Cluster 5: 8 
+Cluster 6: 9 23 24 
+Cluster 7: 14 32 38 41 51 42 
+Cluster 8: 22 
+Cluster 9: 56 
+--------------
+Iteration 47
+--------------
+Merging clusters 1 and 3	Distance: 6.87386
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 
+Cluster 1: 1 16 5 29 27 3 10 52 13 19 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 
+Cluster 3: 7 50 11 
+Cluster 4: 8 
+Cluster 5: 9 23 24 
+Cluster 6: 14 32 38 41 51 42 
+Cluster 7: 22 
+Cluster 8: 56 
+--------------
+Iteration 48
+--------------
+Merging clusters 2 and 3	Distance: 6.94046
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 
+Cluster 1: 1 16 5 29 27 3 10 52 13 19 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 7 50 11 
+Cluster 3: 8 
+Cluster 4: 9 23 24 
+Cluster 5: 14 32 38 41 51 42 
+Cluster 6: 22 
+Cluster 7: 56 
+--------------
+Iteration 49
+--------------
+Merging clusters 2 and 4	Distance: 7.48331
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 
+Cluster 1: 1 16 5 29 27 3 10 52 13 19 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 7 50 11 9 23 24 
+Cluster 3: 8 
+Cluster 4: 14 32 38 41 51 42 
+Cluster 5: 22 
+Cluster 6: 56 
+--------------
+Iteration 50
+--------------
+Merging clusters 4 and 6	Distance: 7.77817
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 
+Cluster 1: 1 16 5 29 27 3 10 52 13 19 
+Cluster 2: 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 7 50 11 9 23 24 
+Cluster 3: 8 
+Cluster 4: 14 32 38 41 51 42 56 
+Cluster 5: 22 
+--------------
+Iteration 51
+--------------
+Merging clusters 1 and 2	Distance: 9.38083
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 
+Cluster 1: 1 16 5 29 27 3 10 52 13 19 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 7 50 11 9 23 24 
+Cluster 2: 8 
+Cluster 3: 14 32 38 41 51 42 56 
+Cluster 4: 22 
+--------------
+Iteration 52
+--------------
+Merging clusters 2 and 4	Distance: 11.9687
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 
+Cluster 1: 1 16 5 29 27 3 10 52 13 19 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 7 50 11 9 23 24 
+Cluster 2: 8 22 
+Cluster 3: 14 32 38 41 51 42 56 
+--------------
+Iteration 53
+--------------
+Merging clusters 1 and 3	Distance: 13.3507
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 
+Cluster 1: 1 16 5 29 27 3 10 52 13 19 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 7 50 11 9 23 24 14 32 38 41 51 42 56 
+Cluster 2: 8 22 
+--------------
+Iteration 54
+--------------
+Merging clusters 0 and 1	Distance: 15.9687
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 1 16 5 29 27 3 10 52 13 19 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 7 50 11 9 23 24 14 32 38 41 51 42 56 
+Cluster 1: 8 22 
+--------------
+Iteration 55
+--------------
+Merging clusters 0 and 1	Distance: 26.6317
+Cluster 0: 0 12 45 33 44 18 40 36 17 37 21 43 25 34 31 35 1 16 5 29 27 3 10 52 13 19 2 6 54 26 47 4 55 30 39 46 49 53 15 28 48 20 7 50 11 9 23 24 14 32 38 41 51 42 56 8 22 

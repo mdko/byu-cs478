@@ -1,0 +1,191 @@
+Dataset name: ../data/iris.arff
+Number of instances (rows): 150
+Number of attributes (cols): 5
+Learning algorithm: clustering
+Evaluation method: training
+Running k-means...
+Centroid 0 = 4.9, 3.1, 1.5, 0.1, Iris-setosa
+Centroid 1 = 5.5, 2.5, 4, 1.3, Iris-versicolor
+Centroid 2 = 5.2, 3.5, 1.5, 0.2, Iris-setosa
+Centroid 3 = 4.9, 3.1, 1.5, 0.1, Iris-setosa
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.71304, 3.12174, 1.41739, 0.191304, Iris-setosa
+	Members of Cluster (23): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 
+	Cluster 0 SSE = 3.17652
+Centroid 1 = 6.262, 2.872, 4.906, 1.676, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 1 SSE = 189.796
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = ?, ?, ?, ?, ?
+	Members of Cluster (0): 
+	Cluster 3 SSE = 0
+Total SSE (sum squared-distance of each row with its centroid) = 197.432
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.72917, 3.09583, 1.48333, 0.229167, Iris-setosa
+	Members of Cluster (24): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 98 
+	Cluster 0 SSE = 7.88208
+Centroid 1 = 6.21075, 2.86344, 4.84946, 1.66559, Iris-versicolor
+	Members of Cluster (93): 50 51 52 53 54 55 56 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 99 100 101 102 103 104 106 107 108 109 110 111 112 113 114 115 116 119 120 121 123 124 125 126 127 128 129 130 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 1 SSE = 144.607
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 7.25, 3.06667, 6.1, 1.93333, Iris-virginica
+	Members of Cluster (6): 57 105 117 118 122 131 
+	Cluster 3 SSE = 20.1417
+Total SSE (sum squared-distance of each row with its centroid) = 177.09
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.72917, 3.09583, 1.48333, 0.229167, Iris-setosa
+	Members of Cluster (24): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 98 
+	Cluster 0 SSE = 7.88208
+Centroid 1 = 5.96866, 2.76866, 4.48507, 1.46716, Iris-versicolor
+	Members of Cluster (67): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 99 101 106 110 111 113 114 119 121 123 126 127 133 134 138 142 146 147 149 
+	Cluster 1 SSE = 62.2012
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 6.9125, 3.1, 5.84687, 2.13125, Iris-virginica
+	Members of Cluster (32): 100 102 103 104 105 107 108 109 112 115 116 117 118 120 122 124 125 128 129 130 131 132 135 136 137 139 140 141 143 144 145 148 
+	Cluster 3 SSE = 18.7034
+Total SSE (sum squared-distance of each row with its centroid) = 93.246
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.71304, 3.12174, 1.41739, 0.191304, Iris-setosa
+	Members of Cluster (23): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 
+	Cluster 0 SSE = 3.17652
+Centroid 1 = 5.91967, 2.76066, 4.37869, 1.41475, Iris-versicolor
+	Members of Cluster (61): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 101 106 113 119 121 123 126 127 138 142 149 
+	Cluster 1 SSE = 50.361
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 6.79744, 3.04615, 5.73077, 2.08462, Iris-virginica
+	Members of Cluster (39): 100 102 103 104 105 107 108 109 110 111 112 114 115 116 117 118 120 122 124 125 128 129 130 131 132 133 134 135 136 137 139 140 141 143 144 145 146 147 148 
+	Cluster 3 SSE = 26.0005
+Total SSE (sum squared-distance of each row with its centroid) = 83.9973
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.71304, 3.12174, 1.41739, 0.191304, Iris-setosa
+	Members of Cluster (23): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 
+	Cluster 0 SSE = 3.17652
+Centroid 1 = 5.90909, 2.75455, 4.31273, 1.36909, Iris-versicolor
+	Members of Cluster (55): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 106 113 119 121 138 
+	Cluster 1 SSE = 40.2404
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 6.69333, 3.01556, 5.63111, 2.05111, Iris-virginica
+	Members of Cluster (45): 100 101 102 103 104 105 107 108 109 110 111 112 114 115 116 117 118 120 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 3 SSE = 33.116
+Total SSE (sum squared-distance of each row with its centroid) = 80.9921
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.71304, 3.12174, 1.41739, 0.191304, Iris-setosa
+	Members of Cluster (23): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 
+	Cluster 0 SSE = 3.17652
+Centroid 1 = 5.91731, 2.75385, 4.27885, 1.33654, Iris-versicolor
+	Members of Cluster (52): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 106 119 
+	Cluster 1 SSE = 34.811
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 6.63542, 3, 5.58542, 2.04375, Iris-virginica
+	Members of Cluster (48): 100 101 102 103 104 105 107 108 109 110 111 112 113 114 115 116 117 118 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 3 SSE = 37.5077
+Total SSE (sum squared-distance of each row with its centroid) = 79.9545
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.71304, 3.12174, 1.41739, 0.191304, Iris-setosa
+	Members of Cluster (23): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 
+	Cluster 0 SSE = 3.17652
+Centroid 1 = 5.91569, 2.76471, 4.26471, 1.33333, Iris-versicolor
+	Members of Cluster (51): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 106 
+	Cluster 1 SSE = 32.9337
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 6.62245, 2.98367, 5.57347, 2.03265, Iris-virginica
+	Members of Cluster (49): 100 101 102 103 104 105 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 3 SSE = 39.1555
+Total SSE (sum squared-distance of each row with its centroid) = 79.725
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.71304, 3.12174, 1.41739, 0.191304, Iris-setosa
+	Members of Cluster (23): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 
+	Cluster 0 SSE = 3.17652
+Centroid 1 = 5.91569, 2.76471, 4.26471, 1.33333, Iris-versicolor
+	Members of Cluster (51): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 106 
+	Cluster 1 SSE = 32.9337
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 6.62245, 2.98367, 5.57347, 2.03265, Iris-virginica
+	Members of Cluster (49): 100 101 102 103 104 105 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 3 SSE = 39.1555
+Total SSE (sum squared-distance of each row with its centroid) = 79.725
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.71304, 3.12174, 1.41739, 0.191304, Iris-setosa
+	Members of Cluster (23): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 
+	Cluster 0 SSE = 3.17652
+Centroid 1 = 5.91569, 2.76471, 4.26471, 1.33333, Iris-versicolor
+	Members of Cluster (51): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 106 
+	Cluster 1 SSE = 32.9337
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 6.62245, 2.98367, 5.57347, 2.03265, Iris-virginica
+	Members of Cluster (49): 100 101 102 103 104 105 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 3 SSE = 39.1555
+Total SSE (sum squared-distance of each row with its centroid) = 79.725
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 4.71304, 3.12174, 1.41739, 0.191304, Iris-setosa
+	Members of Cluster (23): 1 2 3 6 8 9 11 12 13 22 24 25 29 30 34 35 37 38 41 42 45 47 49 
+	Cluster 0 SSE = 3.17652
+Centroid 1 = 5.91569, 2.76471, 4.26471, 1.33333, Iris-versicolor
+	Members of Cluster (51): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 106 
+	Cluster 1 SSE = 32.9337
+Centroid 2 = 5.25556, 3.67037, 1.5037, 0.288889, Iris-setosa
+	Members of Cluster (27): 0 4 5 7 10 14 15 16 17 18 19 20 21 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 4.45926
+Centroid 3 = 6.62245, 2.98367, 5.57347, 2.03265, Iris-virginica
+	Members of Cluster (49): 100 101 102 103 104 105 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 3 SSE = 39.1555
+Total SSE (sum squared-distance of each row with its centroid) = 79.725
+Convergence is detected because the sum squared-distance did not improve, and more than 3 iterations were performed

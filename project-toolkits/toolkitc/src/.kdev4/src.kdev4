@@ -1,0 +1,29 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00 \x00M\x00a\x00c\x00h\x00i\x00n\x00e\x00_\x00L\x00e\x00a\x00r\x00n\x00i\x00n\x00g)
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Native Application Configuration
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=-L perceptron -A ../data/perc_prj_data_0.arff -E training
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=file:///home/michael/Documents/cs478/toolkitc/bin/MLSystemManagerDbg
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=
+Use External Terminal=false
+Working Directory=file:///home/michael/Documents/cs478/toolkitc/bin
+isExecutable=true
+
+[MakeBuilder]
+Default Target=dbg
+
+[Project]
+VersionControlSupport=kdevgit

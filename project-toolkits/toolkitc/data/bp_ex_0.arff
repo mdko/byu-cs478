@@ -1,0 +1,8 @@
+@RELATION neural_net_test
+
+@ATTRIBUTE x1 continuous
+@ATTRIBUTE x2 continuous
+@ATTRIBUTE class  {y1, y2}
+
+@DATA
+0.3,0.7,y2

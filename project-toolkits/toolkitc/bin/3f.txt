@@ -1,0 +1,1496 @@
+Dataset name: ../data/housing-train.arff
+Number of instances (rows): 455
+Number of attributes (cols): 14
+Learning algorithm: knn
+Evaluation method: static
+Number of classes: 0
+Nominal or discrete: discrete
+Number of neighbors: 11
+Weighted? N
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.006320 18.000000 2.310000 0.000000 0.538000 6.575000 65.200000 4.090000 1.000000 296.000000 15.300000 396.900000 4.980000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 16.128131
+  That distance's discrete class label: 20.100000
+ Closest example 1's distance: 17.029341
+  That distance's discrete class label: 22.200000
+ Closest example 2's distance: 18.428155
+  That distance's discrete class label: 23.900000
+ Closest example 3's distance: 19.100062
+  That distance's discrete class label: 22.900000
+ Closest example 4's distance: 19.889657
+  That distance's discrete class label: 22.600000
+ Closest example 5's distance: 20.421340
+  That distance's discrete class label: 24.600000
+ Closest example 6's distance: 21.616744
+  That distance's discrete class label: 29.900000
+ Closest example 7's distance: 22.394715
+  That distance's discrete class label: 23.100000
+ Closest example 8's distance: 23.344360
+  That distance's discrete class label: 20.400000
+ Closest example 9's distance: 23.814509
+  That distance's discrete class label: 21.000000
+ Closest example 10's distance: 24.266277
+  That distance's discrete class label: 23.100000
+Discrete summation: 253.800000, denom: 11.000000
+Discrete value for label: 23.072727
+feature 0: targ: 24.000000, pred 23.072727. Delta: 0.038636
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.224890 12.500000 7.870000 0.000000 0.524000 6.377000 94.300000 6.346700 5.000000 311.000000 15.200000 392.520000 20.450000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 5.031884
+  That distance's discrete class label: 27.100000
+ Closest example 1's distance: 10.804673
+  That distance's discrete class label: 18.900000
+ Closest example 2's distance: 12.596794
+  That distance's discrete class label: 16.500000
+ Closest example 3's distance: 14.207680
+  That distance's discrete class label: 18.900000
+ Closest example 4's distance: 14.739671
+  That distance's discrete class label: 21.700000
+ Closest example 5's distance: 15.256937
+  That distance's discrete class label: 15.600000
+ Closest example 6's distance: 15.607267
+  That distance's discrete class label: 15.200000
+ Closest example 7's distance: 15.837574
+  That distance's discrete class label: 14.500000
+ Closest example 8's distance: 16.846664
+  That distance's discrete class label: 19.600000
+ Closest example 9's distance: 17.069446
+  That distance's discrete class label: 18.400000
+ Closest example 10's distance: 18.433348
+  That distance's discrete class label: 19.400000
+Discrete summation: 205.800000, denom: 11.000000
+Discrete value for label: 18.709091
+feature 1: targ: 15.000000, pred 18.709091. Delta: -0.198251
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 1.251790 0.000000 8.140000 0.000000 0.538000 5.570000 98.100000 3.797900 4.000000 307.000000 21.000000 376.570000 21.020000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 8.289801
+  That distance's discrete class label: 14.500000
+ Closest example 1's distance: 10.083508
+  That distance's discrete class label: 16.600000
+ Closest example 2's distance: 14.596286
+  That distance's discrete class label: 18.400000
+ Closest example 3's distance: 14.636692
+  That distance's discrete class label: 21.000000
+ Closest example 4's distance: 17.740757
+  That distance's discrete class label: 18.200000
+ Closest example 5's distance: 18.139661
+  That distance's discrete class label: 14.500000
+ Closest example 6's distance: 18.292244
+  That distance's discrete class label: 13.100000
+ Closest example 7's distance: 18.852981
+  That distance's discrete class label: 15.600000
+ Closest example 8's distance: 19.672049
+  That distance's discrete class label: 19.600000
+ Closest example 9's distance: 19.961684
+  That distance's discrete class label: 16.500000
+ Closest example 10's distance: 20.359802
+  That distance's discrete class label: 17.500000
+Discrete summation: 185.500000, denom: 11.000000
+Discrete value for label: 16.863636
+feature 2: targ: 13.600000, pred 16.863636. Delta: -0.193531
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 1.130810 0.000000 8.140000 0.000000 0.538000 5.713000 94.100000 4.233000 4.000000 307.000000 21.000000 360.170000 22.600000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 4.693806
+  That distance's discrete class label: 13.100000
+ Closest example 1's distance: 18.861877
+  That distance's discrete class label: 16.600000
+ Closest example 2's distance: 20.040449
+  That distance's discrete class label: 14.500000
+ Closest example 3's distance: 23.735375
+  That distance's discrete class label: 21.000000
+ Closest example 4's distance: 25.296246
+  That distance's discrete class label: 18.200000
+ Closest example 5's distance: 25.389053
+  That distance's discrete class label: 31.600000
+ Closest example 6's distance: 29.480360
+  That distance's discrete class label: 18.400000
+ Closest example 7's distance: 29.820732
+  That distance's discrete class label: 31.700000
+ Closest example 8's distance: 30.402940
+  That distance's discrete class label: 17.500000
+ Closest example 9's distance: 31.106803
+  That distance's discrete class label: 50.000000
+ Closest example 10's distance: 31.637084
+  That distance's discrete class label: 16.500000
+Discrete summation: 249.100000, denom: 11.000000
+Discrete value for label: 22.645455
+feature 3: targ: 12.700000, pred 22.645455. Delta: -0.439181
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.033590 75.000000 2.950000 0.000000 0.428000 7.024000 15.800000 5.401100 3.000000 252.000000 18.300000 395.620000 1.980000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.531445
+  That distance's discrete class label: 30.800000
+ Closest example 1's distance: 12.159080
+  That distance's discrete class label: 27.900000
+ Closest example 2's distance: 15.055012
+  That distance's discrete class label: 37.300000
+ Closest example 3's distance: 17.987442
+  That distance's discrete class label: 50.000000
+ Closest example 4's distance: 21.358520
+  That distance's discrete class label: 31.100000
+ Closest example 5's distance: 26.896392
+  That distance's discrete class label: 44.000000
+ Closest example 6's distance: 27.926049
+  That distance's discrete class label: 29.100000
+ Closest example 7's distance: 31.070563
+  That distance's discrete class label: 35.400000
+ Closest example 8's distance: 32.458874
+  That distance's discrete class label: 24.500000
+ Closest example 9's distance: 35.900671
+  That distance's discrete class label: 31.600000
+ Closest example 10's distance: 37.302721
+  That distance's discrete class label: 33.100000
+Discrete summation: 374.800000, denom: 11.000000
+Discrete value for label: 34.072727
+feature 4: targ: 34.900000, pred 34.072727. Delta: 0.023704
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.088730 21.000000 5.640000 0.000000 0.439000 5.963000 45.700000 6.814700 4.000000 243.000000 16.800000 395.560000 13.450000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 17.860674
+  That distance's discrete class label: 20.500000
+ Closest example 1's distance: 21.675097
+  That distance's discrete class label: 22.500000
+ Closest example 2's distance: 22.119957
+  That distance's discrete class label: 23.900000
+ Closest example 3's distance: 22.876438
+  That distance's discrete class label: 35.200000
+ Closest example 4's distance: 24.382586
+  That distance's discrete class label: 33.200000
+ Closest example 5's distance: 24.725344
+  That distance's discrete class label: 32.000000
+ Closest example 6's distance: 24.869434
+  That distance's discrete class label: 23.400000
+ Closest example 7's distance: 24.875419
+  That distance's discrete class label: 24.400000
+ Closest example 8's distance: 24.922343
+  That distance's discrete class label: 22.200000
+ Closest example 9's distance: 25.155530
+  That distance's discrete class label: 21.200000
+ Closest example 10's distance: 25.218695
+  That distance's discrete class label: 26.600000
+Discrete summation: 285.100000, denom: 11.000000
+Discrete value for label: 25.918182
+feature 5: targ: 19.700000, pred 25.918182. Delta: -0.239916
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.149320 25.000000 5.130000 0.000000 0.453000 5.741000 66.200000 7.225400 8.000000 284.000000 19.700000 395.110000 13.150000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.963709
+  That distance's discrete class label: 22.200000
+ Closest example 1's distance: 9.151519
+  That distance's discrete class label: 23.900000
+ Closest example 2's distance: 17.279504
+  That distance's discrete class label: 20.100000
+ Closest example 3's distance: 19.513375
+  That distance's discrete class label: 19.600000
+ Closest example 4's distance: 21.497165
+  That distance's discrete class label: 22.900000
+ Closest example 5's distance: 21.650180
+  That distance's discrete class label: 20.600000
+ Closest example 6's distance: 22.788183
+  That distance's discrete class label: 22.900000
+ Closest example 7's distance: 22.965157
+  That distance's discrete class label: 32.700000
+ Closest example 8's distance: 23.137007
+  That distance's discrete class label: 22.800000
+ Closest example 9's distance: 23.151612
+  That distance's discrete class label: 25.000000
+ Closest example 10's distance: 25.612754
+  That distance's discrete class label: 50.000000
+Discrete summation: 282.700000, denom: 11.000000
+Discrete value for label: 25.700000
+feature 6: targ: 18.700000, pred 25.700000. Delta: -0.272374
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.088260 0.000000 10.810000 0.000000 0.413000 6.417000 6.600000 5.287300 4.000000 305.000000 19.200000 383.730000 6.720000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.701273
+  That distance's discrete class label: 23.400000
+ Closest example 1's distance: 7.453611
+  That distance's discrete class label: 22.800000
+ Closest example 2's distance: 13.270742
+  That distance's discrete class label: 21.700000
+ Closest example 3's distance: 14.335261
+  That distance's discrete class label: 46.700000
+ Closest example 4's distance: 16.988048
+  That distance's discrete class label: 31.500000
+ Closest example 5's distance: 22.478009
+  That distance's discrete class label: 24.600000
+ Closest example 6's distance: 23.285519
+  That distance's discrete class label: 23.100000
+ Closest example 7's distance: 24.355527
+  That distance's discrete class label: 23.900000
+ Closest example 8's distance: 29.942998
+  That distance's discrete class label: 29.400000
+ Closest example 9's distance: 31.765846
+  That distance's discrete class label: 23.000000
+ Closest example 10's distance: 32.424326
+  That distance's discrete class label: 28.600000
+Discrete summation: 298.700000, denom: 11.000000
+Discrete value for label: 27.154545
+feature 7: targ: 24.200000, pred 27.154545. Delta: -0.108805
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.041130 25.000000 4.860000 0.000000 0.426000 6.727000 33.500000 5.400700 4.000000 281.000000 19.000000 396.900000 5.290000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 2.217103
+  That distance's discrete class label: 24.800000
+ Closest example 1's distance: 9.611783
+  That distance's discrete class label: 23.300000
+ Closest example 2's distance: 12.276240
+  That distance's discrete class label: 25.000000
+ Closest example 3's distance: 14.821256
+  That distance's discrete class label: 22.900000
+ Closest example 4's distance: 15.254090
+  That distance's discrete class label: 19.600000
+ Closest example 5's distance: 16.151814
+  That distance's discrete class label: 25.000000
+ Closest example 6's distance: 19.992420
+  That distance's discrete class label: 32.700000
+ Closest example 7's distance: 25.486385
+  That distance's discrete class label: 23.300000
+ Closest example 8's distance: 25.577013
+  That distance's discrete class label: 22.900000
+ Closest example 9's distance: 26.107890
+  That distance's discrete class label: 24.700000
+ Closest example 10's distance: 26.278961
+  That distance's discrete class label: 43.800000
+Discrete summation: 288.000000, denom: 11.000000
+Discrete value for label: 26.181818
+feature 8: targ: 28.000000, pred 26.181818. Delta: 0.064935
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.046840 0.000000 3.410000 0.000000 0.489000 6.417000 66.100000 3.092300 2.000000 270.000000 17.800000 392.180000 8.810000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 5.938737
+  That distance's discrete class label: 28.700000
+ Closest example 1's distance: 7.504481
+  That distance's discrete class label: 21.400000
+ Closest example 2's distance: 8.005573
+  That distance's discrete class label: 22.000000
+ Closest example 3's distance: 8.976410
+  That distance's discrete class label: 33.200000
+ Closest example 4's distance: 10.199069
+  That distance's discrete class label: 22.400000
+ Closest example 5's distance: 11.278931
+  That distance's discrete class label: 18.900000
+ Closest example 6's distance: 13.478043
+  That distance's discrete class label: 38.700000
+ Closest example 7's distance: 15.142149
+  That distance's discrete class label: 20.600000
+ Closest example 8's distance: 15.649780
+  That distance's discrete class label: 22.500000
+ Closest example 9's distance: 16.779713
+  That distance's discrete class label: 23.300000
+ Closest example 10's distance: 17.455371
+  That distance's discrete class label: 24.400000
+Discrete summation: 276.100000, denom: 11.000000
+Discrete value for label: 25.100000
+feature 9: targ: 22.600000, pred 25.100000. Delta: -0.099602
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.148660 0.000000 8.560000 0.000000 0.520000 6.727000 79.900000 2.777800 5.000000 384.000000 20.900000 394.760000 9.420000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 8.593634
+  That distance's discrete class label: 19.300000
+ Closest example 1's distance: 8.871591
+  That distance's discrete class label: 26.500000
+ Closest example 2's distance: 10.083336
+  That distance's discrete class label: 20.400000
+ Closest example 3's distance: 10.779795
+  That distance's discrete class label: 20.100000
+ Closest example 4's distance: 11.441077
+  That distance's discrete class label: 17.500000
+ Closest example 5's distance: 13.001583
+  That distance's discrete class label: 18.300000
+ Closest example 6's distance: 13.380701
+  That distance's discrete class label: 19.400000
+ Closest example 7's distance: 15.242091
+  That distance's discrete class label: 19.500000
+ Closest example 8's distance: 15.745380
+  That distance's discrete class label: 19.700000
+ Closest example 9's distance: 16.905801
+  That distance's discrete class label: 21.200000
+ Closest example 10's distance: 17.475019
+  That distance's discrete class label: 19.800000
+Discrete summation: 221.700000, denom: 11.000000
+Discrete value for label: 20.154545
+feature 10: targ: 27.500000, pred 20.154545. Delta: 0.267107
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.107930 0.000000 8.560000 0.000000 0.520000 6.195000 54.400000 2.777800 5.000000 384.000000 20.900000 393.490000 13.000000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 8.266719
+  That distance's discrete class label: 21.800000
+ Closest example 1's distance: 13.630838
+  That distance's discrete class label: 21.200000
+ Closest example 2's distance: 14.375188
+  That distance's discrete class label: 24.500000
+ Closest example 3's distance: 16.621629
+  That distance's discrete class label: 21.200000
+ Closest example 4's distance: 17.881179
+  That distance's discrete class label: 26.500000
+ Closest example 5's distance: 18.183756
+  That distance's discrete class label: 18.300000
+ Closest example 6's distance: 18.597318
+  That distance's discrete class label: 20.800000
+ Closest example 7's distance: 20.739554
+  That distance's discrete class label: 17.500000
+ Closest example 8's distance: 20.812841
+  That distance's discrete class label: 21.400000
+ Closest example 9's distance: 21.817202
+  That distance's discrete class label: 19.700000
+ Closest example 10's distance: 23.702600
+  That distance's discrete class label: 20.300000
+Discrete summation: 233.200000, denom: 11.000000
+Discrete value for label: 21.200000
+feature 11: targ: 21.700000, pred 21.200000. Delta: 0.023041
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.068990 0.000000 25.650000 0.000000 0.581000 5.870000 69.700000 2.257700 2.000000 188.000000 19.100000 389.150000 14.370000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 18.444023
+  That distance's discrete class label: 20.300000
+ Closest example 1's distance: 19.184214
+  That distance's discrete class label: 21.400000
+ Closest example 2's distance: 23.959537
+  That distance's discrete class label: 29.600000
+ Closest example 3's distance: 25.966810
+  That distance's discrete class label: 20.500000
+ Closest example 4's distance: 26.592940
+  That distance's discrete class label: 36.200000
+ Closest example 5's distance: 28.071893
+  That distance's discrete class label: 18.800000
+ Closest example 6's distance: 29.031617
+  That distance's discrete class label: 37.200000
+ Closest example 7's distance: 30.674642
+  That distance's discrete class label: 50.000000
+ Closest example 8's distance: 31.219601
+  That distance's discrete class label: 26.400000
+ Closest example 9's distance: 34.503275
+  That distance's discrete class label: 37.900000
+ Closest example 10's distance: 34.974593
+  That distance's discrete class label: 17.300000
+Discrete summation: 315.600000, denom: 11.000000
+Discrete value for label: 28.690909
+feature 12: targ: 22.000000, pred 28.690909. Delta: -0.233207
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.340060 0.000000 21.890000 0.000000 0.624000 6.458000 98.900000 2.118500 4.000000 437.000000 21.200000 395.040000 12.600000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 2.490796
+  That distance's discrete class label: 17.100000
+ Closest example 1's distance: 2.604474
+  That distance's discrete class label: 19.600000
+ Closest example 2's distance: 3.514012
+  That distance's discrete class label: 18.000000
+ Closest example 3's distance: 4.549625
+  That distance's discrete class label: 18.100000
+ Closest example 4's distance: 6.305855
+  That distance's discrete class label: 16.200000
+ Closest example 5's distance: 6.335422
+  That distance's discrete class label: 17.800000
+ Closest example 6's distance: 7.485542
+  That distance's discrete class label: 14.300000
+ Closest example 7's distance: 7.746321
+  That distance's discrete class label: 18.400000
+ Closest example 8's distance: 9.332747
+  That distance's discrete class label: 13.300000
+ Closest example 9's distance: 9.509066
+  That distance's discrete class label: 23.000000
+ Closest example 10's distance: 14.795349
+  That distance's discrete class label: 18.700000
+Discrete summation: 194.500000, denom: 11.000000
+Discrete value for label: 17.681818
+feature 13: targ: 19.200000, pred 17.681818. Delta: 0.079072
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.290900 0.000000 21.890000 0.000000 0.624000 6.174000 93.600000 1.611900 4.000000 437.000000 21.200000 388.080000 24.160000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.783258
+  That distance's discrete class label: 13.300000
+ Closest example 1's distance: 8.476160
+  That distance's discrete class label: 16.200000
+ Closest example 2's distance: 9.424998
+  That distance's discrete class label: 18.400000
+ Closest example 3's distance: 10.707339
+  That distance's discrete class label: 14.300000
+ Closest example 4's distance: 10.852375
+  That distance's discrete class label: 18.100000
+ Closest example 5's distance: 11.394757
+  That distance's discrete class label: 17.800000
+ Closest example 6's distance: 12.268959
+  That distance's discrete class label: 17.400000
+ Closest example 7's distance: 12.319240
+  That distance's discrete class label: 17.100000
+ Closest example 8's distance: 13.522307
+  That distance's discrete class label: 18.000000
+ Closest example 9's distance: 13.984085
+  That distance's discrete class label: 23.000000
+ Closest example 10's distance: 15.098617
+  That distance's discrete class label: 14.400000
+Discrete summation: 188.000000, denom: 11.000000
+Discrete value for label: 17.090909
+feature 14: targ: 14.000000, pred 17.090909. Delta: -0.180851
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 1.656600 0.000000 19.580000 0.000000 0.871000 6.122000 97.300000 1.618000 5.000000 403.000000 14.700000 372.800000 14.100000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 11.208044
+  That distance's discrete class label: 23.300000
+ Closest example 1's distance: 11.236731
+  That distance's discrete class label: 50.000000
+ Closest example 2's distance: 13.425593
+  That distance's discrete class label: 41.300000
+ Closest example 3's distance: 14.178333
+  That distance's discrete class label: 50.000000
+ Closest example 4's distance: 19.446144
+  That distance's discrete class label: 50.000000
+ Closest example 5's distance: 20.613072
+  That distance's discrete class label: 24.300000
+ Closest example 6's distance: 20.852859
+  That distance's discrete class label: 50.000000
+ Closest example 7's distance: 21.604472
+  That distance's discrete class label: 17.800000
+ Closest example 8's distance: 22.385930
+  That distance's discrete class label: 15.400000
+ Closest example 9's distance: 23.155341
+  That distance's discrete class label: 22.700000
+ Closest example 10's distance: 24.519280
+  That distance's discrete class label: 14.600000
+Discrete summation: 359.400000, denom: 11.000000
+Discrete value for label: 32.672727
+feature 15: targ: 21.500000, pred 32.672727. Delta: -0.341959
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 1.273460 0.000000 19.580000 1.000000 0.605000 6.250000 92.600000 1.798400 5.000000 403.000000 14.700000 338.920000 5.500000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 9.308834
+  That distance's discrete class label: 15.300000
+ Closest example 1's distance: 11.004928
+  That distance's discrete class label: 22.300000
+ Closest example 2's distance: 11.106291
+  That distance's discrete class label: 19.600000
+ Closest example 3's distance: 12.293204
+  That distance's discrete class label: 19.100000
+ Closest example 4's distance: 16.726212
+  That distance's discrete class label: 24.300000
+ Closest example 5's distance: 20.630606
+  That distance's discrete class label: 17.000000
+ Closest example 6's distance: 20.726361
+  That distance's discrete class label: 15.400000
+ Closest example 7's distance: 25.001943
+  That distance's discrete class label: 41.300000
+ Closest example 8's distance: 26.516911
+  That distance's discrete class label: 23.300000
+ Closest example 9's distance: 29.173803
+  That distance's discrete class label: 17.800000
+ Closest example 10's distance: 30.701262
+  That distance's discrete class label: 50.000000
+Discrete summation: 265.400000, denom: 11.000000
+Discrete value for label: 24.127273
+feature 16: targ: 27.000000, pred 24.127273. Delta: 0.106397
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 1.207420 0.000000 19.580000 0.000000 0.605000 5.875000 94.600000 2.425900 5.000000 403.000000 14.700000 292.290000 14.430000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.235130
+  That distance's discrete class label: 23.800000
+ Closest example 1's distance: 28.783407
+  That distance's discrete class label: 17.000000
+ Closest example 2's distance: 30.662758
+  That distance's discrete class label: 19.400000
+ Closest example 3's distance: 37.920204
+  That distance's discrete class label: 22.300000
+ Closest example 4's distance: 45.830291
+  That distance's discrete class label: 15.600000
+ Closest example 5's distance: 49.639004
+  That distance's discrete class label: 19.600000
+ Closest example 6's distance: 51.481682
+  That distance's discrete class label: 15.300000
+ Closest example 7's distance: 52.397131
+  That distance's discrete class label: 25.000000
+ Closest example 8's distance: 55.976614
+  That distance's discrete class label: 19.100000
+ Closest example 9's distance: 59.631281
+  That distance's discrete class label: 20.400000
+ Closest example 10's distance: 60.008772
+  That distance's discrete class label: 15.400000
+Discrete summation: 212.900000, denom: 11.000000
+Discrete value for label: 19.354545
+feature 17: targ: 17.400000, pred 19.354545. Delta: -0.100986
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.065880 0.000000 2.460000 0.000000 0.488000 7.765000 83.300000 2.741000 3.000000 193.000000 17.800000 395.560000 7.560000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 9.495555
+  That distance's discrete class label: 37.900000
+ Closest example 1's distance: 10.487668
+  That distance's discrete class label: 26.400000
+ Closest example 2's distance: 12.612581
+  That distance's discrete class label: 32.500000
+ Closest example 3's distance: 17.798578
+  That distance's discrete class label: 29.600000
+ Closest example 4's distance: 21.312574
+  That distance's discrete class label: 36.200000
+ Closest example 5's distance: 25.095419
+  That distance's discrete class label: 37.200000
+ Closest example 6's distance: 27.565812
+  That distance's discrete class label: 21.400000
+ Closest example 7's distance: 30.026012
+  That distance's discrete class label: 50.000000
+ Closest example 8's distance: 30.587377
+  That distance's discrete class label: 20.300000
+ Closest example 9's distance: 32.788040
+  That distance's discrete class label: 20.500000
+ Closest example 10's distance: 33.000233
+  That distance's discrete class label: 18.800000
+Discrete summation: 330.800000, denom: 11.000000
+Discrete value for label: 30.072727
+feature 18: targ: 39.800000, pred 30.072727. Delta: 0.244404
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.090680 45.000000 3.440000 0.000000 0.437000 6.951000 21.500000 6.479800 5.000000 398.000000 15.200000 377.680000 5.100000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 9.460148
+  That distance's discrete class label: 29.800000
+ Closest example 1's distance: 13.898221
+  That distance's discrete class label: 36.400000
+ Closest example 2's distance: 15.245472
+  That distance's discrete class label: 30.500000
+ Closest example 3's distance: 25.632865
+  That distance's discrete class label: 32.000000
+ Closest example 4's distance: 25.662574
+  That distance's discrete class label: 18.600000
+ Closest example 5's distance: 26.018594
+  That distance's discrete class label: 34.900000
+ Closest example 6's distance: 26.111892
+  That distance's discrete class label: 24.100000
+ Closest example 7's distance: 32.257895
+  That distance's discrete class label: 31.200000
+ Closest example 8's distance: 48.175480
+  That distance's discrete class label: 22.500000
+ Closest example 9's distance: 48.979765
+  That distance's discrete class label: 29.000000
+ Closest example 10's distance: 49.832228
+  That distance's discrete class label: 23.900000
+Discrete summation: 312.900000, denom: 11.000000
+Discrete value for label: 28.445455
+feature 19: targ: 37.000000, pred 28.445455. Delta: 0.231204
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.017780 95.000000 1.470000 0.000000 0.403000 7.135000 13.900000 7.653400 3.000000 402.000000 17.000000 384.300000 4.450000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 12.718407
+  That distance's discrete class label: 34.900000
+ Closest example 1's distance: 37.649005
+  That distance's discrete class label: 18.600000
+ Closest example 2's distance: 44.578785
+  That distance's discrete class label: 24.100000
+ Closest example 3's distance: 52.192705
+  That distance's discrete class label: 36.400000
+ Closest example 4's distance: 52.426769
+  That distance's discrete class label: 29.000000
+ Closest example 5's distance: 52.642002
+  That distance's discrete class label: 29.800000
+ Closest example 6's distance: 53.334740
+  That distance's discrete class label: 30.500000
+ Closest example 7's distance: 53.397723
+  That distance's discrete class label: 31.200000
+ Closest example 8's distance: 53.560467
+  That distance's discrete class label: 22.500000
+ Closest example 9's distance: 54.519162
+  That distance's discrete class label: 23.100000
+ Closest example 10's distance: 56.655054
+  That distance's discrete class label: 42.300000
+Discrete summation: 322.400000, denom: 11.000000
+Discrete value for label: 29.309091
+feature 20: targ: 32.900000, pred 29.309091. Delta: 0.109146
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.174460 0.000000 10.590000 1.000000 0.489000 5.960000 92.100000 3.877100 4.000000 277.000000 18.600000 393.250000 17.270000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.028981
+  That distance's discrete class label: 21.500000
+ Closest example 1's distance: 7.913839
+  That distance's discrete class label: 19.300000
+ Closest example 2's distance: 8.083001
+  That distance's discrete class label: 23.000000
+ Closest example 3's distance: 10.538150
+  That distance's discrete class label: 20.000000
+ Closest example 4's distance: 11.184586
+  That distance's discrete class label: 28.700000
+ Closest example 5's distance: 12.640461
+  That distance's discrete class label: 22.000000
+ Closest example 6's distance: 13.649907
+  That distance's discrete class label: 23.900000
+ Closest example 7's distance: 16.237332
+  That distance's discrete class label: 11.900000
+ Closest example 8's distance: 17.088162
+  That distance's discrete class label: 23.600000
+ Closest example 9's distance: 18.780053
+  That distance's discrete class label: 20.600000
+ Closest example 10's distance: 19.795003
+  That distance's discrete class label: 22.500000
+Discrete summation: 237.000000, denom: 11.000000
+Discrete value for label: 21.545455
+feature 21: targ: 21.700000, pred 21.545455. Delta: 0.007122
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.358090 0.000000 6.200000 1.000000 0.507000 6.951000 88.500000 2.861700 8.000000 307.000000 17.400000 391.700000 9.710000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 7.308757
+  That distance's discrete class label: 19.600000
+ Closest example 1's distance: 7.611336
+  That distance's discrete class label: 23.800000
+ Closest example 2's distance: 8.201867
+  That distance's discrete class label: 37.600000
+ Closest example 3's distance: 8.329028
+  That distance's discrete class label: 19.400000
+ Closest example 4's distance: 8.885468
+  That distance's discrete class label: 21.600000
+ Closest example 5's distance: 9.546060
+  That distance's discrete class label: 30.100000
+ Closest example 6's distance: 9.702473
+  That distance's discrete class label: 18.400000
+ Closest example 7's distance: 10.862929
+  That distance's discrete class label: 15.600000
+ Closest example 8's distance: 10.938400
+  That distance's discrete class label: 27.500000
+ Closest example 9's distance: 11.392369
+  That distance's discrete class label: 22.800000
+ Closest example 10's distance: 11.450901
+  That distance's discrete class label: 17.500000
+Discrete summation: 253.900000, denom: 11.000000
+Discrete value for label: 23.081818
+feature 22: targ: 26.700000, pred 23.081818. Delta: 0.135512
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.537000 0.000000 6.200000 0.000000 0.504000 5.981000 68.100000 3.671500 8.000000 307.000000 17.400000 378.350000 11.650000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.911366
+  That distance's discrete class label: 24.000000
+ Closest example 1's distance: 8.433113
+  That distance's discrete class label: 48.300000
+ Closest example 2's distance: 11.239989
+  That distance's discrete class label: 31.700000
+ Closest example 3's distance: 13.230498
+  That distance's discrete class label: 41.700000
+ Closest example 4's distance: 13.329363
+  That distance's discrete class label: 25.100000
+ Closest example 5's distance: 13.953403
+  That distance's discrete class label: 18.200000
+ Closest example 6's distance: 14.163990
+  That distance's discrete class label: 31.500000
+ Closest example 7's distance: 14.462275
+  That distance's discrete class label: 31.600000
+ Closest example 8's distance: 14.567235
+  That distance's discrete class label: 44.800000
+ Closest example 9's distance: 15.525895
+  That distance's discrete class label: 27.500000
+ Closest example 10's distance: 17.139032
+  That distance's discrete class label: 50.000000
+Discrete summation: 374.400000, denom: 11.000000
+Discrete value for label: 34.036364
+feature 23: targ: 24.300000, pred 34.036364. Delta: -0.286058
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.113290 30.000000 4.930000 0.000000 0.428000 6.897000 54.300000 6.336100 6.000000 300.000000 16.600000 391.250000 11.380000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 11.431560
+  That distance's discrete class label: 20.100000
+ Closest example 1's distance: 14.812072
+  That distance's discrete class label: 23.300000
+ Closest example 2's distance: 18.601489
+  That distance's discrete class label: 22.200000
+ Closest example 3's distance: 19.594510
+  That distance's discrete class label: 19.600000
+ Closest example 4's distance: 19.807358
+  That distance's discrete class label: 32.700000
+ Closest example 5's distance: 20.963485
+  That distance's discrete class label: 25.000000
+ Closest example 6's distance: 21.709165
+  That distance's discrete class label: 22.900000
+ Closest example 7's distance: 23.074470
+  That distance's discrete class label: 22.200000
+ Closest example 8's distance: 24.750015
+  That distance's discrete class label: 22.900000
+ Closest example 9's distance: 26.069318
+  That distance's discrete class label: 22.300000
+ Closest example 10's distance: 26.332905
+  That distance's discrete class label: 23.900000
+Discrete summation: 257.100000, denom: 11.000000
+Discrete value for label: 23.372727
+feature 24: targ: 22.000000, pred 23.372727. Delta: -0.058732
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.140300 22.000000 5.860000 0.000000 0.431000 6.487000 13.000000 7.396700 7.000000 330.000000 19.100000 396.280000 5.900000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 5.327085
+  That distance's discrete class label: 26.200000
+ Closest example 1's distance: 5.795374
+  That distance's discrete class label: 42.800000
+ Closest example 2's distance: 12.304364
+  That distance's discrete class label: 29.600000
+ Closest example 3's distance: 14.707912
+  That distance's discrete class label: 33.100000
+ Closest example 4's distance: 18.869183
+  That distance's discrete class label: 26.400000
+ Closest example 5's distance: 19.803486
+  That distance's discrete class label: 24.800000
+ Closest example 6's distance: 20.048063
+  That distance's discrete class label: 22.000000
+ Closest example 7's distance: 23.001415
+  That distance's discrete class label: 24.300000
+ Closest example 8's distance: 27.115333
+  That distance's discrete class label: 20.900000
+ Closest example 9's distance: 30.222027
+  That distance's discrete class label: 26.600000
+ Closest example 10's distance: 30.376051
+  That distance's discrete class label: 22.000000
+Discrete summation: 298.700000, denom: 11.000000
+Discrete value for label: 27.154545
+feature 25: targ: 24.400000, pred 27.154545. Delta: -0.101440
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.540110 20.000000 3.970000 0.000000 0.647000 7.203000 81.800000 2.112100 5.000000 264.000000 13.000000 392.800000 9.590000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 7.678267
+  That distance's discrete class label: 50.000000
+ Closest example 1's distance: 9.160518
+  That distance's discrete class label: 43.100000
+ Closest example 2's distance: 10.591948
+  That distance's discrete class label: 30.700000
+ Closest example 3's distance: 11.108620
+  That distance's discrete class label: 36.500000
+ Closest example 4's distance: 12.057178
+  That distance's discrete class label: 48.800000
+ Closest example 5's distance: 12.865761
+  That distance's discrete class label: 31.000000
+ Closest example 6's distance: 17.120000
+  That distance's discrete class label: 20.600000
+ Closest example 7's distance: 17.151950
+  That distance's discrete class label: 50.000000
+ Closest example 8's distance: 18.449585
+  That distance's discrete class label: 30.100000
+ Closest example 9's distance: 19.122340
+  That distance's discrete class label: 22.800000
+ Closest example 10's distance: 20.639756
+  That distance's discrete class label: 36.000000
+Discrete summation: 399.600000, denom: 11.000000
+Discrete value for label: 36.327273
+feature 26: targ: 33.800000, pred 36.327273. Delta: -0.069570
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.299160 20.000000 6.960000 0.000000 0.464000 5.856000 42.100000 4.429000 3.000000 223.000000 18.600000 388.650000 13.000000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 11.965697
+  That distance's discrete class label: 35.200000
+ Closest example 1's distance: 13.798277
+  That distance's discrete class label: 35.400000
+ Closest example 2's distance: 16.588064
+  That distance's discrete class label: 36.100000
+ Closest example 3's distance: 17.731101
+  That distance's discrete class label: 35.100000
+ Closest example 4's distance: 18.571748
+  That distance's discrete class label: 24.400000
+ Closest example 5's distance: 19.375084
+  That distance's discrete class label: 46.000000
+ Closest example 6's distance: 19.604280
+  That distance's discrete class label: 20.700000
+ Closest example 7's distance: 21.455453
+  That distance's discrete class label: 33.000000
+ Closest example 8's distance: 21.648871
+  That distance's discrete class label: 20.700000
+ Closest example 9's distance: 22.063391
+  That distance's discrete class label: 22.200000
+ Closest example 10's distance: 22.394167
+  That distance's discrete class label: 19.000000
+Discrete summation: 327.800000, denom: 11.000000
+Discrete value for label: 29.800000
+feature 27: targ: 21.100000, pred 29.800000. Delta: -0.291946
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.035780 20.000000 3.330000 0.000000 0.442900 7.820000 64.500000 4.694700 5.000000 216.000000 14.900000 387.310000 3.760000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 11.328271
+  That distance's discrete class label: 33.000000
+ Closest example 1's distance: 13.821886
+  That distance's discrete class label: 24.400000
+ Closest example 2's distance: 14.392269
+  That distance's discrete class label: 20.700000
+ Closest example 3's distance: 16.162931
+  That distance's discrete class label: 35.200000
+ Closest example 4's distance: 18.021067
+  That distance's discrete class label: 46.000000
+ Closest example 5's distance: 18.195317
+  That distance's discrete class label: 28.400000
+ Closest example 6's distance: 19.147415
+  That distance's discrete class label: 28.200000
+ Closest example 7's distance: 19.502633
+  That distance's discrete class label: 33.400000
+ Closest example 8's distance: 23.295569
+  That distance's discrete class label: 28.700000
+ Closest example 9's distance: 25.052094
+  That distance's discrete class label: 18.500000
+ Closest example 10's distance: 25.682870
+  That distance's discrete class label: 36.200000
+Discrete summation: 332.700000, denom: 11.000000
+Discrete value for label: 30.245455
+feature 28: targ: 45.400000, pred 30.245455. Delta: 0.333801
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.035020 80.000000 4.950000 0.000000 0.411000 6.861000 27.900000 5.116700 4.000000 245.000000 19.200000 396.900000 3.330000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 1.084984
+  That distance's discrete class label: 37.300000
+ Closest example 1's distance: 4.814588
+  That distance's discrete class label: 27.900000
+ Closest example 2's distance: 10.989312
+  That distance's discrete class label: 30.800000
+ Closest example 3's distance: 13.022291
+  That distance's discrete class label: 50.000000
+ Closest example 4's distance: 16.383567
+  That distance's discrete class label: 44.000000
+ Closest example 5's distance: 23.036948
+  That distance's discrete class label: 35.400000
+ Closest example 6's distance: 27.173989
+  That distance's discrete class label: 31.600000
+ Closest example 7's distance: 27.178701
+  That distance's discrete class label: 48.500000
+ Closest example 8's distance: 27.391679
+  That distance's discrete class label: 50.000000
+ Closest example 9's distance: 34.170333
+  That distance's discrete class label: 31.100000
+ Closest example 10's distance: 35.997060
+  That distance's discrete class label: 24.500000
+Discrete summation: 411.100000, denom: 11.000000
+Discrete value for label: 37.372727
+feature 29: targ: 28.500000, pred 37.372727. Delta: -0.237412
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.044170 70.000000 2.240000 0.000000 0.400000 6.871000 47.400000 7.827800 5.000000 358.000000 14.800000 390.860000 6.070000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 18.988195
+  That distance's discrete class label: 24.100000
+ Closest example 1's distance: 22.435581
+  That distance's discrete class label: 23.900000
+ Closest example 2's distance: 26.086877
+  That distance's discrete class label: 23.100000
+ Closest example 3's distance: 27.659513
+  That distance's discrete class label: 31.200000
+ Closest example 4's distance: 29.464926
+  That distance's discrete class label: 19.400000
+ Closest example 5's distance: 32.275348
+  That distance's discrete class label: 34.600000
+ Closest example 6's distance: 34.265615
+  That distance's discrete class label: 33.300000
+ Closest example 7's distance: 35.488611
+  That distance's discrete class label: 22.500000
+ Closest example 8's distance: 36.102073
+  That distance's discrete class label: 42.300000
+ Closest example 9's distance: 38.185709
+  That distance's discrete class label: 18.200000
+ Closest example 10's distance: 38.241150
+  That distance's discrete class label: 23.500000
+Discrete summation: 296.100000, denom: 11.000000
+Discrete value for label: 26.918182
+feature 30: targ: 24.800000, pred 26.918182. Delta: -0.078690
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 2.635480 0.000000 9.900000 0.000000 0.544000 4.973000 37.800000 2.519400 4.000000 304.000000 18.400000 350.450000 12.640000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 31.442853
+  That distance's discrete class label: 29.000000
+ Closest example 1's distance: 33.759214
+  That distance's discrete class label: 21.700000
+ Closest example 2's distance: 35.915956
+  That distance's discrete class label: 31.500000
+ Closest example 3's distance: 35.988458
+  That distance's discrete class label: 46.700000
+ Closest example 4's distance: 36.124832
+  That distance's discrete class label: 24.000000
+ Closest example 5's distance: 36.618159
+  That distance's discrete class label: 28.400000
+ Closest example 6's distance: 38.224798
+  That distance's discrete class label: 23.100000
+ Closest example 7's distance: 40.614058
+  That distance's discrete class label: 19.400000
+ Closest example 8's distance: 41.291623
+  That distance's discrete class label: 22.200000
+ Closest example 9's distance: 41.919530
+  That distance's discrete class label: 23.400000
+ Closest example 10's distance: 42.539565
+  That distance's discrete class label: 23.700000
+Discrete summation: 293.100000, denom: 11.000000
+Discrete value for label: 26.645455
+feature 31: targ: 16.100000, pred 26.645455. Delta: -0.395769
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.167600 0.000000 7.380000 0.000000 0.493000 6.426000 52.300000 4.540400 5.000000 287.000000 19.600000 396.900000 7.200000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 2.260884
+  That distance's discrete class label: 23.100000
+ Closest example 1's distance: 2.687855
+  That distance's discrete class label: 20.400000
+ Closest example 2's distance: 9.050295
+  That distance's discrete class label: 27.100000
+ Closest example 3's distance: 10.348799
+  That distance's discrete class label: 22.200000
+ Closest example 4's distance: 11.477203
+  That distance's discrete class label: 24.400000
+ Closest example 5's distance: 12.291024
+  That distance's discrete class label: 25.000000
+ Closest example 6's distance: 12.295598
+  That distance's discrete class label: 23.200000
+ Closest example 7's distance: 13.131889
+  That distance's discrete class label: 20.300000
+ Closest example 8's distance: 13.156062
+  That distance's discrete class label: 21.700000
+ Closest example 9's distance: 13.674364
+  That distance's discrete class label: 21.000000
+ Closest example 10's distance: 15.085569
+  That distance's discrete class label: 25.000000
+Discrete summation: 253.400000, denom: 11.000000
+Discrete value for label: 23.036364
+feature 32: targ: 23.800000, pred 23.036364. Delta: 0.032086
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.045440 0.000000 3.240000 0.000000 0.460000 6.144000 32.200000 5.873600 4.000000 430.000000 16.900000 368.570000 9.090000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 15.349990
+  That distance's discrete class label: 19.300000
+ Closest example 1's distance: 16.541541
+  That distance's discrete class label: 22.600000
+ Closest example 2's distance: 35.932068
+  That distance's discrete class label: 16.500000
+ Closest example 3's distance: 38.754213
+  That distance's discrete class label: 21.400000
+ Closest example 4's distance: 40.607072
+  That distance's discrete class label: 20.800000
+ Closest example 5's distance: 41.240098
+  That distance's discrete class label: 19.300000
+ Closest example 6's distance: 43.568599
+  That distance's discrete class label: 20.300000
+ Closest example 7's distance: 43.734159
+  That distance's discrete class label: 21.200000
+ Closest example 8's distance: 47.724886
+  That distance's discrete class label: 23.100000
+ Closest example 9's distance: 48.061480
+  That distance's discrete class label: 21.200000
+ Closest example 10's distance: 50.099463
+  That distance's discrete class label: 24.100000
+Discrete summation: 229.800000, denom: 11.000000
+Discrete value for label: 20.890909
+feature 33: targ: 19.800000, pred 20.890909. Delta: -0.052219
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.061510 0.000000 5.190000 0.000000 0.515000 5.968000 58.500000 4.812200 5.000000 224.000000 20.200000 396.900000 9.290000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 2.973514
+  That distance's discrete class label: 18.500000
+ Closest example 1's distance: 6.819464
+  That distance's discrete class label: 28.700000
+ Closest example 2's distance: 7.578756
+  That distance's discrete class label: 36.200000
+ Closest example 3's distance: 12.259124
+  That distance's discrete class label: 19.500000
+ Closest example 4's distance: 12.491473
+  That distance's discrete class label: 19.400000
+ Closest example 5's distance: 13.145829
+  That distance's discrete class label: 19.000000
+ Closest example 6's distance: 15.155956
+  That distance's discrete class label: 33.400000
+ Closest example 7's distance: 19.894604
+  That distance's discrete class label: 34.700000
+ Closest example 8's distance: 20.470977
+  That distance's discrete class label: 24.400000
+ Closest example 9's distance: 20.712692
+  That distance's discrete class label: 33.000000
+ Closest example 10's distance: 21.251708
+  That distance's discrete class label: 20.600000
+Discrete summation: 287.400000, denom: 11.000000
+Discrete value for label: 26.127273
+feature 34: targ: 18.700000, pred 26.127273. Delta: -0.284273
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.062110 40.000000 1.250000 0.000000 0.429000 6.490000 44.400000 8.792100 1.000000 335.000000 19.700000 396.900000 5.980000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 12.203413
+  That distance's discrete class label: 26.600000
+ Closest example 1's distance: 13.638250
+  That distance's discrete class label: 22.000000
+ Closest example 2's distance: 23.535049
+  That distance's discrete class label: 24.300000
+ Closest example 3's distance: 30.208063
+  That distance's discrete class label: 33.100000
+ Closest example 4's distance: 30.587185
+  That distance's discrete class label: 24.500000
+ Closest example 5's distance: 31.693943
+  That distance's discrete class label: 17.400000
+ Closest example 6's distance: 31.876942
+  That distance's discrete class label: 26.400000
+ Closest example 7's distance: 32.149840
+  That distance's discrete class label: 20.900000
+ Closest example 8's distance: 33.801553
+  That distance's discrete class label: 26.200000
+ Closest example 9's distance: 35.928766
+  That distance's discrete class label: 18.500000
+ Closest example 10's distance: 36.457049
+  That distance's discrete class label: 17.100000
+Discrete summation: 257.000000, denom: 11.000000
+Discrete value for label: 23.363636
+feature 35: targ: 22.900000, pred 23.363636. Delta: -0.019844
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 4.541920 0.000000 18.100000 0.000000 0.770000 6.398000 88.000000 2.518200 24.000000 666.000000 20.200000 374.560000 7.790000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 9.860966
+  That distance's discrete class label: 50.000000
+ Closest example 1's distance: 10.714666
+  That distance's discrete class label: 20.800000
+ Closest example 2's distance: 12.922677
+  That distance's discrete class label: 23.200000
+ Closest example 3's distance: 13.039702
+  That distance's discrete class label: 50.000000
+ Closest example 4's distance: 14.222986
+  That distance's discrete class label: 21.400000
+ Closest example 5's distance: 14.647841
+  That distance's discrete class label: 17.800000
+ Closest example 6's distance: 14.714885
+  That distance's discrete class label: 16.100000
+ Closest example 7's distance: 15.008060
+  That distance's discrete class label: 17.800000
+ Closest example 8's distance: 15.509552
+  That distance's discrete class label: 14.600000
+ Closest example 9's distance: 15.576517
+  That distance's discrete class label: 50.000000
+ Closest example 10's distance: 17.918654
+  That distance's discrete class label: 21.700000
+Discrete summation: 303.400000, denom: 11.000000
+Discrete value for label: 27.581818
+feature 36: targ: 25.000000, pred 27.581818. Delta: -0.093606
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 6.538760 0.000000 18.100000 1.000000 0.631000 7.016000 97.500000 1.202400 24.000000 666.000000 20.200000 392.050000 2.960000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 10.860660
+  That distance's discrete class label: 20.200000
+ Closest example 1's distance: 12.624718
+  That distance's discrete class label: 21.700000
+ Closest example 2's distance: 12.871894
+  That distance's discrete class label: 19.600000
+ Closest example 3's distance: 13.874451
+  That distance's discrete class label: 20.800000
+ Closest example 4's distance: 14.215474
+  That distance's discrete class label: 13.800000
+ Closest example 5's distance: 14.398906
+  That distance's discrete class label: 18.400000
+ Closest example 6's distance: 14.405515
+  That distance's discrete class label: 13.100000
+ Closest example 7's distance: 14.423426
+  That distance's discrete class label: 12.600000
+ Closest example 8's distance: 15.173231
+  That distance's discrete class label: 17.700000
+ Closest example 9's distance: 16.087129
+  That distance's discrete class label: 12.700000
+ Closest example 10's distance: 16.269497
+  That distance's discrete class label: 14.100000
+Discrete summation: 184.700000, denom: 11.000000
+Discrete value for label: 16.790909
+feature 37: targ: 50.000000, pred 16.790909. Delta: 0.664182
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 88.976200 0.000000 18.100000 0.000000 0.671000 6.968000 91.900000 1.416500 24.000000 666.000000 20.200000 396.900000 17.210000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 26.214680
+  That distance's discrete class label: 5.000000
+ Closest example 1's distance: 53.016651
+  That distance's discrete class label: 5.000000
+ Closest example 2's distance: 64.385042
+  That distance's discrete class label: 8.300000
+ Closest example 3's distance: 65.799503
+  That distance's discrete class label: 13.100000
+ Closest example 4's distance: 66.071239
+  That distance's discrete class label: 10.500000
+ Closest example 5's distance: 68.082873
+  That distance's discrete class label: 7.400000
+ Closest example 6's distance: 69.736192
+  That distance's discrete class label: 15.000000
+ Closest example 7's distance: 71.795525
+  That distance's discrete class label: 10.200000
+ Closest example 8's distance: 73.565478
+  That distance's discrete class label: 10.900000
+ Closest example 9's distance: 73.722188
+  That distance's discrete class label: 7.200000
+ Closest example 10's distance: 73.978531
+  That distance's discrete class label: 13.800000
+Discrete summation: 106.400000, denom: 11.000000
+Discrete value for label: 9.672727
+feature 38: targ: 10.400000, pred 9.672727. Delta: 0.069930
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 6.962150 0.000000 18.100000 0.000000 0.700000 5.713000 97.000000 1.926500 24.000000 666.000000 20.200000 394.430000 17.110000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 3.714945
+  That distance's discrete class label: 18.400000
+ Closest example 1's distance: 3.733116
+  That distance's discrete class label: 13.100000
+ Closest example 2's distance: 3.855649
+  That distance's discrete class label: 8.500000
+ Closest example 3's distance: 3.864981
+  That distance's discrete class label: 12.500000
+ Closest example 4's distance: 4.119339
+  That distance's discrete class label: 14.100000
+ Closest example 5's distance: 4.828024
+  That distance's discrete class label: 16.700000
+ Closest example 6's distance: 5.124189
+  That distance's discrete class label: 11.500000
+ Closest example 7's distance: 5.770999
+  That distance's discrete class label: 13.800000
+ Closest example 8's distance: 6.089143
+  That distance's discrete class label: 13.300000
+ Closest example 9's distance: 6.758650
+  That distance's discrete class label: 12.600000
+ Closest example 10's distance: 7.345039
+  That distance's discrete class label: 12.700000
+Discrete summation: 147.200000, denom: 11.000000
+Discrete value for label: 13.381818
+feature 39: targ: 15.100000, pred 13.381818. Delta: 0.113787
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 25.046100 0.000000 18.100000 0.000000 0.693000 5.987000 100.000000 1.588800 24.000000 666.000000 20.200000 396.900000 26.770000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 2.345774
+  That distance's discrete class label: 10.500000
+ Closest example 1's distance: 5.203513
+  That distance's discrete class label: 13.100000
+ Closest example 2's distance: 8.153513
+  That distance's discrete class label: 8.300000
+ Closest example 3's distance: 9.355573
+  That distance's discrete class label: 10.200000
+ Closest example 4's distance: 9.448064
+  That distance's discrete class label: 7.200000
+ Closest example 5's distance: 10.891413
+  That distance's discrete class label: 10.900000
+ Closest example 6's distance: 12.061309
+  That distance's discrete class label: 7.400000
+ Closest example 7's distance: 12.632632
+  That distance's discrete class label: 7.200000
+ Closest example 8's distance: 13.150610
+  That distance's discrete class label: 13.800000
+ Closest example 9's distance: 13.889890
+  That distance's discrete class label: 5.000000
+ Closest example 10's distance: 13.911067
+  That distance's discrete class label: 9.700000
+Discrete summation: 103.300000, denom: 11.000000
+Discrete value for label: 9.390909
+feature 40: targ: 5.600000, pred 9.390909. Delta: -0.403679
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 51.135800 0.000000 18.100000 0.000000 0.597000 5.757000 100.000000 1.413000 24.000000 666.000000 20.200000 2.600000 10.110000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 28.375429
+  That distance's discrete class label: 8.800000
+ Closest example 1's distance: 30.317976
+  That distance's discrete class label: 10.900000
+ Closest example 2's distance: 38.684860
+  That distance's discrete class label: 8.300000
+ Closest example 3's distance: 40.082447
+  That distance's discrete class label: 8.700000
+ Closest example 4's distance: 43.138739
+  That distance's discrete class label: 14.900000
+ Closest example 5's distance: 45.391308
+  That distance's discrete class label: 7.200000
+ Closest example 6's distance: 45.577413
+  That distance's discrete class label: 9.600000
+ Closest example 7's distance: 47.769174
+  That distance's discrete class label: 13.500000
+ Closest example 8's distance: 48.133199
+  That distance's discrete class label: 7.500000
+ Closest example 9's distance: 48.183513
+  That distance's discrete class label: 17.900000
+ Closest example 10's distance: 48.381196
+  That distance's discrete class label: 13.400000
+Discrete summation: 120.700000, denom: 11.000000
+Discrete value for label: 10.972727
+feature 41: targ: 15.000000, pred 10.972727. Delta: 0.268485
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 11.087400 0.000000 18.100000 0.000000 0.718000 6.411000 100.000000 1.858900 24.000000 666.000000 20.200000 318.750000 15.020000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.461598
+  That distance's discrete class label: 14.200000
+ Closest example 1's distance: 6.727917
+  That distance's discrete class label: 14.900000
+ Closest example 2's distance: 11.837467
+  That distance's discrete class label: 21.900000
+ Closest example 3's distance: 12.891206
+  That distance's discrete class label: 17.200000
+ Closest example 4's distance: 13.748858
+  That distance's discrete class label: 27.900000
+ Closest example 5's distance: 15.700178
+  That distance's discrete class label: 13.000000
+ Closest example 6's distance: 16.530703
+  That distance's discrete class label: 19.100000
+ Closest example 7's distance: 19.186537
+  That distance's discrete class label: 13.300000
+ Closest example 8's distance: 29.949475
+  That distance's discrete class label: 20.800000
+ Closest example 9's distance: 31.673197
+  That distance's discrete class label: 50.000000
+ Closest example 10's distance: 32.668361
+  That distance's discrete class label: 12.000000
+Discrete summation: 224.300000, denom: 11.000000
+Discrete value for label: 20.390909
+feature 42: targ: 16.700000, pred 20.390909. Delta: -0.181008
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 8.492130 0.000000 18.100000 0.000000 0.584000 6.348000 86.100000 2.052700 24.000000 666.000000 20.200000 83.450000 17.640000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 8.924058
+  That distance's discrete class label: 14.100000
+ Closest example 1's distance: 16.053823
+  That distance's discrete class label: 11.000000
+ Closest example 2's distance: 17.177074
+  That distance's discrete class label: 14.300000
+ Closest example 3's distance: 19.355477
+  That distance's discrete class label: 16.100000
+ Closest example 4's distance: 20.271123
+  That distance's discrete class label: 11.700000
+ Closest example 5's distance: 22.581795
+  That distance's discrete class label: 8.400000
+ Closest example 6's distance: 25.497268
+  That distance's discrete class label: 9.500000
+ Closest example 7's distance: 28.445299
+  That distance's discrete class label: 13.400000
+ Closest example 8's distance: 32.768606
+  That distance's discrete class label: 14.100000
+ Closest example 9's distance: 36.817183
+  That distance's discrete class label: 8.400000
+ Closest example 10's distance: 41.869195
+  That distance's discrete class label: 11.800000
+Discrete summation: 132.800000, denom: 11.000000
+Discrete value for label: 12.072727
+feature 43: targ: 14.500000, pred 12.072727. Delta: 0.167398
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 22.051100 0.000000 18.100000 0.000000 0.740000 5.818000 92.400000 1.866200 24.000000 666.000000 20.200000 391.450000 22.110000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 7.123253
+  That distance's discrete class label: 13.100000
+ Closest example 1's distance: 7.546706
+  That distance's discrete class label: 8.300000
+ Closest example 2's distance: 9.056571
+  That distance's discrete class label: 10.200000
+ Closest example 3's distance: 10.745172
+  That distance's discrete class label: 10.900000
+ Closest example 4's distance: 11.555951
+  That distance's discrete class label: 10.500000
+ Closest example 5's distance: 11.739536
+  That distance's discrete class label: 7.400000
+ Closest example 6's distance: 12.026094
+  That distance's discrete class label: 15.000000
+ Closest example 7's distance: 12.030081
+  That distance's discrete class label: 12.700000
+ Closest example 8's distance: 12.373456
+  That distance's discrete class label: 7.200000
+ Closest example 9's distance: 12.915910
+  That distance's discrete class label: 7.200000
+ Closest example 10's distance: 13.225645
+  That distance's discrete class label: 9.700000
+Discrete summation: 112.200000, denom: 11.000000
+Discrete value for label: 10.200000
+feature 44: targ: 10.500000, pred 10.200000. Delta: 0.028571
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 6.717720 0.000000 18.100000 0.000000 0.713000 6.749000 92.600000 2.323600 24.000000 666.000000 20.200000 0.320000 17.440000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 7.291077
+  That distance's discrete class label: 14.900000
+ Closest example 1's distance: 9.845882
+  That distance's discrete class label: 13.400000
+ Closest example 2's distance: 11.560365
+  That distance's discrete class label: 12.700000
+ Closest example 3's distance: 12.873221
+  That distance's discrete class label: 13.500000
+ Closest example 4's distance: 13.992821
+  That distance's discrete class label: 8.300000
+ Closest example 5's distance: 17.030198
+  That distance's discrete class label: 8.700000
+ Closest example 6's distance: 22.404388
+  That distance's discrete class label: 11.700000
+ Closest example 7's distance: 23.296497
+  That distance's discrete class label: 7.500000
+ Closest example 8's distance: 23.314131
+  That distance's discrete class label: 19.000000
+ Closest example 9's distance: 28.277114
+  That distance's discrete class label: 9.600000
+ Closest example 10's distance: 32.331445
+  That distance's discrete class label: 7.200000
+Discrete summation: 126.500000, denom: 11.000000
+Discrete value for label: 11.500000
+feature 45: targ: 13.400000, pred 11.500000. Delta: 0.141791
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 4.812130 0.000000 18.100000 0.000000 0.713000 6.701000 90.000000 2.597500 24.000000 666.000000 20.200000 255.230000 16.420000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 18.381652
+  That distance's discrete class label: 14.900000
+ Closest example 1's distance: 19.501657
+  That distance's discrete class label: 10.800000
+ Closest example 2's distance: 37.158655
+  That distance's discrete class label: 8.800000
+ Closest example 3's distance: 37.218031
+  That distance's discrete class label: 20.800000
+ Closest example 4's distance: 48.752469
+  That distance's discrete class label: 13.300000
+ Closest example 5's distance: 49.848756
+  That distance's discrete class label: 13.000000
+ Closest example 6's distance: 51.432321
+  That distance's discrete class label: 16.300000
+ Closest example 7's distance: 60.842175
+  That distance's discrete class label: 17.200000
+ Closest example 8's distance: 60.913341
+  That distance's discrete class label: 21.900000
+ Closest example 9's distance: 63.148636
+  That distance's discrete class label: 14.900000
+ Closest example 10's distance: 65.023555
+  That distance's discrete class label: 14.200000
+Discrete summation: 166.100000, denom: 11.000000
+Discrete value for label: 15.100000
+feature 46: targ: 16.400000, pred 15.100000. Delta: 0.079268
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 4.348790 0.000000 18.100000 0.000000 0.580000 6.167000 84.000000 3.033400 24.000000 666.000000 20.200000 396.900000 16.290000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 3.134828
+  That distance's discrete class label: 20.000000
+ Closest example 1's distance: 3.569009
+  That distance's discrete class label: 19.500000
+ Closest example 2's distance: 5.149642
+  That distance's discrete class label: 22.700000
+ Closest example 3's distance: 6.342990
+  That distance's discrete class label: 19.100000
+ Closest example 4's distance: 7.326611
+  That distance's discrete class label: 17.700000
+ Closest example 5's distance: 7.724097
+  That distance's discrete class label: 22.600000
+ Closest example 6's distance: 7.756167
+  That distance's discrete class label: 19.600000
+ Closest example 7's distance: 9.146332
+  That distance's discrete class label: 20.200000
+ Closest example 8's distance: 9.468377
+  That distance's discrete class label: 21.700000
+ Closest example 9's distance: 9.809499
+  That distance's discrete class label: 13.800000
+ Closest example 10's distance: 9.944145
+  That distance's discrete class label: 23.200000
+Discrete summation: 220.100000, denom: 11.000000
+Discrete value for label: 20.009091
+feature 47: targ: 19.900000, pred 20.009091. Delta: -0.005452
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 5.824010 0.000000 18.100000 0.000000 0.532000 6.242000 64.700000 3.424200 24.000000 666.000000 20.200000 396.900000 10.740000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 3.454045
+  That distance's discrete class label: 21.400000
+ Closest example 1's distance: 11.357330
+  That distance's discrete class label: 23.700000
+ Closest example 2's distance: 11.592301
+  That distance's discrete class label: 20.100000
+ Closest example 3's distance: 11.749920
+  That distance's discrete class label: 23.200000
+ Closest example 4's distance: 13.019480
+  That distance's discrete class label: 25.000000
+ Closest example 5's distance: 14.500463
+  That distance's discrete class label: 20.600000
+ Closest example 6's distance: 15.439479
+  That distance's discrete class label: 21.200000
+ Closest example 7's distance: 16.274129
+  That distance's discrete class label: 19.100000
+ Closest example 8's distance: 17.932749
+  That distance's discrete class label: 22.600000
+ Closest example 9's distance: 18.645566
+  That distance's discrete class label: 19.500000
+ Closest example 10's distance: 18.797544
+  That distance's discrete class label: 22.700000
+Discrete summation: 239.100000, denom: 11.000000
+Discrete value for label: 21.736364
+feature 48: targ: 23.000000, pred 21.736364. Delta: 0.054941
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.207460 0.000000 27.740000 0.000000 0.609000 5.093000 98.000000 1.822600 4.000000 711.000000 20.100000 318.430000 29.680000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 26.271403
+  That distance's discrete class label: 7.000000
+ Closest example 1's distance: 50.953614
+  That distance's discrete class label: 17.200000
+ Closest example 2's distance: 51.977483
+  That distance's discrete class label: 14.900000
+ Closest example 3's distance: 52.643771
+  That distance's discrete class label: 14.200000
+ Closest example 4's distance: 52.778474
+  That distance's discrete class label: 19.100000
+ Closest example 5's distance: 53.163260
+  That distance's discrete class label: 21.900000
+ Closest example 6's distance: 53.249767
+  That distance's discrete class label: 13.300000
+ Closest example 7's distance: 53.705039
+  That distance's discrete class label: 13.000000
+ Closest example 8's distance: 56.178353
+  That distance's discrete class label: 27.900000
+ Closest example 9's distance: 58.406249
+  That distance's discrete class label: 6.300000
+ Closest example 10's distance: 61.040306
+  That distance's discrete class label: 12.000000
+Discrete summation: 166.800000, denom: 11.000000
+Discrete value for label: 15.163636
+feature 49: targ: 8.100000, pred 15.163636. Delta: -0.465827
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.224380 0.000000 9.690000 0.000000 0.585000 6.027000 79.700000 2.498200 6.000000 391.000000 19.200000 396.900000 14.330000 
+Closest 11 training examples' distances from this feature: 
+ Closest example 0's distance: 6.444486
+  That distance's discrete class label: 17.500000
+ Closest example 1's distance: 9.169229
+  That distance's discrete class label: 18.300000
+ Closest example 2's distance: 9.701359
+  That distance's discrete class label: 19.700000
+ Closest example 3's distance: 11.009871
+  That distance's discrete class label: 19.300000
+ Closest example 4's distance: 13.056138
+  That distance's discrete class label: 20.400000
+ Closest example 5's distance: 13.135366
+  That distance's discrete class label: 26.500000
+ Closest example 6's distance: 13.528414
+  That distance's discrete class label: 20.100000
+ Closest example 7's distance: 14.503666
+  That distance's discrete class label: 21.200000
+ Closest example 8's distance: 14.869532
+  That distance's discrete class label: 19.400000
+ Closest example 9's distance: 14.979810
+  That distance's discrete class label: 19.500000
+ Closest example 10's distance: 18.896183
+  That distance's discrete class label: 19.500000
+Discrete summation: 221.400000, denom: 11.000000
+Discrete value for label: 20.127273
+feature 50: targ: 16.800000, pred 20.127273. Delta: -0.165312
+
+
+Accuracy on the test set:
+Set accuracy: 0.222109
+
+Training time: 0.000946045 seconds
+
+Testing time: 0.029994 seconds

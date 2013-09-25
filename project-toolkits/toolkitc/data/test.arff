@@ -1,0 +1,9 @@
+@relation pdf_test
+
+@attribute attr0 CONTINUOUS
+@attribute attr1 CONTINUOUS
+@attribute class CONTINUOUS
+
+@DATA
+0, 0, 1
+0, 1, 0

@@ -1,0 +1,182 @@
+Dataset name: ../data/iris.arff
+Number of instances (rows): 150
+Number of attributes (cols): 5
+Learning algorithm: clustering
+Evaluation method: training
+Running k-means...
+Centroid 0 = 0.583333, 0.5, 0.59322, 0.583333, Iris-versicolor
+Centroid 1 = 0.166667, 0.458333, 0.0847458, 0, Iris-setosa
+Centroid 2 = 0.194444, 0.583333, 0.0847458, 0.0416667, Iris-setosa
+Centroid 3 = 0.0833333, 0.458333, 0.0847458, 0.0416667, Iris-setosa
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.166667, 0.447917, 0.0783898, 0.0208333, Iris-setosa
+	Members of Cluster (8): 1 9 12 25 30 34 35 37 
+	Cluster 1 SSE = 0.0160464
+Centroid 2 = 0.243924, 0.679688, 0.0842161, 0.0742188, Iris-setosa
+	Members of Cluster (32): 0 4 5 6 7 10 11 14 15 16 17 18 19 20 21 22 23 24 26 27 28 31 32 33 36 39 40 43 44 46 48 49 
+	Cluster 2 SSE = 0.706653
+Centroid 3 = 0.0666667, 0.420833, 0.0610169, 0.0458333, Iris-setosa
+	Members of Cluster (10): 2 3 8 13 29 38 41 42 45 47 
+	Cluster 3 SSE = 0.144719
+Total SSE (sum squared-distance of each row with its centroid) = 61.1661
+Davies-Bouldin Index: 0.886659
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.154762, 0.479167, 0.0835351, 0.0327381, Iris-setosa
+	Members of Cluster (14): 1 2 9 11 12 24 25 29 30 34 35 37 45 49 
+	Cluster 1 SSE = 0.0728055
+Centroid 2 = 0.258929, 0.69494, 0.0823245, 0.077381, Iris-setosa
+	Members of Cluster (28): 0 4 5 7 10 14 15 16 17 18 19 20 21 22 23 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 0.587475
+Centroid 3 = 0.0486111, 0.421875, 0.0572034, 0.046875, Iris-setosa
+	Members of Cluster (8): 3 6 8 13 38 41 42 47 
+	Cluster 3 SSE = 0.14515
+Total SSE (sum squared-distance of each row with its centroid) = 61.1042
+Davies-Bouldin Index: 0.949687
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.152778, 0.49537, 0.0838041, 0.0439815, Iris-setosa
+	Members of Cluster (18): 1 2 6 7 9 11 12 23 24 25 29 30 34 35 37 45 47 49 
+	Cluster 1 SSE = 0.130489
+Centroid 2 = 0.262821, 0.705128, 0.0808344, 0.0753205, Iris-setosa
+	Members of Cluster (26): 0 4 5 10 14 15 16 17 18 19 20 21 22 26 27 28 31 32 33 36 39 40 43 44 46 48 
+	Cluster 2 SSE = 0.532188
+Centroid 3 = 0.037037, 0.381944, 0.0536723, 0.0416667, Iris-setosa
+	Members of Cluster (6): 3 8 13 38 41 42 
+	Cluster 3 SSE = 0.0983773
+Total SSE (sum squared-distance of each row with its centroid) = 61.0598
+Davies-Bouldin Index: 0.63968
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.151515, 0.50947, 0.0808937, 0.0473485, Iris-setosa
+	Members of Cluster (22): 1 2 3 6 7 9 11 12 22 23 24 25 26 29 30 34 35 37 39 45 47 49 
+	Cluster 1 SSE = 0.201962
+Centroid 2 = 0.275362, 0.717391, 0.0832719, 0.076087, Iris-setosa
+	Members of Cluster (23): 0 4 5 10 14 15 16 17 18 19 20 21 27 28 31 32 33 36 40 43 44 46 48 
+	Cluster 2 SSE = 0.443557
+Centroid 3 = 0.0277778, 0.366667, 0.0474576, 0.0416667, Iris-setosa
+	Members of Cluster (5): 8 13 38 41 42 
+	Cluster 3 SSE = 0.0876443
+Total SSE (sum squared-distance of each row with its centroid) = 61.0319
+Davies-Bouldin Index: 0.565351
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.150463, 0.512153, 0.079096, 0.046875, Iris-setosa
+	Members of Cluster (24): 1 2 3 6 7 9 11 12 22 23 24 25 26 28 29 30 34 35 37 39 42 45 47 49 
+	Cluster 1 SSE = 0.233375
+Centroid 2 = 0.276515, 0.723485, 0.0839753, 0.0776515, Iris-setosa
+	Members of Cluster (22): 0 4 5 10 14 15 16 17 18 19 20 21 27 31 32 33 36 40 43 44 46 48 
+	Cluster 2 SSE = 0.422607
+Centroid 3 = 0.0277778, 0.333333, 0.0466102, 0.0416667, Iris-setosa
+	Members of Cluster (4): 8 13 38 41 
+	Cluster 3 SSE = 0.0654078
+Total SSE (sum squared-distance of each row with its centroid) = 61.0201
+Davies-Bouldin Index: 0.471702
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.152222, 0.516667, 0.0779661, 0.0483333, Iris-setosa
+	Members of Cluster (25): 1 2 3 6 7 9 11 12 22 23 24 25 26 28 29 30 34 35 37 39 40 42 45 47 49 
+	Cluster 1 SSE = 0.249499
+Centroid 2 = 0.280423, 0.728175, 0.0855529, 0.077381, Iris-setosa
+	Members of Cluster (21): 0 4 5 10 14 15 16 17 18 19 20 21 27 31 32 33 36 43 44 46 48 
+	Cluster 2 SSE = 0.404206
+Centroid 3 = 0.0277778, 0.333333, 0.0466102, 0.0416667, Iris-setosa
+	Members of Cluster (4): 8 13 38 41 
+	Cluster 3 SSE = 0.0654078
+Total SSE (sum squared-distance of each row with its centroid) = 61.0178
+Davies-Bouldin Index: 0.46352
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.152222, 0.516667, 0.0779661, 0.0483333, Iris-setosa
+	Members of Cluster (25): 1 2 3 6 7 9 11 12 22 23 24 25 26 28 29 30 34 35 37 39 40 42 45 47 49 
+	Cluster 1 SSE = 0.249499
+Centroid 2 = 0.280423, 0.728175, 0.0855529, 0.077381, Iris-setosa
+	Members of Cluster (21): 0 4 5 10 14 15 16 17 18 19 20 21 27 31 32 33 36 43 44 46 48 
+	Cluster 2 SSE = 0.404206
+Centroid 3 = 0.0277778, 0.333333, 0.0466102, 0.0416667, Iris-setosa
+	Members of Cluster (4): 8 13 38 41 
+	Cluster 3 SSE = 0.0654078
+Total SSE (sum squared-distance of each row with its centroid) = 61.0178
+Davies-Bouldin Index: 0.46352
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.152222, 0.516667, 0.0779661, 0.0483333, Iris-setosa
+	Members of Cluster (25): 1 2 3 6 7 9 11 12 22 23 24 25 26 28 29 30 34 35 37 39 40 42 45 47 49 
+	Cluster 1 SSE = 0.249499
+Centroid 2 = 0.280423, 0.728175, 0.0855529, 0.077381, Iris-setosa
+	Members of Cluster (21): 0 4 5 10 14 15 16 17 18 19 20 21 27 31 32 33 36 43 44 46 48 
+	Cluster 2 SSE = 0.404206
+Centroid 3 = 0.0277778, 0.333333, 0.0466102, 0.0416667, Iris-setosa
+	Members of Cluster (4): 8 13 38 41 
+	Cluster 3 SSE = 0.0654078
+Total SSE (sum squared-distance of each row with its centroid) = 61.0178
+Davies-Bouldin Index: 0.46352
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 0.545, 0.363333, 0.662034, 0.656667, Iris-versicolor
+	Members of Cluster (100): 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 
+	Cluster 0 SSE = 60.2987
+Centroid 1 = 0.152222, 0.516667, 0.0779661, 0.0483333, Iris-setosa
+	Members of Cluster (25): 1 2 3 6 7 9 11 12 22 23 24 25 26 28 29 30 34 35 37 39 40 42 45 47 49 
+	Cluster 1 SSE = 0.249499
+Centroid 2 = 0.280423, 0.728175, 0.0855529, 0.077381, Iris-setosa
+	Members of Cluster (21): 0 4 5 10 14 15 16 17 18 19 20 21 27 31 32 33 36 43 44 46 48 
+	Cluster 2 SSE = 0.404206
+Centroid 3 = 0.0277778, 0.333333, 0.0466102, 0.0416667, Iris-setosa
+	Members of Cluster (4): 8 13 38 41 
+	Cluster 3 SSE = 0.0654078
+Total SSE (sum squared-distance of each row with its centroid) = 61.0178
+Davies-Bouldin Index: 0.46352
+Convergence is detected because the sum squared-distance did not improve, and more than 3 iterations were performed

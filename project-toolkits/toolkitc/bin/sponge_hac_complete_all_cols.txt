@@ -1,0 +1,26 @@
+Dataset name: ../data/sponge.arff
+Number of instances (rows): 76
+Number of attributes (cols): 9
+Learning algorithm: clustering
+Evaluation method: training
+Running HAC...
+There are 4 clusters
+Cluster 0: 0 49 61 60 70 73 22 27 40 46 36 39 41 63 64 13 47 48 14 24 29 16 25 31 20 74 26 75 
+Cluster 1: 1 7 33 50 69 8 9 42 62 4 57 58 2 5 3 
+Cluster 2: 6 19 28 21 23 30 32 53 72 71 15 18 17 
+Cluster 3: 10 35 59 11 43 51 66 67 34 37 44 45 68 38 54 55 56 65 12 52 
+Recomputing the centroids for each cluster...
+Centroid 0 = 1, 4, 1, 2.53571, 2, 3, 2.5, 1.17857, OTROS
+	Members of Cluster (28): 0 49 61 60 70 73 22 27 40 46 36 39 41 63 64 13 47 48 14 24 29 16 25 31 20 74 26 75 
+	Cluster 0 SSE = 119.071
+Centroid 1 = 3, 3, 0, 0, 4, 3, 0.866667, 0.333333, OTROS
+	Members of Cluster (15): 1 7 33 50 69 8 9 42 62 4 57 58 2 5 3 
+	Cluster 1 SSE = 18.0667
+Centroid 2 = 1, 4, 1, 3.61538, 3, 3, 2.61538, 2.84615, OTROS
+	Members of Cluster (13): 6 19 28 21 23 30 32 53 72 71 15 18 17 
+	Cluster 2 SSE = 51.8462
+Centroid 3 = 3, 3, 0, 0.1, 4, 3, 2.65, 0, AMARILLO_PALIDO
+	Members of Cluster (20): 10 35 59 11 43 51 66 67 34 37 44 45 68 38 54 55 56 65 12 52 
+	Cluster 3 SSE = 24.35
+Total SSE (sum squared-distance of each row with its centroid) = 213.334
+Davies-Bouldin Index: 1.11228

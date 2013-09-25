@@ -1,0 +1,137 @@
+Dataset name: ../data/laborWithoutID.arff
+Number of instances (rows): 57
+Number of attributes (cols): 17
+Learning algorithm: clustering
+Evaluation method: training
+Running k-means...
+Centroid 0 = 3, 3.7, 4, 5, 'tc', ?, ?, ?, ?, 'yes', ?, ?, ?, ?, 'yes', ?
+Centroid 1 = 1, 3, ?, ?, 'none', 36, ?, ?, 10, 'no', 11, 'generous', ?, ?, ?, ?
+Centroid 2 = 3, 3.5, 4, 4.6, 'tcf', 27, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+Centroid 3 = 3, 3, 2, 2.5, 'tc', 40, 'none', ?, 5, 'no', 10, 'below_average', 'yes', 'half', 'yes', 'full'
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 2.15385, 4.27949, 4.37576, 4.55, 'none', 38.0556, 'empl_contr', 9, 4.84615, 'no', 11.2895, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (40): 0 2 3 4 5 6 7 8 9 10 11 12 13 15 16 19 20 23 24 26 27 28 29 30 33 36 37 39 41 44 45 46 47 48 49 50 52 54 55 56 
+	Cluster 0 SSE = 1339.04
+Centroid 1 = 1.6, 3.1, 4.15, 2, 'none', 36.5, 'none', ?, 10, 'yes', 10.8, 'average', 'no', 'none', 'no', 'none'
+	Members of Cluster (5): 1 14 18 38 40 
+	Cluster 1 SSE = 56.645
+Centroid 2 = 3, 3.5, 4, 4.6, 'tcf', 27, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+	Members of Cluster (1): 22 
+	Cluster 2 SSE = 10
+Centroid 3 = 2.36364, 2.46364, 2.6, 2.2, 'tc', 39.7, 'none', 2, 3.75, 'no', 10.5, 'below_average', 'yes', 'half', 'yes', 'full'
+	Members of Cluster (11): 17 21 25 31 32 34 35 42 43 51 53 
+	Cluster 3 SSE = 109.081
+Total SSE (sum squared-distance of each row with its centroid) = 1514.76
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 2.25, 4.55, 4.336, 4.5625, 'none', 38.1154, 'empl_contr', 11.25, 4.33333, 'yes', 11.6786, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (29): 2 4 5 6 7 9 10 11 13 15 16 19 20 23 24 26 28 30 39 41 46 47 48 49 50 52 53 54 55 
+	Cluster 0 SSE = 461.507
+Centroid 1 = 2, 3.3125, 3.96, 3, 'none', 35.5714, 'none', ?, 12, 'yes', 10.625, 'average', 'no', 'none', 'yes', 'full'
+	Members of Cluster (8): 1 14 18 27 29 38 40 56 
+	Cluster 1 SSE = 125.79
+Centroid 2 = 2.66667, 3.4, 5, 4.8, 'tcf', 32.5, ?, 12, 25, 'yes', 11, 'below_average', 'yes', 'half', 'yes', ?
+	Members of Cluster (3): 3 8 22 
+	Cluster 2 SSE = 91.5067
+Centroid 3 = 2, 2.87647, 3.03846, 2.2, 'none', 39.6875, 'none', 2.5, 2.4, 'no', 10.3125, 'below_average', 'no', 'half', 'yes', 'none'
+	Members of Cluster (17): 0 12 17 21 25 31 32 33 34 35 36 37 42 43 44 45 51 
+	Cluster 3 SSE = 185.236
+Total SSE (sum squared-distance of each row with its centroid) = 864.04
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 2.23077, 4.59231, 4.34348, 4.57143, 'none', 38.24, 'empl_contr', 11.25, 4.33333, 'yes', 11.6923, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (27): 2 4 5 6 7 9 10 11 13 15 16 19 20 23 24 28 30 39 41 46 47 48 49 50 53 54 55 
+	Cluster 0 SSE = 427.913
+Centroid 1 = 2.28571, 3.57143, 4.16, 3.5, 'none', 35.5, 'none', ?, 12, 'yes', 10.7143, 'average', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (7): 1 14 29 38 40 52 56 
+	Cluster 1 SSE = 108.683
+Centroid 2 = 2.4, 3.54, 4.5, 4.8, 'tcf', 32.6667, ?, 12, 25, 'yes', 11, 'below_average', 'yes', 'none', 'yes', 'half'
+	Members of Cluster (5): 3 8 22 26 27 
+	Cluster 2 SSE = 114.479
+Centroid 3 = 1.94444, 2.82778, 3.03846, 2.2, 'none', 39.5882, 'none', 2.5, 2.4, 'no', 10.3529, 'below_average', 'no', 'half', 'yes', 'none'
+	Members of Cluster (18): 0 12 17 18 21 25 31 32 33 34 35 36 37 42 43 44 45 51 
+	Cluster 3 SSE = 198.031
+Total SSE (sum squared-distance of each row with its centroid) = 849.107
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 2.23077, 4.59231, 4.34348, 4.57143, 'none', 38.24, 'empl_contr', 11.25, 4.33333, 'yes', 11.6923, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (27): 2 4 5 6 7 9 10 11 13 15 16 19 20 23 24 28 30 39 41 46 47 48 49 50 53 54 55 
+	Cluster 0 SSE = 427.913
+Centroid 1 = 2.16667, 3.83333, 4.575, 4.25, 'none', 35.2, 'none', ?, 12, 'yes', 10.8333, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (6): 1 14 29 40 52 56 
+	Cluster 1 SSE = 86.0925
+Centroid 2 = 2.4, 3.54, 4.5, 4.8, 'tcf', 32.6667, ?, 12, 25, 'yes', 11, 'below_average', 'yes', 'none', 'yes', 'half'
+	Members of Cluster (5): 3 8 22 26 27 
+	Cluster 2 SSE = 114.479
+Centroid 3 = 2, 2.78421, 3, 2.15, 'none', 39.4444, 'none', 2.5, 2.4, 'no', 10.3333, 'below_average', 'no', 'half', 'yes', 'none'
+	Members of Cluster (19): 0 12 17 18 21 25 31 32 33 34 35 36 37 38 42 43 44 45 51 
+	Cluster 3 SSE = 214.48
+Total SSE (sum squared-distance of each row with its centroid) = 842.964
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 2.23077, 4.59231, 4.34348, 4.57143, 'none', 38.24, 'empl_contr', 11.25, 4.33333, 'yes', 11.6923, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (27): 2 4 5 6 7 9 10 11 13 15 16 19 20 23 24 28 30 39 41 46 47 48 49 50 53 54 55 
+	Cluster 0 SSE = 427.913
+Centroid 1 = 2.16667, 3.83333, 4.575, 4.25, 'none', 35.2, 'none', ?, 12, 'yes', 10.8333, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (6): 1 14 29 40 52 56 
+	Cluster 1 SSE = 86.0925
+Centroid 2 = 2.4, 3.54, 4.5, 4.8, 'tcf', 32.6667, ?, 12, 25, 'yes', 11, 'below_average', 'yes', 'none', 'yes', 'half'
+	Members of Cluster (5): 3 8 22 26 27 
+	Cluster 2 SSE = 114.479
+Centroid 3 = 2, 2.78421, 3, 2.15, 'none', 39.4444, 'none', 2.5, 2.4, 'no', 10.3333, 'below_average', 'no', 'half', 'yes', 'none'
+	Members of Cluster (19): 0 12 17 18 21 25 31 32 33 34 35 36 37 38 42 43 44 45 51 
+	Cluster 3 SSE = 214.48
+Total SSE (sum squared-distance of each row with its centroid) = 842.964
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 2.23077, 4.59231, 4.34348, 4.57143, 'none', 38.24, 'empl_contr', 11.25, 4.33333, 'yes', 11.6923, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (27): 2 4 5 6 7 9 10 11 13 15 16 19 20 23 24 28 30 39 41 46 47 48 49 50 53 54 55 
+	Cluster 0 SSE = 427.913
+Centroid 1 = 2.16667, 3.83333, 4.575, 4.25, 'none', 35.2, 'none', ?, 12, 'yes', 10.8333, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (6): 1 14 29 40 52 56 
+	Cluster 1 SSE = 86.0925
+Centroid 2 = 2.4, 3.54, 4.5, 4.8, 'tcf', 32.6667, ?, 12, 25, 'yes', 11, 'below_average', 'yes', 'none', 'yes', 'half'
+	Members of Cluster (5): 3 8 22 26 27 
+	Cluster 2 SSE = 114.479
+Centroid 3 = 2, 2.78421, 3, 2.15, 'none', 39.4444, 'none', 2.5, 2.4, 'no', 10.3333, 'below_average', 'no', 'half', 'yes', 'none'
+	Members of Cluster (19): 0 12 17 18 21 25 31 32 33 34 35 36 37 38 42 43 44 45 51 
+	Cluster 3 SSE = 214.48
+Total SSE (sum squared-distance of each row with its centroid) = 842.964
+------------------------------------------------------------
+Assigning each row to the cluster of the nearest centroid...
+------------------------------------------------------------
+There are 4 clusters
+Recomputing the centroids for each cluster...
+Centroid 0 = 2.23077, 4.59231, 4.34348, 4.57143, 'none', 38.24, 'empl_contr', 11.25, 4.33333, 'yes', 11.6923, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (27): 2 4 5 6 7 9 10 11 13 15 16 19 20 23 24 28 30 39 41 46 47 48 49 50 53 54 55 
+	Cluster 0 SSE = 427.913
+Centroid 1 = 2.16667, 3.83333, 4.575, 4.25, 'none', 35.2, 'none', ?, 12, 'yes', 10.8333, 'generous', 'yes', 'full', 'yes', 'full'
+	Members of Cluster (6): 1 14 29 40 52 56 
+	Cluster 1 SSE = 86.0925
+Centroid 2 = 2.4, 3.54, 4.5, 4.8, 'tcf', 32.6667, ?, 12, 25, 'yes', 11, 'below_average', 'yes', 'none', 'yes', 'half'
+	Members of Cluster (5): 3 8 22 26 27 
+	Cluster 2 SSE = 114.479
+Centroid 3 = 2, 2.78421, 3, 2.15, 'none', 39.4444, 'none', 2.5, 2.4, 'no', 10.3333, 'below_average', 'no', 'half', 'yes', 'none'
+	Members of Cluster (19): 0 12 17 18 21 25 31 32 33 34 35 36 37 38 42 43 44 45 51 
+	Cluster 3 SSE = 214.48
+Total SSE (sum squared-distance of each row with its centroid) = 842.964
+Convergence is detected because the sum squared-distance did not improve, and more than 3 iterations were performed

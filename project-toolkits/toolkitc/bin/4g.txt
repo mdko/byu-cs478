@@ -1,0 +1,2006 @@
+Dataset name: ../data/housing-train.arff
+Number of instances (rows): 455
+Number of attributes (cols): 14
+Learning algorithm: knn
+Evaluation method: static
+Number of classes: 0
+Nominal or discrete: discrete
+Number of neighbors: 15
+Weighted? Y
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: -0.000037 0.180000 0.067815 0.000000 0.314815 0.577505 0.641607 0.269203 0.000000 0.208015 0.287234 1.000000 0.089680 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 5.093990
+  That distance's discrete class label: 0.911111
+ Closest example 1's weighted distance: 2.443621
+  That distance's discrete class label: 0.533333
+ Closest example 2's weighted distance: 1.943664
+  That distance's discrete class label: 0.446667
+ Closest example 3's weighted distance: 2.610682
+  That distance's discrete class label: 0.626667
+ Closest example 4's weighted distance: 2.046862
+  That distance's discrete class label: 0.500000
+ Closest example 5's weighted distance: 2.481411
+  That distance's discrete class label: 0.671111
+ Closest example 6's weighted distance: 1.256178
+  That distance's discrete class label: 0.348889
+ Closest example 7's weighted distance: 2.010594
+  That distance's discrete class label: 0.608889
+ Closest example 8's weighted distance: 1.798817
+  That distance's discrete class label: 0.624444
+ Closest example 9's weighted distance: 1.167517
+  That distance's discrete class label: 0.406667
+ Closest example 10's weighted distance: 1.187991
+  That distance's discrete class label: 0.431111
+ Closest example 11's weighted distance: 1.092310
+  That distance's discrete class label: 0.400000
+ Closest example 12's weighted distance: 0.951230
+  That distance's discrete class label: 0.386667
+ Closest example 13's weighted distance: 0.751158
+  That distance's discrete class label: 0.371111
+ Closest example 14's weighted distance: 0.734709
+  That distance's discrete class label: 0.366667
+Discrete summation: 27.570736, denominator summation: 4.786425
+Discrete value for label: 27.570736
+In filter, after predicting.
+feature 0: targ: 24.000000, pred 27.570736. Delta: -0.129512
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.002935 0.125000 0.271628 0.000000 0.286008 0.539567 0.941298 0.474416 0.173913 0.236641 0.276596 0.988894 0.516556 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 1.996573
+  That distance's discrete class label: 0.371111
+ Closest example 1's weighted distance: 1.847399
+  That distance's discrete class label: 0.366667
+ Closest example 2's weighted distance: 1.685480
+  That distance's discrete class label: 0.400000
+ Closest example 3's weighted distance: 1.723616
+  That distance's discrete class label: 0.446667
+ Closest example 4's weighted distance: 1.251904
+  That distance's discrete class label: 0.333333
+ Closest example 5's weighted distance: 1.156007
+  That distance's discrete class label: 0.317778
+ Closest example 6's weighted distance: 1.704062
+  That distance's discrete class label: 0.500000
+ Closest example 7's weighted distance: 1.470309
+  That distance's discrete class label: 0.533333
+ Closest example 8's weighted distance: 1.178686
+  That distance's discrete class label: 0.431111
+ Closest example 9's weighted distance: 1.083002
+  That distance's discrete class label: 0.406667
+ Closest example 10's weighted distance: 0.884690
+  That distance's discrete class label: 0.348889
+ Closest example 11's weighted distance: 0.902396
+  That distance's discrete class label: 0.386667
+ Closest example 12's weighted distance: 1.031885
+  That distance's discrete class label: 0.626667
+ Closest example 13's weighted distance: 1.496481
+  That distance's discrete class label: 0.911111
+ Closest example 14's weighted distance: 1.078157
+  That distance's discrete class label: 0.671111
+Discrete summation: 20.490648, denominator summation: 5.480830
+Discrete value for label: 20.490648
+In filter, after predicting.
+feature 1: targ: 15.000000, pred 20.490648. Delta: -0.267959
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.016902 0.000000 0.281525 0.000000 0.314815 0.384940 0.980433 0.242641 0.130435 0.229008 0.893617 0.948451 0.532285 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.507037
+  That distance's discrete class label: 0.333333
+ Closest example 1's weighted distance: 2.984367
+  That distance's discrete class label: 0.317778
+ Closest example 2's weighted distance: 1.758213
+  That distance's discrete class label: 0.371111
+ Closest example 3's weighted distance: 1.487812
+  That distance's discrete class label: 0.431111
+ Closest example 4's weighted distance: 1.166857
+  That distance's discrete class label: 0.366667
+ Closest example 5's weighted distance: 1.217599
+  That distance's discrete class label: 0.386667
+ Closest example 6's weighted distance: 1.003899
+  That distance's discrete class label: 0.348889
+ Closest example 7's weighted distance: 1.177839
+  That distance's discrete class label: 0.446667
+ Closest example 8's weighted distance: 1.280988
+  That distance's discrete class label: 0.500000
+ Closest example 9's weighted distance: 0.987693
+  That distance's discrete class label: 0.400000
+ Closest example 10's weighted distance: 1.132052
+  That distance's discrete class label: 0.533333
+ Closest example 11's weighted distance: 0.766722
+  That distance's discrete class label: 0.406667
+ Closest example 12's weighted distance: 0.940868
+  That distance's discrete class label: 0.671111
+ Closest example 13's weighted distance: 0.710854
+  That distance's discrete class label: 0.626667
+ Closest example 14's weighted distance: 0.209777
+  That distance's discrete class label: 0.211111
+Discrete summation: 20.332576, denominator summation: 6.458965
+Discrete value for label: 20.332576
+In filter, after predicting.
+feature 2: targ: 13.600000, pred 20.332576. Delta: -0.331123
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.015257 0.000000 0.281525 0.000000 0.314815 0.412340 0.939238 0.282207 0.130435 0.229008 0.893617 0.906866 0.575883 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.162751
+  That distance's discrete class label: 0.333333
+ Closest example 1's weighted distance: 3.010932
+  That distance's discrete class label: 0.317778
+ Closest example 2's weighted distance: 1.726508
+  That distance's discrete class label: 0.371111
+ Closest example 3's weighted distance: 1.583754
+  That distance's discrete class label: 0.431111
+ Closest example 4's weighted distance: 1.283882
+  That distance's discrete class label: 0.386667
+ Closest example 5's weighted distance: 1.102875
+  That distance's discrete class label: 0.366667
+ Closest example 6's weighted distance: 1.024984
+  That distance's discrete class label: 0.348889
+ Closest example 7's weighted distance: 1.160238
+  That distance's discrete class label: 0.446667
+ Closest example 8's weighted distance: 1.249160
+  That distance's discrete class label: 0.500000
+ Closest example 9's weighted distance: 0.927275
+  That distance's discrete class label: 0.400000
+ Closest example 10's weighted distance: 1.138177
+  That distance's discrete class label: 0.533333
+ Closest example 11's weighted distance: 0.774080
+  That distance's discrete class label: 0.406667
+ Closest example 12's weighted distance: 0.968443
+  That distance's discrete class label: 0.671111
+ Closest example 13's weighted distance: 0.727618
+  That distance's discrete class label: 0.626667
+ Closest example 14's weighted distance: 0.177253
+  That distance's discrete class label: 0.180000
+Discrete summation: 20.017930, denominator summation: 6.452409
+Discrete value for label: 20.017930
+In filter, after predicting.
+feature 3: targ: 12.700000, pred 20.017930. Delta: -0.365569
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000334 0.750000 0.091276 0.000000 0.088477 0.663537 0.132853 0.388428 0.086957 0.124046 0.606383 0.996754 0.006898 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.677141
+  That distance's discrete class label: 0.624444
+ Closest example 1's weighted distance: 3.082960
+  That distance's discrete class label: 0.608889
+ Closest example 2's weighted distance: 2.217264
+  That distance's discrete class label: 0.626667
+ Closest example 3's weighted distance: 2.949020
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 1.309264
+  That distance's discrete class label: 0.671111
+ Closest example 5's weighted distance: 1.554515
+  That distance's discrete class label: 0.911111
+ Closest example 6's weighted distance: 0.483260
+  That distance's discrete class label: 0.348889
+ Closest example 7's weighted distance: 0.529150
+  That distance's discrete class label: 0.533333
+ Closest example 8's weighted distance: 0.565003
+  That distance's discrete class label: 0.573333
+ Closest example 9's weighted distance: 0.418772
+  That distance's discrete class label: 0.431111
+ Closest example 10's weighted distance: 0.490036
+  That distance's discrete class label: 0.508889
+ Closest example 11's weighted distance: 0.691169
+  That distance's discrete class label: 0.717778
+ Closest example 12's weighted distance: 0.369968
+  That distance's discrete class label: 0.386667
+ Closest example 13's weighted distance: 0.397428
+  That distance's discrete class label: 0.446667
+ Closest example 14's weighted distance: 0.364665
+  That distance's discrete class label: 0.411111
+Discrete summation: 19.099615, denominator summation: 11.235168
+Discrete value for label: 19.099615
+In filter, after predicting.
+feature 4: targ: 34.900000, pred 19.099615. Delta: 0.452733
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.001084 0.210000 0.189883 0.000000 0.111111 0.460241 0.440783 0.516973 0.130435 0.106870 0.446809 0.996602 0.323400 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 2.470848
+  That distance's discrete class label: 0.348889
+ Closest example 1's weighted distance: 3.398809
+  That distance's discrete class label: 0.626667
+ Closest example 2's weighted distance: 3.058175
+  That distance's discrete class label: 0.624444
+ Closest example 3's weighted distance: 2.101175
+  That distance's discrete class label: 0.431111
+ Closest example 4's weighted distance: 2.738762
+  That distance's discrete class label: 0.608889
+ Closest example 5's weighted distance: 1.724419
+  That distance's discrete class label: 0.386667
+ Closest example 6's weighted distance: 2.746796
+  That distance's discrete class label: 0.671111
+ Closest example 7's weighted distance: 3.441653
+  That distance's discrete class label: 0.911111
+ Closest example 8's weighted distance: 1.816652
+  That distance's discrete class label: 0.533333
+ Closest example 9's weighted distance: 1.483264
+  That distance's discrete class label: 0.446667
+ Closest example 10's weighted distance: 1.269789
+  That distance's discrete class label: 0.406667
+ Closest example 11's weighted distance: 1.365430
+  That distance's discrete class label: 0.500000
+ Closest example 12's weighted distance: 0.739920
+  That distance's discrete class label: 0.371111
+ Closest example 13's weighted distance: 0.633483
+  That distance's discrete class label: 0.317778
+ Closest example 14's weighted distance: 0.743464
+  That distance's discrete class label: 0.400000
+Discrete summation: 29.732638, denominator summation: 4.512933
+Discrete value for label: 29.732638
+In filter, after predicting.
+feature 5: targ: 19.700000, pred 29.732638. Delta: -0.337428
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.001908 0.250000 0.171188 0.000000 0.139918 0.417705 0.651905 0.554320 0.304348 0.185115 0.755319 0.995461 0.315121 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 1.978938
+  That distance's discrete class label: 0.348889
+ Closest example 1's weighted distance: 1.811098
+  That distance's discrete class label: 0.431111
+ Closest example 2's weighted distance: 1.672547
+  That distance's discrete class label: 0.446667
+ Closest example 3's weighted distance: 1.377928
+  That distance's discrete class label: 0.386667
+ Closest example 4's weighted distance: 1.736893
+  That distance's discrete class label: 0.533333
+ Closest example 5's weighted distance: 2.002636
+  That distance's discrete class label: 0.626667
+ Closest example 6's weighted distance: 1.483389
+  That distance's discrete class label: 0.500000
+ Closest example 7's weighted distance: 1.949840
+  That distance's discrete class label: 0.671111
+ Closest example 8's weighted distance: 0.787183
+  That distance's discrete class label: 0.317778
+ Closest example 9's weighted distance: 0.908553
+  That distance's discrete class label: 0.371111
+ Closest example 10's weighted distance: 1.462642
+  That distance's discrete class label: 0.608889
+ Closest example 11's weighted distance: 1.496571
+  That distance's discrete class label: 0.624444
+ Closest example 12's weighted distance: 0.745363
+  That distance's discrete class label: 0.333333
+ Closest example 13's weighted distance: 0.816907
+  That distance's discrete class label: 0.406667
+ Closest example 14's weighted distance: 0.711602
+  That distance's discrete class label: 0.400000
+Discrete summation: 20.942090, denominator summation: 5.416080
+Discrete value for label: 20.942090
+In filter, after predicting.
+feature 6: targ: 18.700000, pred 20.942090. Delta: -0.107061
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.001077 0.000000 0.379399 0.000000 0.057613 0.547231 0.038105 0.378079 0.130435 0.225191 0.702128 0.966606 0.137693 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 2.158044
+  That distance's discrete class label: 0.624444
+ Closest example 1's weighted distance: 1.856653
+  That distance's discrete class label: 0.608889
+ Closest example 2's weighted distance: 1.045522
+  That distance's discrete class label: 0.386667
+ Closest example 3's weighted distance: 1.743104
+  That distance's discrete class label: 0.671111
+ Closest example 4's weighted distance: 1.118368
+  That distance's discrete class label: 0.431111
+ Closest example 5's weighted distance: 1.395197
+  That distance's discrete class label: 0.626667
+ Closest example 6's weighted distance: 0.722966
+  That distance's discrete class label: 0.348889
+ Closest example 7's weighted distance: 0.767650
+  That distance's discrete class label: 0.406667
+ Closest example 8's weighted distance: 0.980392
+  That distance's discrete class label: 0.533333
+ Closest example 9's weighted distance: 1.464428
+  That distance's discrete class label: 0.911111
+ Closest example 10's weighted distance: 0.666901
+  That distance's discrete class label: 0.446667
+ Closest example 11's weighted distance: 0.695735
+  That distance's discrete class label: 0.500000
+ Closest example 12's weighted distance: 0.408116
+  That distance's discrete class label: 0.408889
+ Closest example 13's weighted distance: 0.393146
+  That distance's discrete class label: 0.395556
+ Closest example 14's weighted distance: 0.396475
+  That distance's discrete class label: 0.400000
+Discrete summation: 15.812696, denominator summation: 8.790630
+Discrete value for label: 15.812696
+In filter, after predicting.
+feature 7: targ: 24.200000, pred 15.812696. Delta: 0.346583
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000436 0.250000 0.161290 0.000000 0.084362 0.606630 0.315139 0.388391 0.130435 0.179389 0.680851 1.000000 0.098234 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 10.420318
+  That distance's discrete class label: 0.624444
+ Closest example 1's weighted distance: 8.781164
+  That distance's discrete class label: 0.608889
+ Closest example 2's weighted distance: 6.771211
+  That distance's discrete class label: 0.626667
+ Closest example 3's weighted distance: 6.074052
+  That distance's discrete class label: 0.671111
+ Closest example 4's weighted distance: 1.668046
+  That distance's discrete class label: 0.348889
+ Closest example 5's weighted distance: 3.254753
+  That distance's discrete class label: 0.911111
+ Closest example 6's weighted distance: 1.483997
+  That distance's discrete class label: 0.431111
+ Closest example 7's weighted distance: 1.722360
+  That distance's discrete class label: 0.533333
+ Closest example 8's weighted distance: 1.233764
+  That distance's discrete class label: 0.386667
+ Closest example 9's weighted distance: 1.181503
+  That distance's discrete class label: 0.446667
+ Closest example 10's weighted distance: 1.200129
+  That distance's discrete class label: 0.500000
+ Closest example 11's weighted distance: 0.829833
+  That distance's discrete class label: 0.406667
+ Closest example 12's weighted distance: 0.538165
+  That distance's discrete class label: 0.400000
+ Closest example 13's weighted distance: 0.484956
+  That distance's discrete class label: 0.371111
+ Closest example 14's weighted distance: 0.395992
+  That distance's discrete class label: 0.317778
+Discrete summation: 46.040244, denominator summation: 5.330686
+Discrete value for label: 46.040244
+In filter, after predicting.
+feature 8: targ: 28.000000, pred 46.040244. Delta: -0.391836
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000514 0.000000 0.108138 0.000000 0.213992 0.547231 0.650875 0.178478 0.043478 0.158397 0.553191 0.988032 0.195364 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 5.341990
+  That distance's discrete class label: 0.533333
+ Closest example 1's weighted distance: 4.075918
+  That distance's discrete class label: 0.446667
+ Closest example 2's weighted distance: 4.541589
+  That distance's discrete class label: 0.500000
+ Closest example 3's weighted distance: 3.127804
+  That distance's discrete class label: 0.348889
+ Closest example 4's weighted distance: 3.272894
+  That distance's discrete class label: 0.431111
+ Closest example 5's weighted distance: 2.474422
+  That distance's discrete class label: 0.386667
+ Closest example 6's weighted distance: 3.829078
+  That distance's discrete class label: 0.671111
+ Closest example 7's weighted distance: 1.690351
+  That distance's discrete class label: 0.406667
+ Closest example 8's weighted distance: 2.273347
+  That distance's discrete class label: 0.626667
+ Closest example 9's weighted distance: 1.333351
+  That distance's discrete class label: 0.371111
+ Closest example 10's weighted distance: 1.434236
+  That distance's discrete class label: 0.400000
+ Closest example 11's weighted distance: 2.847747
+  That distance's discrete class label: 0.911111
+ Closest example 12's weighted distance: 1.795699
+  That distance's discrete class label: 0.608889
+ Closest example 13's weighted distance: 0.898590
+  That distance's discrete class label: 0.317778
+ Closest example 14's weighted distance: 1.030854
+  That distance's discrete class label: 0.366667
+Discrete summation: 39.967871, denominator summation: 3.336135
+Discrete value for label: 39.967871
+In filter, after predicting.
+feature 9: targ: 22.600000, pred 39.967871. Delta: -0.434546
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.001899 0.000000 0.296921 0.000000 0.277778 0.606630 0.792997 0.149879 0.173913 0.375954 0.882979 0.994574 0.212196 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 2.642874
+  That distance's discrete class label: 0.500000
+ Closest example 1's weighted distance: 2.202224
+  That distance's discrete class label: 0.446667
+ Closest example 2's weighted distance: 2.006890
+  That distance's discrete class label: 0.431111
+ Closest example 3's weighted distance: 2.425003
+  That distance's discrete class label: 0.533333
+ Closest example 4's weighted distance: 1.509957
+  That distance's discrete class label: 0.386667
+ Closest example 5's weighted distance: 1.152172
+  That distance's discrete class label: 0.348889
+ Closest example 6's weighted distance: 1.153026
+  That distance's discrete class label: 0.371111
+ Closest example 7's weighted distance: 1.181533
+  That distance's discrete class label: 0.400000
+ Closest example 8's weighted distance: 0.899491
+  That distance's discrete class label: 0.317778
+ Closest example 9's weighted distance: 1.846084
+  That distance's discrete class label: 0.671111
+ Closest example 10's weighted distance: 0.880858
+  That distance's discrete class label: 0.333333
+ Closest example 11's weighted distance: 0.891297
+  That distance's discrete class label: 0.366667
+ Closest example 12's weighted distance: 0.982867
+  That distance's discrete class label: 0.406667
+ Closest example 13's weighted distance: 1.183138
+  That distance's discrete class label: 0.626667
+ Closest example 14's weighted distance: 0.936460
+  That distance's discrete class label: 0.608889
+Discrete summation: 21.893874, denominator summation: 5.146295
+Discrete value for label: 21.893874
+In filter, after predicting.
+feature 10: targ: 27.500000, pred 21.893874. Delta: 0.203859
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.001345 0.000000 0.296921 0.000000 0.277778 0.504694 0.530381 0.149879 0.173913 0.375954 0.882979 0.991354 0.310982 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 2.929516
+  That distance's discrete class label: 0.386667
+ Closest example 1's weighted distance: 3.152643
+  That distance's discrete class label: 0.431111
+ Closest example 2's weighted distance: 1.467360
+  That distance's discrete class label: 0.348889
+ Closest example 3's weighted distance: 2.190775
+  That distance's discrete class label: 0.533333
+ Closest example 4's weighted distance: 1.660103
+  That distance's discrete class label: 0.446667
+ Closest example 5's weighted distance: 1.855233
+  That distance's discrete class label: 0.500000
+ Closest example 6's weighted distance: 1.276826
+  That distance's discrete class label: 0.406667
+ Closest example 7's weighted distance: 1.897203
+  That distance's discrete class label: 0.671111
+ Closest example 8's weighted distance: 0.886591
+  That distance's discrete class label: 0.317778
+ Closest example 9's weighted distance: 0.963849
+  That distance's discrete class label: 0.371111
+ Closest example 10's weighted distance: 0.744446
+  That distance's discrete class label: 0.333333
+ Closest example 11's weighted distance: 0.841128
+  That distance's discrete class label: 0.400000
+ Closest example 12's weighted distance: 1.276244
+  That distance's discrete class label: 0.626667
+ Closest example 13's weighted distance: 0.734682
+  That distance's discrete class label: 0.366667
+ Closest example 14's weighted distance: 1.174433
+  That distance's discrete class label: 0.608889
+Discrete summation: 23.051032, denominator summation: 5.136079
+Discrete value for label: 23.051032
+In filter, after predicting.
+feature 11: targ: 21.700000, pred 23.051032. Delta: -0.058610
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000815 0.000000 0.923387 0.000000 0.403292 0.442422 0.687951 0.102583 0.043478 0.001908 0.691489 0.980349 0.348786 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 1.181390
+  That distance's discrete class label: 0.406667
+ Closest example 1's weighted distance: 0.933595
+  That distance's discrete class label: 0.366667
+ Closest example 2's weighted distance: 0.992034
+  That distance's discrete class label: 0.400000
+ Closest example 3's weighted distance: 0.909788
+  That distance's discrete class label: 0.386667
+ Closest example 4's weighted distance: 1.011853
+  That distance's discrete class label: 0.431111
+ Closest example 5's weighted distance: 0.619877
+  That distance's discrete class label: 0.317778
+ Closest example 6's weighted distance: 0.587573
+  That distance's discrete class label: 0.333333
+ Closest example 7's weighted distance: 0.574820
+  That distance's discrete class label: 0.348889
+ Closest example 8's weighted distance: 0.665243
+  That distance's discrete class label: 0.500000
+ Closest example 9's weighted distance: 0.589759
+  That distance's discrete class label: 0.446667
+ Closest example 10's weighted distance: 0.698316
+  That distance's discrete class label: 0.533333
+ Closest example 11's weighted distance: 0.475655
+  That distance's discrete class label: 0.371111
+ Closest example 12's weighted distance: 1.252205
+  That distance's discrete class label: 1.000000
+ Closest example 13's weighted distance: 0.823197
+  That distance's discrete class label: 0.671111
+ Closest example 14's weighted distance: 1.187159
+  That distance's discrete class label: 1.000000
+Discrete summation: 12.502463, denominator summation: 9.187278
+Discrete value for label: 12.502463
+In filter, after predicting.
+feature 12: targ: 22.000000, pred 12.502463. Delta: 0.431706
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.004502 0.000000 0.785557 0.000000 0.491770 0.555087 0.988671 0.089925 0.130435 0.477099 0.914894 0.995284 0.299945 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 0.821075
+  That distance's discrete class label: 0.400000
+ Closest example 1's weighted distance: 0.726189
+  That distance's discrete class label: 0.366667
+ Closest example 2's weighted distance: 0.581233
+  That distance's discrete class label: 0.333333
+ Closest example 3's weighted distance: 0.539610
+  That distance's discrete class label: 0.317778
+ Closest example 4's weighted distance: 0.680173
+  That distance's discrete class label: 0.431111
+ Closest example 5's weighted distance: 1.546008
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 0.570051
+  That distance's discrete class label: 0.386667
+ Closest example 7's weighted distance: 0.596113
+  That distance's discrete class label: 0.406667
+ Closest example 8's weighted distance: 1.435440
+  That distance's discrete class label: 1.000000
+ Closest example 9's weighted distance: 0.699565
+  That distance's discrete class label: 0.500000
+ Closest example 10's weighted distance: 0.515301
+  That distance's discrete class label: 0.371111
+ Closest example 11's weighted distance: 0.603801
+  That distance's discrete class label: 0.446667
+ Closest example 12's weighted distance: 0.335011
+  That distance's discrete class label: 0.266667
+ Closest example 13's weighted distance: 0.665870
+  That distance's discrete class label: 0.533333
+ Closest example 14's weighted distance: 0.266539
+  That distance's discrete class label: 0.228889
+Discrete summation: 10.581979, denominator summation: 10.122651
+Discrete value for label: 10.581979
+In filter, after predicting.
+feature 13: targ: 19.200000, pred 10.581979. Delta: 0.448855
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.003833 0.000000 0.785557 0.000000 0.491770 0.500671 0.934089 0.043858 0.130435 0.477099 0.914894 0.977636 0.618929 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 0.664652
+  That distance's discrete class label: 0.317778
+ Closest example 1's weighted distance: 0.677721
+  That distance's discrete class label: 0.333333
+ Closest example 2's weighted distance: 0.716558
+  That distance's discrete class label: 0.366667
+ Closest example 3's weighted distance: 0.629437
+  That distance's discrete class label: 0.400000
+ Closest example 4's weighted distance: 0.555998
+  That distance's discrete class label: 0.371111
+ Closest example 5's weighted distance: 0.642240
+  That distance's discrete class label: 0.431111
+ Closest example 6's weighted distance: 0.571780
+  That distance's discrete class label: 0.386667
+ Closest example 7's weighted distance: 0.561458
+  That distance's discrete class label: 0.406667
+ Closest example 8's weighted distance: 0.238041
+  That distance's discrete class label: 0.186667
+ Closest example 9's weighted distance: 0.316729
+  That distance's discrete class label: 0.266667
+ Closest example 10's weighted distance: 0.577329
+  That distance's discrete class label: 0.500000
+ Closest example 11's weighted distance: 0.497073
+  That distance's discrete class label: 0.446667
+ Closest example 12's weighted distance: 0.247171
+  That distance's discrete class label: 0.228889
+ Closest example 13's weighted distance: 0.373988
+  That distance's discrete class label: 0.348889
+ Closest example 14's weighted distance: 0.549786
+  That distance's discrete class label: 0.533333
+Discrete summation: 7.819961, denominator summation: 11.076200
+Discrete value for label: 7.819961
+In filter, after predicting.
+feature 14: targ: 14.000000, pred 7.819961. Delta: 0.441431
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.022408 0.000000 0.700880 0.000000 1.000000 0.490707 0.972194 0.044413 0.173913 0.412214 0.223404 0.938891 0.341336 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 14.520220
+  That distance's discrete class label: 0.266667
+ Closest example 1's weighted distance: 3.630373
+  That distance's discrete class label: 0.228889
+ Closest example 2's weighted distance: 1.261925
+  That distance's discrete class label: 0.186667
+ Closest example 3's weighted distance: 1.924820
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 0.431545
+  That distance's discrete class label: 0.235556
+ Closest example 5's weighted distance: 1.725157
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 0.608848
+  That distance's discrete class label: 0.366667
+ Closest example 7's weighted distance: 0.651062
+  That distance's discrete class label: 0.400000
+ Closest example 8's weighted distance: 0.524121
+  That distance's discrete class label: 0.406667
+ Closest example 9's weighted distance: 0.371050
+  That distance's discrete class label: 0.371111
+ Closest example 10's weighted distance: 0.316074
+  That distance's discrete class label: 0.324444
+ Closest example 11's weighted distance: 0.483356
+  That distance's discrete class label: 0.500000
+ Closest example 12's weighted distance: 0.390561
+  That distance's discrete class label: 0.406667
+ Closest example 13's weighted distance: 0.219069
+  That distance's discrete class label: 0.231111
+ Closest example 14's weighted distance: 0.421156
+  That distance's discrete class label: 0.446667
+Discrete summation: 27.479338, denominator summation: 10.084736
+Discrete value for label: 27.479338
+In filter, after predicting.
+feature 15: targ: 21.500000, pred 27.479338. Delta: -0.217594
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.017197 0.000000 0.700880 1.000000 0.452675 0.515233 0.923790 0.060817 0.173913 0.412214 0.223404 0.852984 0.104029 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 46.795402
+  That distance's discrete class label: 0.428889
+ Closest example 1's weighted distance: 32.764492
+  That distance's discrete class label: 0.806667
+ Closest example 2's weighted distance: 12.857582
+  That distance's discrete class label: 0.384444
+ Closest example 3's weighted distance: 11.126130
+  That distance's discrete class label: 0.417778
+ Closest example 4's weighted distance: 7.209097
+  That distance's discrete class label: 0.313333
+ Closest example 5's weighted distance: 6.756065
+  That distance's discrete class label: 0.393333
+ Closest example 6's weighted distance: 13.177806
+  That distance's discrete class label: 1.000000
+ Closest example 7's weighted distance: 5.546221
+  That distance's discrete class label: 0.444444
+ Closest example 8's weighted distance: 8.781231
+  That distance's discrete class label: 1.000000
+ Closest example 9's weighted distance: 2.969488
+  That distance's discrete class label: 0.417778
+ Closest example 10's weighted distance: 2.467652
+  That distance's discrete class label: 0.526667
+ Closest example 11's weighted distance: 1.016634
+  That distance's discrete class label: 0.300000
+ Closest example 12's weighted distance: 1.022394
+  That distance's discrete class label: 0.315556
+ Closest example 13's weighted distance: 1.292104
+  That distance's discrete class label: 0.406667
+ Closest example 14's weighted distance: 1.253266
+  That distance's discrete class label: 0.395556
+Discrete summation: 155.035563, denominator summation: 2.061022
+Discrete value for label: 155.035563
+In filter, after predicting.
+feature 16: targ: 27.000000, pred 155.035563. Delta: -0.825846
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.016299 0.000000 0.700880 0.000000 0.452675 0.443380 0.944387 0.117879 0.173913 0.412214 0.223404 0.734748 0.350442 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 1.596485
+  That distance's discrete class label: 0.366667
+ Closest example 1's weighted distance: 1.647459
+  That distance's discrete class label: 0.400000
+ Closest example 2's weighted distance: 0.855790
+  That distance's discrete class label: 0.266667
+ Closest example 3's weighted distance: 3.134213
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 0.639693
+  That distance's discrete class label: 0.228889
+ Closest example 5's weighted distance: 1.082900
+  That distance's discrete class label: 0.406667
+ Closest example 6's weighted distance: 2.607293
+  That distance's discrete class label: 1.000000
+ Closest example 7's weighted distance: 0.366737
+  That distance's discrete class label: 0.186667
+ Closest example 8's weighted distance: 0.703374
+  That distance's discrete class label: 0.371111
+ Closest example 9's weighted distance: 0.599739
+  That distance's discrete class label: 0.333333
+ Closest example 10's weighted distance: 0.567673
+  That distance's discrete class label: 0.317778
+ Closest example 11's weighted distance: 0.885145
+  That distance's discrete class label: 0.500000
+ Closest example 12's weighted distance: 0.780475
+  That distance's discrete class label: 0.446667
+ Closest example 13's weighted distance: 0.398537
+  That distance's discrete class label: 0.235556
+ Closest example 14's weighted distance: 0.892133
+  That distance's discrete class label: 0.533333
+Discrete summation: 16.757646, denominator summation: 6.698262
+Discrete value for label: 16.757646
+In filter, after predicting.
+feature 17: targ: 17.400000, pred 16.757646. Delta: 0.036917
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000773 0.000000 0.073314 0.000000 0.211934 0.805518 0.828012 0.146532 0.086957 0.011450 0.553191 0.996602 0.160872 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.211108
+  That distance's discrete class label: 0.500000
+ Closest example 1's weighted distance: 2.368839
+  That distance's discrete class label: 0.446667
+ Closest example 2's weighted distance: 2.648094
+  That distance's discrete class label: 0.533333
+ Closest example 3's weighted distance: 3.221170
+  That distance's discrete class label: 0.671111
+ Closest example 4's weighted distance: 1.181278
+  That distance's discrete class label: 0.348889
+ Closest example 5's weighted distance: 1.189112
+  That distance's discrete class label: 0.400000
+ Closest example 6's weighted distance: 2.656211
+  That distance's discrete class label: 0.911111
+ Closest example 7's weighted distance: 1.230896
+  That distance's discrete class label: 0.431111
+ Closest example 8's weighted distance: 1.015262
+  That distance's discrete class label: 0.371111
+ Closest example 9's weighted distance: 1.673438
+  That distance's discrete class label: 0.626667
+ Closest example 10's weighted distance: 0.924285
+  That distance's discrete class label: 0.386667
+ Closest example 11's weighted distance: 0.795238
+  That distance's discrete class label: 0.366667
+ Closest example 12's weighted distance: 0.841618
+  That distance's discrete class label: 0.406667
+ Closest example 13's weighted distance: 1.132242
+  That distance's discrete class label: 0.608889
+ Closest example 14's weighted distance: 0.584523
+  That distance's discrete class label: 0.317778
+Discrete summation: 24.673315, denominator summation: 5.263055
+Discrete value for label: 24.673315
+In filter, after predicting.
+feature 18: targ: 39.800000, pred 24.673315. Delta: 0.380067
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.001110 0.450000 0.109238 0.000000 0.106996 0.649550 0.191555 0.486519 0.173913 0.402672 0.276596 0.951265 0.092991 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.361061
+  That distance's discrete class label: 0.624444
+ Closest example 1's weighted distance: 2.712253
+  That distance's discrete class label: 0.608889
+ Closest example 2's weighted distance: 2.351572
+  That distance's discrete class label: 0.626667
+ Closest example 3's weighted distance: 3.007281
+  That distance's discrete class label: 0.911111
+ Closest example 4's weighted distance: 2.158679
+  That distance's discrete class label: 1.000000
+ Closest example 5's weighted distance: 1.371453
+  That distance's discrete class label: 0.671111
+ Closest example 6's weighted distance: 0.850873
+  That distance's discrete class label: 0.533333
+ Closest example 7's weighted distance: 0.535075
+  That distance's discrete class label: 0.348889
+ Closest example 8's weighted distance: 0.619699
+  That distance's discrete class label: 0.446667
+ Closest example 9's weighted distance: 0.568221
+  That distance's discrete class label: 0.431111
+ Closest example 10's weighted distance: 0.645536
+  That distance's discrete class label: 0.500000
+ Closest example 11's weighted distance: 0.492207
+  That distance's discrete class label: 0.386667
+ Closest example 12's weighted distance: 0.514353
+  That distance's discrete class label: 0.406667
+ Closest example 13's weighted distance: 0.691433
+  That distance's discrete class label: 0.697778
+ Closest example 14's weighted distance: 0.560013
+  That distance's discrete class label: 0.566667
+Discrete summation: 20.439708, denominator summation: 9.062482
+Discrete value for label: 20.439708
+In filter, after predicting.
+feature 19: targ: 37.000000, pred 20.439708. Delta: 0.447575
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000119 0.950000 0.037023 0.000000 0.037037 0.684806 0.113285 0.593240 0.086957 0.410305 0.468085 0.968051 0.075055 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 2.809806
+  That distance's discrete class label: 1.000000
+ Closest example 1's weighted distance: 1.206336
+  That distance's discrete class label: 0.624444
+ Closest example 2's weighted distance: 1.049572
+  That distance's discrete class label: 0.608889
+ Closest example 3's weighted distance: 0.993800
+  That distance's discrete class label: 0.626667
+ Closest example 4's weighted distance: 0.954995
+  That distance's discrete class label: 0.911111
+ Closest example 5's weighted distance: 0.663001
+  That distance's discrete class label: 0.664444
+ Closest example 6's weighted distance: 0.657188
+  That distance's discrete class label: 0.671111
+ Closest example 7's weighted distance: 0.370049
+  That distance's discrete class label: 0.402222
+ Closest example 8's weighted distance: 0.376557
+  That distance's discrete class label: 0.411111
+ Closest example 9's weighted distance: 0.543904
+  That distance's discrete class label: 0.604444
+ Closest example 10's weighted distance: 0.742969
+  That distance's discrete class label: 0.828889
+ Closest example 11's weighted distance: 0.385181
+  That distance's discrete class label: 0.433333
+ Closest example 12's weighted distance: 0.385484
+  That distance's discrete class label: 0.437778
+ Closest example 13's weighted distance: 0.469477
+  That distance's discrete class label: 0.533333
+ Closest example 14's weighted distance: 0.587767
+  That distance's discrete class label: 0.675556
+Discrete summation: 12.196085, denominator summation: 14.013357
+Discrete value for label: 12.196085
+In filter, after predicting.
+feature 20: targ: 32.900000, pred 12.196085. Delta: 0.629298
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.002250 0.000000 0.371334 1.000000 0.213992 0.459667 0.918641 0.249843 0.130435 0.171756 0.638298 0.990745 0.428808 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 10.916353
+  That distance's discrete class label: 0.284444
+ Closest example 1's weighted distance: 8.934683
+  That distance's discrete class label: 0.388889
+ Closest example 2's weighted distance: 6.462173
+  That distance's discrete class label: 0.320000
+ Closest example 3's weighted distance: 5.180342
+  That distance's discrete class label: 0.328889
+ Closest example 4's weighted distance: 3.748963
+  That distance's discrete class label: 0.248889
+ Closest example 5's weighted distance: 3.505036
+  That distance's discrete class label: 0.257778
+ Closest example 6's weighted distance: 5.107051
+  That distance's discrete class label: 0.417778
+ Closest example 7's weighted distance: 3.893977
+  That distance's discrete class label: 0.340000
+ Closest example 8's weighted distance: 2.521160
+  That distance's discrete class label: 0.226667
+ Closest example 9's weighted distance: 2.611155
+  That distance's discrete class label: 0.235556
+ Closest example 10's weighted distance: 3.238755
+  That distance's discrete class label: 0.300000
+ Closest example 11's weighted distance: 3.350339
+  That distance's discrete class label: 0.324444
+ Closest example 12's weighted distance: 1.821369
+  That distance's discrete class label: 0.180000
+ Closest example 13's weighted distance: 3.720959
+  That distance's discrete class label: 0.368889
+ Closest example 14's weighted distance: 2.588977
+  That distance's discrete class label: 0.257778
+Discrete summation: 67.601291, denominator summation: 1.158758
+Discrete value for label: 67.601291
+In filter, after predicting.
+feature 21: targ: 21.700000, pred 67.601291. Delta: -0.679000
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.004747 0.000000 0.210411 1.000000 0.251029 0.649550 0.881565 0.157508 0.304348 0.229008 0.510638 0.986815 0.220199 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 36.388855
+  That distance's discrete class label: 0.557778
+ Closest example 1's weighted distance: 27.379802
+  That distance's discrete class label: 0.591111
+ Closest example 2's weighted distance: 13.411858
+  That distance's discrete class label: 0.593333
+ Closest example 3's weighted distance: 9.321991
+  That distance's discrete class label: 0.413333
+ Closest example 4's weighted distance: 9.490417
+  That distance's discrete class label: 0.553333
+ Closest example 5's weighted distance: 8.539472
+  That distance's discrete class label: 0.588889
+ Closest example 6's weighted distance: 5.487504
+  That distance's discrete class label: 0.417778
+ Closest example 7's weighted distance: 9.272928
+  That distance's discrete class label: 0.724444
+ Closest example 8's weighted distance: 5.395955
+  That distance's discrete class label: 0.435556
+ Closest example 9's weighted distance: 4.084921
+  That distance's discrete class label: 0.368889
+ Closest example 10's weighted distance: 4.141124
+  That distance's discrete class label: 0.395556
+ Closest example 11's weighted distance: 8.981399
+  That distance's discrete class label: 0.884444
+ Closest example 12's weighted distance: 3.947796
+  That distance's discrete class label: 0.395556
+ Closest example 13's weighted distance: 3.168073
+  That distance's discrete class label: 0.320000
+ Closest example 14's weighted distance: 3.990134
+  That distance's discrete class label: 0.413333
+Discrete summation: 153.002229, denominator summation: 1.076830
+Discrete value for label: 153.002229
+In filter, after predicting.
+feature 22: targ: 26.700000, pred 153.002229. Delta: -0.825493
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.007180 0.000000 0.210411 0.000000 0.244856 0.463690 0.671473 0.231147 0.304348 0.229008 0.510638 0.952964 0.273731 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 15.425353
+  That distance's discrete class label: 0.446667
+ Closest example 1's weighted distance: 16.321299
+  That distance's discrete class label: 0.533333
+ Closest example 2's weighted distance: 11.383355
+  That distance's discrete class label: 0.500000
+ Closest example 3's weighted distance: 4.530213
+  That distance's discrete class label: 0.431111
+ Closest example 4's weighted distance: 3.358868
+  That distance's discrete class label: 0.386667
+ Closest example 5's weighted distance: 2.715133
+  That distance's discrete class label: 0.371111
+ Closest example 6's weighted distance: 2.849659
+  That distance's discrete class label: 0.406667
+ Closest example 7's weighted distance: 2.385917
+  That distance's discrete class label: 0.348889
+ Closest example 8's weighted distance: 2.084738
+  That distance's discrete class label: 0.400000
+ Closest example 9's weighted distance: 1.611175
+  That distance's discrete class label: 0.366667
+ Closest example 10's weighted distance: 1.265733
+  That distance's discrete class label: 0.317778
+ Closest example 11's weighted distance: 2.260288
+  That distance's discrete class label: 0.671111
+ Closest example 12's weighted distance: 1.104838
+  That distance's discrete class label: 0.333333
+ Closest example 13's weighted distance: 1.794976
+  That distance's discrete class label: 0.626667
+ Closest example 14's weighted distance: 2.284305
+  That distance's discrete class label: 0.911111
+Discrete summation: 71.375852, denominator summation: 2.758564
+Discrete value for label: 71.375852
+In filter, after predicting.
+feature 23: targ: 24.300000, pred 71.375852. Delta: -0.659549
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.001418 0.300000 0.163856 0.000000 0.088477 0.639203 0.529351 0.473452 0.217391 0.215649 0.425532 0.985674 0.266280 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 6.920101
+  That distance's discrete class label: 0.626667
+ Closest example 1's weighted distance: 5.605202
+  That distance's discrete class label: 0.911111
+ Closest example 2's weighted distance: 3.577965
+  That distance's discrete class label: 0.624444
+ Closest example 3's weighted distance: 3.763227
+  That distance's discrete class label: 0.671111
+ Closest example 4's weighted distance: 3.389414
+  That distance's discrete class label: 0.608889
+ Closest example 5's weighted distance: 1.764404
+  That distance's discrete class label: 0.348889
+ Closest example 6's weighted distance: 2.373808
+  That distance's discrete class label: 0.533333
+ Closest example 7's weighted distance: 1.936200
+  That distance's discrete class label: 0.446667
+ Closest example 8's weighted distance: 1.845387
+  That distance's discrete class label: 0.500000
+ Closest example 9's weighted distance: 1.558259
+  That distance's discrete class label: 0.431111
+ Closest example 10's weighted distance: 1.196303
+  That distance's discrete class label: 0.386667
+ Closest example 11's weighted distance: 1.036257
+  That distance's discrete class label: 0.406667
+ Closest example 12's weighted distance: 0.797429
+  That distance's discrete class label: 0.371111
+ Closest example 13's weighted distance: 0.795097
+  That distance's discrete class label: 0.400000
+ Closest example 14's weighted distance: 0.538449
+  That distance's discrete class label: 0.317778
+Discrete summation: 37.097502, denominator summation: 4.260616
+Discrete value for label: 37.097502
+In filter, after predicting.
+feature 24: targ: 22.000000, pred 37.097502. Delta: -0.406968
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.001785 0.220000 0.197947 0.000000 0.094650 0.560644 0.104016 0.569897 0.260870 0.272901 0.691489 0.998428 0.115066 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.475273
+  That distance's discrete class label: 0.624444
+ Closest example 1's weighted distance: 2.563975
+  That distance's discrete class label: 0.608889
+ Closest example 2's weighted distance: 1.996767
+  That distance's discrete class label: 0.626667
+ Closest example 3's weighted distance: 1.810017
+  That distance's discrete class label: 0.671111
+ Closest example 4's weighted distance: 0.713937
+  That distance's discrete class label: 0.348889
+ Closest example 5's weighted distance: 0.867318
+  That distance's discrete class label: 0.431111
+ Closest example 6's weighted distance: 1.806249
+  That distance's discrete class label: 0.911111
+ Closest example 7's weighted distance: 0.757356
+  That distance's discrete class label: 0.386667
+ Closest example 8's weighted distance: 0.982058
+  That distance's discrete class label: 0.533333
+ Closest example 9's weighted distance: 0.702585
+  That distance's discrete class label: 0.446667
+ Closest example 10's weighted distance: 0.580170
+  That distance's discrete class label: 0.406667
+ Closest example 11's weighted distance: 0.701783
+  That distance's discrete class label: 0.500000
+ Closest example 12's weighted distance: 0.468298
+  That distance's discrete class label: 0.471111
+ Closest example 13's weighted distance: 0.436375
+  That distance's discrete class label: 0.440000
+ Closest example 14's weighted distance: 0.527677
+  That distance's discrete class label: 0.546667
+Discrete summation: 18.389838, denominator summation: 8.745035
+Discrete value for label: 18.389838
+In filter, after predicting.
+feature 25: targ: 24.400000, pred 18.389838. Delta: 0.246318
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.007223 0.200000 0.128666 0.000000 0.539095 0.697835 0.812564 0.089343 0.173913 0.146947 0.042553 0.989604 0.216887 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 1.284008
+  That distance's discrete class label: 0.500000
+ Closest example 1's weighted distance: 1.014600
+  That distance's discrete class label: 0.400000
+ Closest example 2's weighted distance: 1.058691
+  That distance's discrete class label: 0.446667
+ Closest example 3's weighted distance: 1.229041
+  That distance's discrete class label: 0.533333
+ Closest example 4's weighted distance: 1.995081
+  That distance's discrete class label: 0.911111
+ Closest example 5's weighted distance: 0.773212
+  That distance's discrete class label: 0.366667
+ Closest example 6's weighted distance: 0.817388
+  That distance's discrete class label: 0.406667
+ Closest example 7's weighted distance: 0.692002
+  That distance's discrete class label: 0.371111
+ Closest example 8's weighted distance: 1.770284
+  That distance's discrete class label: 1.000000
+ Closest example 9's weighted distance: 1.741609
+  That distance's discrete class label: 1.000000
+ Closest example 10's weighted distance: 0.975858
+  That distance's discrete class label: 0.626667
+ Closest example 11's weighted distance: 0.523787
+  That distance's discrete class label: 0.348889
+ Closest example 12's weighted distance: 0.993411
+  That distance's discrete class label: 0.671111
+ Closest example 13's weighted distance: 0.596988
+  That distance's discrete class label: 0.431111
+ Closest example 14's weighted distance: 0.503510
+  That distance's discrete class label: 0.386667
+Discrete summation: 15.969470, denominator summation: 8.217164
+Discrete value for label: 15.969470
+In filter, after predicting.
+feature 26: targ: 33.800000, pred 15.969470. Delta: 0.527530
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.003946 0.200000 0.238270 0.000000 0.162551 0.439739 0.403708 0.300030 0.086957 0.068702 0.638298 0.979081 0.310982 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 8.188387
+  That distance's discrete class label: 0.348889
+ Closest example 1's weighted distance: 3.886888
+  That distance's discrete class label: 0.386667
+ Closest example 2's weighted distance: 3.997341
+  That distance's discrete class label: 0.431111
+ Closest example 3's weighted distance: 4.066178
+  That distance's discrete class label: 0.671111
+ Closest example 4's weighted distance: 3.647366
+  That distance's discrete class label: 0.608889
+ Closest example 5's weighted distance: 3.594722
+  That distance's discrete class label: 0.626667
+ Closest example 6's weighted distance: 3.539990
+  That distance's discrete class label: 0.624444
+ Closest example 7's weighted distance: 1.669375
+  That distance's discrete class label: 0.406667
+ Closest example 8's weighted distance: 2.069990
+  That distance's discrete class label: 0.533333
+ Closest example 9's weighted distance: 1.513115
+  That distance's discrete class label: 0.446667
+ Closest example 10's weighted distance: 1.519841
+  That distance's discrete class label: 0.500000
+ Closest example 11's weighted distance: 2.349287
+  That distance's discrete class label: 0.911111
+ Closest example 12's weighted distance: 0.781547
+  That distance's discrete class label: 0.317778
+ Closest example 13's weighted distance: 0.791910
+  That distance's discrete class label: 0.371111
+ Closest example 14's weighted distance: 0.798568
+  That distance's discrete class label: 0.400000
+Discrete summation: 42.414505, denominator summation: 3.822033
+Discrete value for label: 42.414505
+In filter, after predicting.
+feature 27: targ: 21.100000, pred 42.414505. Delta: -0.502529
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000363 0.200000 0.105205 0.000000 0.119136 0.816057 0.634398 0.324191 0.173913 0.055344 0.244681 0.975683 0.056015 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 32.926798
+  That distance's discrete class label: 0.911111
+ Closest example 1's weighted distance: 3.419388
+  That distance's discrete class label: 0.626667
+ Closest example 2's weighted distance: 3.241890
+  That distance's discrete class label: 0.671111
+ Closest example 3's weighted distance: 2.063217
+  That distance's discrete class label: 0.533333
+ Closest example 4's weighted distance: 1.586701
+  That distance's discrete class label: 0.446667
+ Closest example 5's weighted distance: 1.765503
+  That distance's discrete class label: 0.500000
+ Closest example 6's weighted distance: 2.074095
+  That distance's discrete class label: 0.608889
+ Closest example 7's weighted distance: 1.928733
+  That distance's discrete class label: 0.624444
+ Closest example 8's weighted distance: 0.882523
+  That distance's discrete class label: 0.348889
+ Closest example 9's weighted distance: 0.823168
+  That distance's discrete class label: 0.400000
+ Closest example 10's weighted distance: 0.864104
+  That distance's discrete class label: 0.431111
+ Closest example 11's weighted distance: 0.789690
+  That distance's discrete class label: 0.406667
+ Closest example 12's weighted distance: 0.672679
+  That distance's discrete class label: 0.386667
+ Closest example 13's weighted distance: 0.594133
+  That distance's discrete class label: 0.371111
+ Closest example 14's weighted distance: 0.542009
+  That distance's discrete class label: 0.366667
+Discrete summation: 54.174630, denominator summation: 5.629565
+Discrete value for label: 54.174630
+In filter, after predicting.
+feature 28: targ: 45.400000, pred 54.174630. Delta: -0.161969
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000353 0.800000 0.164589 0.000000 0.053498 0.632305 0.257467 0.362566 0.130435 0.110687 0.702128 1.000000 0.044150 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.140951
+  That distance's discrete class label: 0.624444
+ Closest example 1's weighted distance: 2.904746
+  That distance's discrete class label: 0.608889
+ Closest example 2's weighted distance: 2.430838
+  That distance's discrete class label: 0.626667
+ Closest example 3's weighted distance: 2.190433
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 1.386969
+  That distance's discrete class label: 0.671111
+ Closest example 5's weighted distance: 0.553369
+  That distance's discrete class label: 0.348889
+ Closest example 6's weighted distance: 1.385303
+  That distance's discrete class label: 0.911111
+ Closest example 7's weighted distance: 0.454498
+  That distance's discrete class label: 0.431111
+ Closest example 8's weighted distance: 0.553178
+  That distance's discrete class label: 0.533333
+ Closest example 9's weighted distance: 0.399034
+  That distance's discrete class label: 0.386667
+ Closest example 10's weighted distance: 0.715582
+  That distance's discrete class label: 0.717778
+ Closest example 11's weighted distance: 0.506087
+  That distance's discrete class label: 0.508889
+ Closest example 12's weighted distance: 0.557552
+  That distance's discrete class label: 0.573333
+ Closest example 13's weighted distance: 0.424542
+  That distance's discrete class label: 0.446667
+ Closest example 14's weighted distance: 0.460099
+  That distance's discrete class label: 0.500000
+Discrete summation: 18.063179, denominator summation: 10.952229
+Discrete value for label: 18.063179
+In filter, after predicting.
+feature 29: targ: 28.500000, pred 18.063179. Delta: 0.366204
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000478 0.700000 0.065249 0.000000 0.030864 0.634221 0.458290 0.609099 0.173913 0.326336 0.234043 0.984685 0.119757 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.186645
+  That distance's discrete class label: 1.000000
+ Closest example 1's weighted distance: 1.869392
+  That distance's discrete class label: 0.626667
+ Closest example 2's weighted distance: 1.688144
+  That distance's discrete class label: 0.624444
+ Closest example 3's weighted distance: 1.533955
+  That distance's discrete class label: 0.608889
+ Closest example 4's weighted distance: 2.167088
+  That distance's discrete class label: 0.911111
+ Closest example 5's weighted distance: 1.015836
+  That distance's discrete class label: 0.671111
+ Closest example 6's weighted distance: 0.459599
+  That distance's discrete class label: 0.348889
+ Closest example 7's weighted distance: 0.623594
+  That distance's discrete class label: 0.533333
+ Closest example 8's weighted distance: 0.510077
+  That distance's discrete class label: 0.446667
+ Closest example 9's weighted distance: 0.530255
+  That distance's discrete class label: 0.500000
+ Closest example 10's weighted distance: 0.427638
+  That distance's discrete class label: 0.431111
+ Closest example 11's weighted distance: 0.360687
+  That distance's discrete class label: 0.386667
+ Closest example 12's weighted distance: 0.392023
+  That distance's discrete class label: 0.424444
+ Closest example 13's weighted distance: 0.372927
+  That distance's discrete class label: 0.406667
+ Closest example 14's weighted distance: 0.355664
+  That distance's discrete class label: 0.388889
+Discrete summation: 15.493526, denominator summation: 11.276696
+Discrete value for label: 15.493526
+In filter, after predicting.
+feature 30: targ: 24.800000, pred 15.493526. Delta: 0.375261
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.035721 0.000000 0.346041 0.000000 0.327160 0.270550 0.359423 0.126381 0.130435 0.223282 0.617021 0.882220 0.301049 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.857628
+  That distance's discrete class label: 0.386667
+ Closest example 1's weighted distance: 3.010117
+  That distance's discrete class label: 0.431111
+ Closest example 2's weighted distance: 2.646148
+  That distance's discrete class label: 0.406667
+ Closest example 3's weighted distance: 1.541463
+  That distance's discrete class label: 0.348889
+ Closest example 4's weighted distance: 1.813352
+  That distance's discrete class label: 0.533333
+ Closest example 5's weighted distance: 1.224008
+  That distance's discrete class label: 0.446667
+ Closest example 6's weighted distance: 1.284370
+  That distance's discrete class label: 0.500000
+ Closest example 7's weighted distance: 0.757166
+  That distance's discrete class label: 0.317778
+ Closest example 8's weighted distance: 1.351747
+  That distance's discrete class label: 0.608889
+ Closest example 9's weighted distance: 1.444296
+  That distance's discrete class label: 0.671111
+ Closest example 10's weighted distance: 0.769182
+  That distance's discrete class label: 0.366667
+ Closest example 11's weighted distance: 0.829346
+  That distance's discrete class label: 0.400000
+ Closest example 12's weighted distance: 1.293053
+  That distance's discrete class label: 0.624444
+ Closest example 13's weighted distance: 0.747001
+  That distance's discrete class label: 0.371111
+ Closest example 14's weighted distance: 1.192480
+  That distance's discrete class label: 0.626667
+Discrete summation: 23.761358, denominator summation: 5.470853
+Discrete value for label: 23.761358
+In filter, after predicting.
+feature 31: targ: 16.100000, pred 23.761358. Delta: -0.322429
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.002156 0.000000 0.253666 0.000000 0.222222 0.548956 0.508754 0.310160 0.173913 0.190840 0.744681 1.000000 0.150938 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 5.264763
+  That distance's discrete class label: 0.431111
+ Closest example 1's weighted distance: 3.583405
+  That distance's discrete class label: 0.386667
+ Closest example 2's weighted distance: 4.582308
+  That distance's discrete class label: 0.533333
+ Closest example 3's weighted distance: 2.662130
+  That distance's discrete class label: 0.348889
+ Closest example 4's weighted distance: 4.893079
+  That distance's discrete class label: 0.671111
+ Closest example 5's weighted distance: 3.069270
+  That distance's discrete class label: 0.446667
+ Closest example 6's weighted distance: 2.920642
+  That distance's discrete class label: 0.500000
+ Closest example 7's weighted distance: 1.650376
+  That distance's discrete class label: 0.406667
+ Closest example 8's weighted distance: 2.503080
+  That distance's discrete class label: 0.626667
+ Closest example 9's weighted distance: 2.195444
+  That distance's discrete class label: 0.608889
+ Closest example 10's weighted distance: 2.082138
+  That distance's discrete class label: 0.624444
+ Closest example 11's weighted distance: 1.059604
+  That distance's discrete class label: 0.400000
+ Closest example 12's weighted distance: 0.898430
+  That distance's discrete class label: 0.371111
+ Closest example 13's weighted distance: 2.190567
+  That distance's discrete class label: 0.911111
+ Closest example 14's weighted distance: 0.745356
+  That distance's discrete class label: 0.317778
+Discrete summation: 40.300591, denominator summation: 3.597965
+Discrete value for label: 40.300591
+In filter, after predicting.
+feature 32: targ: 23.800000, pred 40.300591. Delta: -0.409438
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000495 0.000000 0.101906 0.000000 0.154321 0.494922 0.301751 0.431394 0.130435 0.463740 0.457447 0.928166 0.203091 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 1.847764
+  That distance's discrete class label: 0.533333
+ Closest example 1's weighted distance: 1.356311
+  That distance's discrete class label: 0.431111
+ Closest example 2's weighted distance: 1.177232
+  That distance's discrete class label: 0.386667
+ Closest example 3's weighted distance: 1.821423
+  That distance's discrete class label: 0.624444
+ Closest example 4's weighted distance: 1.263506
+  That distance's discrete class label: 0.446667
+ Closest example 5's weighted distance: 1.682747
+  That distance's discrete class label: 0.608889
+ Closest example 6's weighted distance: 1.613622
+  That distance's discrete class label: 0.626667
+ Closest example 7's weighted distance: 0.887718
+  That distance's discrete class label: 0.348889
+ Closest example 8's weighted distance: 2.262923
+  That distance's discrete class label: 0.911111
+ Closest example 9's weighted distance: 1.658388
+  That distance's discrete class label: 0.671111
+ Closest example 10's weighted distance: 1.224489
+  That distance's discrete class label: 0.500000
+ Closest example 11's weighted distance: 0.963691
+  That distance's discrete class label: 0.406667
+ Closest example 12's weighted distance: 0.556473
+  That distance's discrete class label: 0.371111
+ Closest example 13's weighted distance: 0.554176
+  That distance's discrete class label: 0.400000
+ Closest example 14's weighted distance: 0.415209
+  That distance's discrete class label: 0.317778
+Discrete summation: 19.285670, denominator summation: 6.566174
+Discrete value for label: 19.285670
+In filter, after predicting.
+feature 33: targ: 19.800000, pred 19.285670. Delta: 0.025976
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000713 0.000000 0.173387 0.000000 0.267490 0.461199 0.572606 0.334876 0.173913 0.070611 0.808511 1.000000 0.208609 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.928179
+  That distance's discrete class label: 0.431111
+ Closest example 1's weighted distance: 3.057990
+  That distance's discrete class label: 0.348889
+ Closest example 2's weighted distance: 2.921010
+  That distance's discrete class label: 0.386667
+ Closest example 3's weighted distance: 2.940980
+  That distance's discrete class label: 0.533333
+ Closest example 4's weighted distance: 2.386442
+  That distance's discrete class label: 0.446667
+ Closest example 5's weighted distance: 3.150850
+  That distance's discrete class label: 0.671111
+ Closest example 6's weighted distance: 2.249243
+  That distance's discrete class label: 0.500000
+ Closest example 7's weighted distance: 1.276299
+  That distance's discrete class label: 0.406667
+ Closest example 8's weighted distance: 1.826230
+  That distance's discrete class label: 0.626667
+ Closest example 9's weighted distance: 0.867913
+  That distance's discrete class label: 0.317778
+ Closest example 10's weighted distance: 1.579902
+  That distance's discrete class label: 0.608889
+ Closest example 11's weighted distance: 0.960088
+  That distance's discrete class label: 0.371111
+ Closest example 12's weighted distance: 1.516810
+  That distance's discrete class label: 0.624444
+ Closest example 13's weighted distance: 0.937619
+  That distance's discrete class label: 0.400000
+ Closest example 14's weighted distance: 0.770903
+  That distance's discrete class label: 0.333333
+Discrete summation: 30.370458, denominator summation: 4.230559
+Discrete value for label: 30.370458
+In filter, after predicting.
+feature 34: targ: 18.700000, pred 30.370458. Delta: -0.384270
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.000722 0.400000 0.028959 0.000000 0.090535 0.561219 0.427394 0.696787 0.000000 0.282443 0.755319 1.000000 0.117274 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 2.195849
+  That distance's discrete class label: 0.626667
+ Closest example 1's weighted distance: 2.136198
+  That distance's discrete class label: 0.624444
+ Closest example 2's weighted distance: 1.828523
+  That distance's discrete class label: 0.608889
+ Closest example 3's weighted distance: 1.779285
+  That distance's discrete class label: 0.671111
+ Closest example 4's weighted distance: 0.792280
+  That distance's discrete class label: 0.348889
+ Closest example 5's weighted distance: 1.637524
+  That distance's discrete class label: 0.911111
+ Closest example 6's weighted distance: 0.724141
+  That distance's discrete class label: 0.431111
+ Closest example 7's weighted distance: 0.588102
+  That distance's discrete class label: 0.386667
+ Closest example 8's weighted distance: 0.810149
+  That distance's discrete class label: 0.533333
+ Closest example 9's weighted distance: 0.664143
+  That distance's discrete class label: 0.446667
+ Closest example 10's weighted distance: 0.656706
+  That distance's discrete class label: 0.500000
+ Closest example 11's weighted distance: 1.069652
+  That distance's discrete class label: 1.000000
+ Closest example 12's weighted distance: 0.432402
+  That distance's discrete class label: 0.406667
+ Closest example 13's weighted distance: 0.471456
+  That distance's discrete class label: 0.480000
+ Closest example 14's weighted distance: 0.302635
+  That distance's discrete class label: 0.317778
+Discrete summation: 16.089045, denominator summation: 9.573219
+Discrete value for label: 16.089045
+In filter, after predicting.
+feature 35: targ: 22.900000, pred 16.089045. Delta: 0.297422
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.061651 0.000000 0.646628 0.000000 0.792181 0.543591 0.876416 0.126272 1.000000 0.914122 0.808511 0.943354 0.167219 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 21.221301
+  That distance's discrete class label: 0.393333
+ Closest example 1's weighted distance: 14.428357
+  That distance's discrete class label: 0.371111
+ Closest example 2's weighted distance: 4.772885
+  That distance's discrete class label: 0.262222
+ Closest example 3's weighted distance: 12.762442
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 3.198610
+  That distance's discrete class label: 0.284444
+ Closest example 5's weighted distance: 8.551241
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 1.610633
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.330269
+  That distance's discrete class label: 0.337778
+ Closest example 8's weighted distance: 0.380608
+  That distance's discrete class label: 0.391111
+ Closest example 9's weighted distance: 0.319242
+  That distance's discrete class label: 0.331111
+ Closest example 10's weighted distance: 0.306780
+  That distance's discrete class label: 0.322222
+ Closest example 11's weighted distance: 0.268373
+  That distance's discrete class label: 0.282222
+ Closest example 12's weighted distance: 0.333524
+  That distance's discrete class label: 0.351111
+ Closest example 13's weighted distance: 0.314567
+  That distance's discrete class label: 0.333333
+ Closest example 14's weighted distance: 0.156832
+  That distance's discrete class label: 0.168889
+Discrete summation: 68.955664, denominator summation: 8.995312
+Discrete value for label: 68.955664
+In filter, after predicting.
+feature 36: targ: 25.000000, pred 68.955664. Delta: -0.637448
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.088809 0.000000 0.646628 1.000000 0.506173 0.662004 0.974253 0.006620 1.000000 0.914122 0.808511 0.987702 0.033940 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 15.951450
+  That distance's discrete class label: 1.000000
+ Closest example 1's weighted distance: 3.184892
+  That distance's discrete class label: 0.337778
+ Closest example 2's weighted distance: 1.770468
+  That distance's discrete class label: 0.222222
+ Closest example 3's weighted distance: 2.839583
+  That distance's discrete class label: 0.364444
+ Closest example 4's weighted distance: 3.194210
+  That distance's discrete class label: 0.444444
+ Closest example 5's weighted distance: 2.710940
+  That distance's discrete class label: 0.415556
+ Closest example 6's weighted distance: 6.377029
+  That distance's discrete class label: 1.000000
+ Closest example 7's weighted distance: 1.214313
+  That distance's discrete class label: 0.195556
+ Closest example 8's weighted distance: 3.004375
+  That distance's discrete class label: 0.508889
+ Closest example 9's weighted distance: 3.223551
+  That distance's discrete class label: 0.551111
+ Closest example 10's weighted distance: 1.629062
+  That distance's discrete class label: 0.282222
+ Closest example 11's weighted distance: 1.855070
+  That distance's discrete class label: 0.324444
+ Closest example 12's weighted distance: 1.781196
+  That distance's discrete class label: 0.322222
+ Closest example 13's weighted distance: 0.982697
+  That distance's discrete class label: 0.180000
+ Closest example 14's weighted distance: 1.467990
+  That distance's discrete class label: 0.284444
+Discrete summation: 51.186826, denominator summation: 2.279212
+Discrete value for label: 51.186826
+In filter, after predicting.
+feature 37: targ: 50.000000, pred 51.186826. Delta: -0.023186
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 1.210025 0.000000 0.646628 0.000000 0.588477 0.652807 0.916581 0.026089 1.000000 0.914122 0.808511 1.000000 0.427152 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 0.000000
+  That distance's discrete class label: 0.000000
+ Closest example 1's weighted distance: 0.226474
+  That distance's discrete class label: 0.284444
+ Closest example 2's weighted distance: 0.758504
+  That distance's discrete class label: 1.000000
+ Closest example 3's weighted distance: 0.278470
+  That distance's discrete class label: 0.393333
+ Closest example 4's weighted distance: 0.262097
+  That distance's discrete class label: 0.371111
+ Closest example 5's weighted distance: 0.695680
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 0.182055
+  That distance's discrete class label: 0.262222
+ Closest example 7's weighted distance: 0.048397
+  That distance's discrete class label: 0.077778
+ Closest example 8's weighted distance: 0.232903
+  That distance's discrete class label: 0.375556
+ Closest example 9's weighted distance: 0.000000
+  That distance's discrete class label: 0.000000
+ Closest example 10's weighted distance: 0.098034
+  That distance's discrete class label: 0.180000
+ Closest example 11's weighted distance: 0.039267
+  That distance's discrete class label: 0.073333
+ Closest example 12's weighted distance: 0.116396
+  That distance's discrete class label: 0.222222
+ Closest example 13's weighted distance: 0.058400
+  That distance's discrete class label: 0.115556
+ Closest example 14's weighted distance: 0.065162
+  That distance's discrete class label: 0.131111
+Discrete summation: 3.061840, denominator summation: 23.985334
+Discrete value for label: 3.061840
+In filter, after predicting.
+feature 38: targ: 10.400000, pred 3.061840. Delta: 0.705592
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.094568 0.000000 0.646628 0.000000 0.648148 0.412340 0.969104 0.072466 1.000000 0.914122 0.808511 0.993737 0.424393 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 8.632044
+  That distance's discrete class label: 0.284444
+ Closest example 1's weighted distance: 5.842343
+  That distance's discrete class label: 0.262222
+ Closest example 2's weighted distance: 6.455198
+  That distance's discrete class label: 0.371111
+ Closest example 3's weighted distance: 5.134115
+  That distance's discrete class label: 0.393333
+ Closest example 4's weighted distance: 12.168673
+  That distance's discrete class label: 1.000000
+ Closest example 5's weighted distance: 5.092775
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 0.771697
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.077202
+  That distance's discrete class label: 0.077778
+ Closest example 8's weighted distance: 0.169400
+  That distance's discrete class label: 0.171111
+ Closest example 9's weighted distance: 0.199825
+  That distance's discrete class label: 0.202222
+ Closest example 10's weighted distance: 0.192799
+  That distance's discrete class label: 0.195556
+ Closest example 11's weighted distance: 0.142241
+  That distance's discrete class label: 0.144444
+ Closest example 12's weighted distance: 0.292597
+  That distance's discrete class label: 0.297778
+ Closest example 13's weighted distance: 0.242080
+  That distance's discrete class label: 0.246667
+ Closest example 14's weighted distance: 0.165542
+  That distance's discrete class label: 0.168889
+Discrete summation: 45.578530, denominator summation: 9.093354
+Discrete value for label: 45.578530
+In filter, after predicting.
+feature 39: targ: 15.100000, pred 45.578530. Delta: -0.668704
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.340524 0.000000 0.646628 0.000000 0.633745 0.464840 1.000000 0.041757 1.000000 0.914122 0.808511 1.000000 0.690949 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 1.973256
+  That distance's discrete class label: 0.284444
+ Closest example 1's weighted distance: 1.071966
+  That distance's discrete class label: 0.262222
+ Closest example 2's weighted distance: 1.380487
+  That distance's discrete class label: 0.371111
+ Closest example 3's weighted distance: 1.242575
+  That distance's discrete class label: 0.393333
+ Closest example 4's weighted distance: 3.053032
+  That distance's discrete class label: 1.000000
+ Closest example 5's weighted distance: 1.952273
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 0.487859
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.176961
+  That distance's discrete class label: 0.180000
+ Closest example 8's weighted distance: 0.111865
+  That distance's discrete class label: 0.115556
+ Closest example 9's weighted distance: 0.046816
+  That distance's discrete class label: 0.048889
+ Closest example 10's weighted distance: 0.124415
+  That distance's discrete class label: 0.131111
+ Closest example 11's weighted distance: 0.069572
+  That distance's discrete class label: 0.073333
+ Closest example 12's weighted distance: 0.000000
+  That distance's discrete class label: 0.000000
+ Closest example 13's weighted distance: 0.186958
+  That distance's discrete class label: 0.197778
+ Closest example 14's weighted distance: 0.046211
+  That distance's discrete class label: 0.048889
+Discrete summation: 11.924244, denominator summation: 10.956286
+Discrete value for label: 11.924244
+In filter, after predicting.
+feature 40: targ: 5.600000, pred 11.924244. Delta: -0.530369
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.695365 0.000000 0.646628 0.000000 0.436214 0.420770 1.000000 0.025771 1.000000 0.914122 0.808511 0.000203 0.231236 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 0.115454
+  That distance's discrete class label: 0.131111
+ Closest example 1's weighted distance: 0.875974
+  That distance's discrete class label: 1.000000
+ Closest example 2's weighted distance: 0.069827
+  That distance's discrete class label: 0.084444
+ Closest example 3's weighted distance: 0.744000
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 0.193672
+  That distance's discrete class label: 0.262222
+ Closest example 5's weighted distance: 0.195747
+  That distance's discrete class label: 0.271111
+ Closest example 6's weighted distance: 0.105589
+  That distance's discrete class label: 0.148889
+ Closest example 7's weighted distance: 0.072306
+  That distance's discrete class label: 0.102222
+ Closest example 8's weighted distance: 0.200971
+  That distance's discrete class label: 0.284444
+ Closest example 9's weighted distance: 0.051677
+  That distance's discrete class label: 0.073333
+ Closest example 10's weighted distance: 0.171773
+  That distance's discrete class label: 0.251111
+ Closest example 11's weighted distance: 0.101508
+  That distance's discrete class label: 0.148889
+ Closest example 12's weighted distance: 0.137357
+  That distance's discrete class label: 0.202222
+ Closest example 13's weighted distance: 0.081378
+  That distance's discrete class label: 0.120000
+ Closest example 14's weighted distance: 0.148462
+  That distance's discrete class label: 0.220000
+Discrete summation: 3.265694, denominator summation: 20.585193
+Discrete value for label: 3.265694
+In filter, after predicting.
+feature 41: targ: 15.000000, pred 3.265694. Delta: 0.782287
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.150674 0.000000 0.646628 0.000000 0.685185 0.546082 1.000000 0.066319 1.000000 0.914122 0.808511 0.801841 0.366722 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 6.701427
+  That distance's discrete class label: 0.284444
+ Closest example 1's weighted distance: 4.832857
+  That distance's discrete class label: 0.262222
+ Closest example 2's weighted distance: 5.347184
+  That distance's discrete class label: 0.371111
+ Closest example 3's weighted distance: 13.767649
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 3.798148
+  That distance's discrete class label: 0.393333
+ Closest example 5's weighted distance: 6.211252
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 1.144567
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.202063
+  That distance's discrete class label: 0.204444
+ Closest example 8's weighted distance: 0.216944
+  That distance's discrete class label: 0.220000
+ Closest example 9's weighted distance: 0.174461
+  That distance's discrete class label: 0.177778
+ Closest example 10's weighted distance: 0.221193
+  That distance's discrete class label: 0.226667
+ Closest example 11's weighted distance: 0.162667
+  That distance's discrete class label: 0.168889
+ Closest example 12's weighted distance: 0.318634
+  That distance's discrete class label: 0.331111
+ Closest example 13's weighted distance: 0.172752
+  That distance's discrete class label: 0.180000
+ Closest example 14's weighted distance: 0.221481
+  That distance's discrete class label: 0.231111
+Discrete summation: 43.493279, denominator summation: 9.063888
+Discrete value for label: 43.493279
+In filter, after predicting.
+feature 42: targ: 16.700000, pred 43.493279. Delta: -0.616033
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.115377 0.000000 0.646628 0.000000 0.409465 0.534010 0.856849 0.083942 1.000000 0.914122 0.808511 0.205208 0.439018 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 1.803635
+  That distance's discrete class label: 1.000000
+ Closest example 1's weighted distance: 0.412328
+  That distance's discrete class label: 0.262222
+ Closest example 2's weighted distance: 0.396400
+  That distance's discrete class label: 0.284444
+ Closest example 3's weighted distance: 1.377096
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 0.476515
+  That distance's discrete class label: 0.371111
+ Closest example 5's weighted distance: 0.485940
+  That distance's discrete class label: 0.393333
+ Closest example 6's weighted distance: 0.423039
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.198362
+  That distance's discrete class label: 0.202222
+ Closest example 8's weighted distance: 0.237172
+  That distance's discrete class label: 0.246667
+ Closest example 9's weighted distance: 0.256363
+  That distance's discrete class label: 0.271111
+ Closest example 10's weighted distance: 0.125926
+  That distance's discrete class label: 0.133333
+ Closest example 11's weighted distance: 0.293108
+  That distance's discrete class label: 0.311111
+ Closest example 12's weighted distance: 0.173979
+  That distance's discrete class label: 0.186667
+ Closest example 13's weighted distance: 0.191970
+  That distance's discrete class label: 0.206667
+ Closest example 14's weighted distance: 0.186826
+  That distance's discrete class label: 0.202222
+Discrete summation: 7.038658, denominator summation: 13.579280
+Discrete value for label: 7.038658
+In filter, after predicting.
+feature 43: targ: 14.500000, pred 7.038658. Delta: 0.514575
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.299790 0.000000 0.646628 0.000000 0.730453 0.432458 0.921730 0.066983 1.000000 0.914122 0.808511 0.986181 0.562362 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 4.663692
+  That distance's discrete class label: 0.284444
+ Closest example 1's weighted distance: 2.263869
+  That distance's discrete class label: 0.262222
+ Closest example 2's weighted distance: 2.643200
+  That distance's discrete class label: 0.371111
+ Closest example 3's weighted distance: 2.448703
+  That distance's discrete class label: 0.393333
+ Closest example 4's weighted distance: 4.807473
+  That distance's discrete class label: 1.000000
+ Closest example 5's weighted distance: 2.560779
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 0.604036
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.071560
+  That distance's discrete class label: 0.073333
+ Closest example 8's weighted distance: 0.167976
+  That distance's discrete class label: 0.173333
+ Closest example 9's weighted distance: 0.111372
+  That distance's discrete class label: 0.115556
+ Closest example 10's weighted distance: 0.173452
+  That distance's discrete class label: 0.180000
+ Closest example 11's weighted distance: 0.046998
+  That distance's discrete class label: 0.048889
+ Closest example 12's weighted distance: 0.256359
+  That distance's discrete class label: 0.268889
+ Closest example 13's weighted distance: 0.133462
+  That distance's discrete class label: 0.140000
+ Closest example 14's weighted distance: 0.163029
+  That distance's discrete class label: 0.171111
+Discrete summation: 21.115961, denominator summation: 10.017772
+Discrete value for label: 21.115961
+In filter, after predicting.
+feature 44: targ: 10.500000, pred 21.115961. Delta: -0.502746
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.091243 0.000000 0.646628 0.000000 0.674897 0.610845 0.923790 0.108576 1.000000 0.914122 0.808511 -0.005578 0.433499 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 0.306174
+  That distance's discrete class label: 0.262222
+ Closest example 1's weighted distance: 1.133459
+  That distance's discrete class label: 1.000000
+ Closest example 2's weighted distance: 0.301356
+  That distance's discrete class label: 0.284444
+ Closest example 3's weighted distance: 0.219247
+  That distance's discrete class label: 0.220000
+ Closest example 4's weighted distance: 0.365017
+  That distance's discrete class label: 0.371111
+ Closest example 5's weighted distance: 0.099920
+  That distance's discrete class label: 0.102222
+ Closest example 6's weighted distance: 0.197592
+  That distance's discrete class label: 0.202222
+ Closest example 7's weighted distance: 0.166427
+  That distance's discrete class label: 0.171111
+ Closest example 8's weighted distance: 0.181155
+  That distance's discrete class label: 0.188889
+ Closest example 9's weighted distance: 0.295914
+  That distance's discrete class label: 0.311111
+ Closest example 10's weighted distance: 0.143257
+  That distance's discrete class label: 0.151111
+ Closest example 11's weighted distance: 0.052091
+  That distance's discrete class label: 0.055556
+ Closest example 12's weighted distance: 0.367797
+  That distance's discrete class label: 0.393333
+ Closest example 13's weighted distance: 0.093441
+  That distance's discrete class label: 0.100000
+ Closest example 14's weighted distance: 0.070533
+  That distance's discrete class label: 0.075556
+Discrete summation: 3.993381, denominator summation: 15.203536
+Discrete value for label: 3.993381
+In filter, after predicting.
+feature 45: targ: 13.400000, pred 3.993381. Delta: 0.701986
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.065326 0.000000 0.646628 0.000000 0.674897 0.601648 0.897013 0.133483 1.000000 0.914122 0.808511 0.640778 0.405353 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 2.353416
+  That distance's discrete class label: 0.262222
+ Closest example 1's weighted distance: 2.171832
+  That distance's discrete class label: 0.284444
+ Closest example 2's weighted distance: 2.573464
+  That distance's discrete class label: 0.371111
+ Closest example 3's weighted distance: 6.572761
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 2.240101
+  That distance's discrete class label: 0.393333
+ Closest example 5's weighted distance: 3.822559
+  That distance's discrete class label: 1.000000
+ Closest example 6's weighted distance: 1.151369
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.216995
+  That distance's discrete class label: 0.220000
+ Closest example 8's weighted distance: 0.171796
+  That distance's discrete class label: 0.177778
+ Closest example 9's weighted distance: 0.211204
+  That distance's discrete class label: 0.220000
+ Closest example 10's weighted distance: 0.194082
+  That distance's discrete class label: 0.204444
+ Closest example 11's weighted distance: 0.211158
+  That distance's discrete class label: 0.226667
+ Closest example 12's weighted distance: 0.305291
+  That distance's discrete class label: 0.331111
+ Closest example 13's weighted distance: 0.117957
+  That distance's discrete class label: 0.128889
+ Closest example 14's weighted distance: 0.316735
+  That distance's discrete class label: 0.351111
+Discrete summation: 22.630720, denominator summation: 9.805056
+Discrete value for label: 22.630720
+In filter, after predicting.
+feature 46: targ: 16.400000, pred 22.630720. Delta: -0.275321
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.059024 0.000000 0.646628 0.000000 0.401235 0.499329 0.835221 0.173122 1.000000 0.914122 0.808511 1.000000 0.401766 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 7.733248
+  That distance's discrete class label: 1.000000
+ Closest example 1's weighted distance: 2.190208
+  That distance's discrete class label: 0.371111
+ Closest example 2's weighted distance: 2.293501
+  That distance's discrete class label: 0.393333
+ Closest example 3's weighted distance: 5.410011
+  That distance's discrete class label: 1.000000
+ Closest example 4's weighted distance: 1.414864
+  That distance's discrete class label: 0.262222
+ Closest example 5's weighted distance: 1.525451
+  That distance's discrete class label: 0.284444
+ Closest example 6's weighted distance: 0.842494
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.311483
+  That distance's discrete class label: 0.313333
+ Closest example 8's weighted distance: 0.398683
+  That distance's discrete class label: 0.404444
+ Closest example 9's weighted distance: 0.316954
+  That distance's discrete class label: 0.324444
+ Closest example 10's weighted distance: 0.253129
+  That distance's discrete class label: 0.260000
+ Closest example 11's weighted distance: 0.205369
+  That distance's discrete class label: 0.213333
+ Closest example 12's weighted distance: 0.349170
+  That distance's discrete class label: 0.364444
+ Closest example 13's weighted distance: 0.298078
+  That distance's discrete class label: 0.313333
+ Closest example 14's weighted distance: 0.185405
+  That distance's discrete class label: 0.195556
+Discrete summation: 23.728050, denominator summation: 9.732278
+Discrete value for label: 23.728050
+In filter, after predicting.
+feature 47: targ: 19.900000, pred 23.728050. Delta: -0.161330
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.079088 0.000000 0.646628 0.000000 0.302469 0.513700 0.636457 0.208659 1.000000 0.914122 0.808511 1.000000 0.248620 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 4.722795
+  That distance's discrete class label: 1.000000
+ Closest example 1's weighted distance: 4.279323
+  That distance's discrete class label: 1.000000
+ Closest example 2's weighted distance: 1.394977
+  That distance's discrete class label: 0.393333
+ Closest example 3's weighted distance: 1.135532
+  That distance's discrete class label: 0.371111
+ Closest example 4's weighted distance: 0.742758
+  That distance's discrete class label: 0.262222
+ Closest example 5's weighted distance: 0.698330
+  That distance's discrete class label: 0.284444
+ Closest example 6's weighted distance: 0.795075
+  That distance's discrete class label: 0.375556
+ Closest example 7's weighted distance: 0.404422
+  That distance's discrete class label: 0.415556
+ Closest example 8's weighted distance: 0.336286
+  That distance's discrete class label: 0.346667
+ Closest example 9's weighted distance: 0.348652
+  That distance's discrete class label: 0.360000
+ Closest example 10's weighted distance: 0.390502
+  That distance's discrete class label: 0.404444
+ Closest example 11's weighted distance: 0.298491
+  That distance's discrete class label: 0.313333
+ Closest example 12's weighted distance: 0.422763
+  That distance's discrete class label: 0.444444
+ Closest example 13's weighted distance: 0.319021
+  That distance's discrete class label: 0.335556
+ Closest example 14's weighted distance: 0.519916
+  That distance's discrete class label: 0.551111
+Discrete summation: 16.808843, denominator summation: 10.626404
+Discrete value for label: 16.808843
+In filter, after predicting.
+feature 48: targ: 23.000000, pred 16.808843. Delta: 0.269181
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.002698 0.000000 1.000000 0.000000 0.460905 0.293543 0.979403 0.063018 0.130435 1.000000 0.797872 0.801029 0.771247 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 0.043030
+  That distance's discrete class label: 0.044444
+ Closest example 1's weighted distance: 0.167997
+  That distance's discrete class label: 0.186667
+ Closest example 2's weighted distance: 0.197383
+  That distance's discrete class label: 0.226667
+ Closest example 3's weighted distance: 0.164067
+  That distance's discrete class label: 0.191111
+ Closest example 4's weighted distance: 0.238435
+  That distance's discrete class label: 0.284444
+ Closest example 5's weighted distance: 0.217014
+  That distance's discrete class label: 0.262222
+ Closest example 6's weighted distance: 0.211793
+  That distance's discrete class label: 0.266667
+ Closest example 7's weighted distance: 0.249962
+  That distance's discrete class label: 0.317778
+ Closest example 8's weighted distance: 0.260850
+  That distance's discrete class label: 0.333333
+ Closest example 9's weighted distance: 0.778719
+  That distance's discrete class label: 1.000000
+ Closest example 10's weighted distance: 0.259176
+  That distance's discrete class label: 0.335556
+ Closest example 11's weighted distance: 0.281689
+  That distance's discrete class label: 0.366667
+ Closest example 12's weighted distance: 0.175042
+  That distance's discrete class label: 0.228889
+ Closest example 13's weighted distance: 0.283030
+  That distance's discrete class label: 0.371111
+ Closest example 14's weighted distance: 0.288843
+  That distance's discrete class label: 0.393333
+Discrete summation: 3.817028, denominator summation: 18.527882
+Discrete value for label: 3.817028
+In filter, after predicting.
+feature 49: targ: 8.100000, pred 3.817028. Delta: 0.528762
+In filter, about to predict.
+**************************************************************
+Num inst in training set: 455
+Instance to classify's attributes: 0.002929 0.000000 0.338343 0.000000 0.411523 0.472504 0.790937 0.124453 0.217391 0.389313 0.702128 1.000000 0.347682 
+Closest 15 training examples' distances from this feature: 
+ Closest example 0's weighted distance: 3.142229
+  That distance's discrete class label: 0.500000
+ Closest example 1's weighted distance: 2.674895
+  That distance's discrete class label: 0.446667
+ Closest example 2's weighted distance: 2.205779
+  That distance's discrete class label: 0.371111
+ Closest example 3's weighted distance: 2.523449
+  That distance's discrete class label: 0.431111
+ Closest example 4's weighted distance: 2.085052
+  That distance's discrete class label: 0.386667
+ Closest example 5's weighted distance: 2.691218
+  That distance's discrete class label: 0.533333
+ Closest example 6's weighted distance: 1.832857
+  That distance's discrete class label: 0.366667
+ Closest example 7's weighted distance: 1.558426
+  That distance's discrete class label: 0.317778
+ Closest example 8's weighted distance: 1.936114
+  That distance's discrete class label: 0.400000
+ Closest example 9's weighted distance: 1.755150
+  That distance's discrete class label: 0.406667
+ Closest example 10's weighted distance: 1.424380
+  That distance's discrete class label: 0.333333
+ Closest example 11's weighted distance: 1.208717
+  That distance's discrete class label: 0.348889
+ Closest example 12's weighted distance: 1.355961
+  That distance's discrete class label: 0.671111
+ Closest example 13's weighted distance: 1.023472
+  That distance's discrete class label: 0.626667
+ Closest example 14's weighted distance: 1.571083
+  That distance's discrete class label: 1.000000
+Discrete summation: 28.988782, denominator summation: 4.157473
+Discrete value for label: 28.988782
+In filter, after predicting.
+feature 50: targ: 16.800000, pred 28.988782. Delta: -0.420465
+
+
+Accuracy on the test set:
+Set accuracy: 0.456622
+
+Training time: 0.00325894 seconds
+
+Testing time: 0.03036 seconds

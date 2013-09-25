@@ -1,0 +1,312 @@
+// ----------------------------------------------------------------
+// The contents of this file are distributed under the CC0 license.
+// See http://creativecommons.org/publicdomain/zero/1.0/
+// ----------------------------------------------------------------
+
+#ifndef PERCEPTRON_H
+#define PERCEPTRON_H
+
+#include "learner.h"
+#include "rand.h"
+#include "error.h"
+#include <stdio.h>
+#include <iostream>
+
+#define STOPPING_CRITERIA 5
+#define MIN_NUM_EPOCHS_UNEQUAL 10
+#define NON_IMPROV_LIMIT 4
+#define STOPPING_PERCENTAGE 0.01
+#define DEBUG 0
+#define PRINT_INFO 0
+#define PRINT_ACC 0
+
+using namespace std;
+
+class PerceptronLearner : public SupervisedLearner
+{
+private:
+	Rand& m_rand; // pseudo-random number generator (not actually used by the baseline learner)
+	vector<double> m_labelVec; // The label vector that this learner will always predict
+	vector<vector<double> > mc_weights_vector;
+	vector<vector<double> > best_weights_so_far;
+	int num_classes;
+	double best_acc_so_far;
+	double learning_rate;
+
+public:
+	PerceptronLearner(Rand& r)
+	: SupervisedLearner(), m_rand(r)
+	{
+	}
+
+	virtual ~PerceptronLearner()
+	{
+	}
+
+	// Train the model to predict the labels
+	// features = inputs (first n - # of output columns in matrix)
+	// labels = output (last column in matrix)
+	virtual void train(Matrix& features, Matrix& labels)
+	{
+		if (DEBUG) {
+		  cout << "NUMBER OF FEATURE INPUTS" << features.rows() << endl;
+		  cout << "NUMBER OF FEATURES FOR EACH INPUT" << features.cols() << endl;
+		  for (int x = 0; x < (int)features.rows(); x++) {
+		    for (int y = 0; y < (int)features.cols(); y++) {
+		      cout << features[x][y] << " "; }
+		    cout << endl; }
+		  cout << "NUMBER OF LABELS FOR EACH INPUT" <<  labels.rows() << endl;
+		  for (int z = 0; z< (int)labels.rows(); z++) {
+		    for (int zz = 0; zz < (int)labels.cols(); zz++) {
+		      	cout << labels[z][zz] << " "; }
+		    cout << endl; }
+		}
+		// Check assumptions
+		if(features.rows() != labels.rows())
+			ThrowError("Expected the features and labels to have the same number of rows");
+
+		// Throw away any previous training
+		m_labelVec.clear();
+		mc_weights_vector.clear();
+		best_weights_so_far.clear();
+
+		// Train it
+		int num_epochs_completed = 0;
+		int num_epochs_same = 0;	
+		int number_without_improvement = 0;
+		learning_rate = 0.1;
+		best_acc_so_far = 0.0;
+		num_classes = (labels.valueCount(0) == 0) ? 1 : (labels.valueCount(0)); 
+		
+		//one perceptron for each class of output for the one label
+		mc_weights_vector.resize(num_classes);
+		best_weights_so_far.resize(num_classes);
+		for (int i = 0; i < num_classes; i++) {
+			mc_weights_vector[i].resize(features.cols() + 1);
+			best_weights_so_far[i].resize(features.cols() + 1);
+		}
+
+		for (int i = 0; i < num_classes; i++) {
+			for (int j = 0; j < (int)features.cols() + 1; j++) {
+				best_weights_so_far[i].push_back(0);
+				mc_weights_vector[i].push_back(0);
+			}
+		}
+
+		double average_percent_change;
+		bool finished = false;
+		do
+	   	{
+			// Shuffle the rows before each epoch
+			features.shuffleRows(m_rand, &labels);
+
+			average_percent_change = 0;
+			vector<vector<double> > mc_previous_weights;
+			mc_previous_weights.resize(num_classes);
+			for (int i = 0; i < num_classes; i++)
+				mc_previous_weights.resize(features.cols() + 1);
+
+			if (DEBUG) cout << "NUM CLASSES: " << num_classes << endl;
+			for (int i = 0; i < num_classes; i++) {
+				for (int j = 0; j < (int)features.cols() + 1; j++){
+					mc_previous_weights[i].push_back(mc_weights_vector[i][j]);
+					if (DEBUG) cout << mc_weights_vector[i][j] << endl;
+				}
+			}	
+
+			for (int j = 0; j < (int)features.rows(); j++) //for each pattern in the matrix
+			{
+				for (int l = 0; l < num_classes; l++)
+				{
+					if (DEBUG)
+						cout << "\nPERCEPTRON: " << l << " on feature " << j << endl;
+					/*
+				 	* Calculate net and subsequently output (0 or 1)
+				 	*/
+					double net = 0;
+					for (int k = 0; k < (int)features.cols(); k++) { //for each attribute in the pattern + 1 for the bias
+						net += features[j][k] * mc_weights_vector[l][k];	
+					}
+					net += 1 * mc_weights_vector[l][features.cols()];
+					
+					/*
+					 * Calculate the change in weights and change them
+					 */
+					if (DEBUG) {
+						cout << "Features" << endl;
+						for (int a = 0; a < (int)features.cols(); a++)
+							cout << features[j][a] << " ";
+						cout << "1" << endl; //bias
+						cout << "Old Weights" << endl;
+						for (int a = 0; a < (int)features.cols() + 1; a++)
+							cout << mc_weights_vector[l][a] << " ";
+						cout << endl;
+					}
+					
+					if (DEBUG) cout << "NET: " << net << endl;
+					int output = (int)(net > 0);
+					if (DEBUG) cout << "OUTPUT: " << output << endl;
+
+					for (int m = 0; m < (int)features.cols() + 1; m++) {
+						int target_value = (num_classes == 1) ? (labels[j][0]) : ((labels[j][0] == l) ? 1 : 0);
+						double changed = (target_value - output);
+						double weight_change;
+						if (m < (int)features.cols())
+							weight_change = learning_rate * changed * features[j][m] /*this is the associated input*/;				
+						else
+							weight_change = learning_rate * changed * 1; //for bias column
+						mc_weights_vector[l][m] += weight_change;
+					}
+
+					if (DEBUG) {
+						cout << "Updated Weights" << endl;
+						for (int c = 0; c < (int)mc_weights_vector[l].size(); c++)
+							cout << mc_weights_vector[l][c] << " ";
+						cout << endl;
+					}
+				}
+			}
+			++num_epochs_completed;
+			bool same = true;
+			
+			for (int i = 0; i < num_classes; i++) {
+				for (int j = 0; j < (int)mc_weights_vector[i].size(); j++) {
+					if (DEBUG) cout << "i: " << i << " j: " << j << endl;
+					double new_weight = mc_weights_vector[i][j] + 1;
+					double previous_weight = mc_previous_weights[i][j] + 1;
+					double diff = new_weight - previous_weight;
+					double perc_change = diff/previous_weight;
+					if (perc_change < 0)
+						perc_change = -perc_change;
+				
+					if (DEBUG) {
+						cout << "DIFF " << diff << endl;
+						cout << "AVG P C " << perc_change << endl;
+					}
+				
+					average_percent_change += perc_change;
+				
+					if (diff) {
+						num_epochs_same = 0;
+						same = false;
+					}
+				}
+			}
+			if (same)
+				++num_epochs_same;
+			if (DEBUG) { //is only keeping track of last...
+				cout << average_percent_change << endl;
+				cout << (average_percent_change / (features.cols() + 1)) << endl;
+			}
+
+			if (num_epochs_same >= STOPPING_CRITERIA || 
+					((num_epochs_completed > MIN_NUM_EPOCHS_UNEQUAL) && ((average_percent_change / (features.cols() +1)) < STOPPING_PERCENTAGE)))
+			   finished = true;
+			
+			if (PRINT_INFO) {	
+				cout << "End-of-Epoch-" << num_epochs_completed << " Weights: ";
+				for (int s = 0; s < num_classes; s++) {
+					cout << "CLASS " << s << endl;
+					for (int t = 0; t < (int)features.cols() + 1; t++)
+						cout << mc_weights_vector[s][t] << " ";
+					cout << endl;
+				}
+				cout << (average_percent_change / (features.cols() + 1)) << endl;
+			}	
+
+
+			/*
+			 * For graphing results and knowing intermediate accuracy vs epochs
+			 */
+			double mseTraining = measureAccuracy(features, labels, NULL);
+			if (mseTraining > best_acc_so_far) { //our weights are better than the best so far
+				best_acc_so_far = mseTraining;
+				number_without_improvement = 0;
+				for (int s = 0; s < num_classes; s++) {
+					for (int t = 0; t < (int)features.cols(); t++) {
+						best_weights_so_far[s][t] = mc_weights_vector[s][t];
+					}
+				}
+			}
+			else
+				number_without_improvement++;
+			
+			if (number_without_improvement > NON_IMPROV_LIMIT) { //the weights we just used are worse than our best and we've past an arbitrary limit without getting better, so revert to them and change learning rate
+				number_without_improvement = 0;
+				num_epochs_same = 0;
+				mc_weights_vector = best_weights_so_far;
+				learning_rate = learning_rate * 0.8;
+				finished = false;
+			}
+
+			if (PRINT_ACC) {	
+				cout << num_epochs_completed << ", ";
+				cout << mseTraining << endl; 
+			}
+
+		}
+		while (!finished); //there is significant enough change in the epochs
+	
+		if (PRINT_INFO) {
+			cout << "FINAL WEIGHTS: " << endl;
+			for (int s = 0; s < num_classes; s++) {
+				cout << "CLASS " << s << endl;
+				for (int t = 0; t < (int)features.cols(); t++) {
+					cout << mc_weights_vector[s][t] << " ";
+				}
+				cout << endl;	
+			}
+		}
+		cout << "Number of epochs completed: " << num_epochs_completed << endl;
+	}
+
+	// Evaluate the features and predict the labels
+	// features are the attributes (cols) of the one passed-in instance we want to produce output for
+	// labels is what where we report our answer(s)/prediction(s) of those features
+	virtual void predict(const std::vector<double>& features, std::vector<double>& labels)
+	{
+		if (DEBUG) {
+			cout << endl;
+			for (int j = 0; j < (int)features.size(); j++)
+				cout << features[j] << " ";
+			cout << endl;
+		}
+		vector<double> possibles;
+	
+		for (int i = 0; i < num_classes; i++) {
+			double net = 0;
+			for (int j = 0; j < (int)features.size(); j++)
+				net += features[j] * mc_weights_vector[i][j];
+			net += 1 * mc_weights_vector[i][mc_weights_vector[i].size() - 1];
+			if (DEBUG) cout << "NET: " << net << endl;
+			if (num_classes > 1)
+				possibles.push_back(net);
+			else {
+				labels[0] = (int)(net > 0);
+				if (DEBUG) cout << "TESTED OUTPUT: " << labels[0] << endl;
+				return;
+			}
+		}
+
+		if (DEBUG) {
+			cout << "Possibles: ";
+			for (int i = 0; i < (int)possibles.size(); i++)
+				cout << possibles[i] << " "; cout << endl; }
+
+		int index_of_largest = 0;
+		for (int i = 0; i < (int)possibles.size(); i++)
+		{
+			if (possibles[i] > possibles[index_of_largest])
+				index_of_largest = i;
+			if (DEBUG) cout << "LARGEST(" << index_of_largest << ") "	<< possibles[index_of_largest] << endl;
+		}	
+		labels[0] = index_of_largest;
+		
+		if (DEBUG) {
+			cout << index_of_largest << endl;
+		}		
+	}
+};
+
+
+#endif // PERCEPTRON_H

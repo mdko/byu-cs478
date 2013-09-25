@@ -1,0 +1,4466 @@
+Dataset name: ../data/cars.arff
+Number of instances (rows): 1728
+Number of attributes (cols): 7
+Learning algorithm: decisiontree
+Evaluation method: cross
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 0 (unacc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 0 (unacc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 0 (unacc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 2 (good)
+					Inner node '3-5more'...Split on Attr 4-lug_boot
+					(Children of 5more:)
+						***Leaf node '0-small' output: 1 (acc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					Inner node '2-4'...Split on Attr 4-lug_boot
+					(Children of 4:)
+						***Leaf node '0-small' output: 1 (acc)
+						***Leaf node '1-med' output: 2 (good)
+						***Leaf node '2-big' output: 2 (good)
+					***Leaf node '3-5more' output: 2 (good)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					Inner node '1-high'...Split on Attr 2-doors
+					(Children of high:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+Original tree accuracy on validation set: 0.862179
+Number of nodes in original tree: 323
+Depth of original tree: 7
+Rep: 0, Fold: 0, Training Accuracy: 0.972365, Test Accuracy: 0.889535
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					Inner node '2-4'...Split on Attr 1-maint
+					(Children of 4:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 0 (unacc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 0 (unacc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+				***Leaf node '2-big' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 1 (acc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 4-lug_boot
+					(Children of 5more:)
+						***Leaf node '0-small' output: 1 (acc)
+						***Leaf node '1-med' output: 2 (good)
+						***Leaf node '2-big' output: 0 (unacc)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					Inner node '2-4'...Split on Attr 4-lug_boot
+					(Children of 4:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 4-lug_boot
+					(Children of 5more:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+Original tree accuracy on validation set: 0.918269
+Number of nodes in original tree: 361
+Depth of original tree: 7
+Rep: 0, Fold: 1, Training Accuracy: 0.974936, Test Accuracy: 0.866279
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					Inner node '2-4'...Split on Attr 1-maint
+					(Children of 4:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 0 (unacc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 0 (unacc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+		Inner node '2-more'...Split on Attr 4-lug_boot
+		(Children of more:)
+			Inner node '0-small'...Split on Attr 0-buying
+			(Children of small:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+				Inner node '3-low'...Split on Attr 1-maint
+				(Children of low:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+			Inner node '1-med'...Split on Attr 0-buying
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 0 (unacc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 1-maint
+				(Children of high:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					Inner node '0-vhigh'...Split on Attr 2-doors
+					(Children of vhigh:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-high'...Split on Attr 2-doors
+					(Children of high:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+				Inner node '3-low'...Split on Attr 1-maint
+				(Children of low:)
+					Inner node '0-vhigh'...Split on Attr 2-doors
+					(Children of vhigh:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+			Inner node '2-big'...Split on Attr 1-maint
+			(Children of big:)
+				Inner node '0-vhigh'...Split on Attr 0-buying
+				(Children of vhigh:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 0-buying
+				(Children of high:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 0-buying
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 2 (good)
+				Inner node '3-low'...Split on Attr 0-buying
+				(Children of low:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 2 (good)
+					***Leaf node '3-low' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 1 (acc)
+					***Leaf node '1-3' output: 3 (vgood)
+					***Leaf node '2-4' output: 3 (vgood)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+Original tree accuracy on validation set: 0.952991
+Number of nodes in original tree: 375
+Depth of original tree: 7
+Rep: 0, Fold: 2, Training Accuracy: 0.981362, Test Accuracy: 0.883721
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+		Inner node '2-more'...Split on Attr 4-lug_boot
+		(Children of more:)
+			Inner node '0-small'...Split on Attr 0-buying
+			(Children of small:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 0 (unacc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-med'...Split on Attr 0-buying
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 1-maint
+				(Children of vhigh:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 1-maint
+				(Children of high:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					Inner node '1-high'...Split on Attr 2-doors
+					(Children of high:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					Inner node '0-vhigh'...Split on Attr 2-doors
+					(Children of vhigh:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-high'...Split on Attr 2-doors
+					(Children of high:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+				Inner node '3-low'...Split on Attr 1-maint
+				(Children of low:)
+					Inner node '0-vhigh'...Split on Attr 2-doors
+					(Children of vhigh:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 2 (good)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+			Inner node '2-big'...Split on Attr 1-maint
+			(Children of big:)
+				Inner node '0-vhigh'...Split on Attr 0-buying
+				(Children of vhigh:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 0-buying
+				(Children of high:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 0-buying
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 2 (good)
+				Inner node '3-low'...Split on Attr 0-buying
+				(Children of low:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 2 (good)
+					***Leaf node '3-low' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+Original tree accuracy on validation set: 0.958333
+Number of nodes in original tree: 356
+Depth of original tree: 7
+Rep: 0, Fold: 3, Training Accuracy: 0.981362, Test Accuracy: 0.930233
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					Inner node '2-4'...Split on Attr 1-maint
+					(Children of 4:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 0 (unacc)
+						***Leaf node '2-med' output: 0 (unacc)
+						***Leaf node '3-low' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 2 (good)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 1 (acc)
+					Inner node '1-3'...Split on Attr 4-lug_boot
+					(Children of 3:)
+						***Leaf node '0-small' output: 1 (acc)
+						***Leaf node '1-med' output: 2 (good)
+						***Leaf node '2-big' output: 2 (good)
+					***Leaf node '2-4' output: 2 (good)
+					***Leaf node '3-5more' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 3 (vgood)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 3 (vgood)
+					***Leaf node '3-5more' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+Original tree accuracy on validation set: 0.952564
+Number of nodes in original tree: 326
+Depth of original tree: 7
+Rep: 0, Fold: 4, Training Accuracy: 0.980077, Test Accuracy: 0.877907
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 4-lug_boot
+			(Children of vhigh:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 0 (unacc)
+						***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 0 (unacc)
+						***Leaf node '3-low' output: 0 (unacc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 2 (good)
+					Inner node '1-3'...Split on Attr 4-lug_boot
+					(Children of 3:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 2 (good)
+						***Leaf node '2-big' output: 3 (vgood)
+					***Leaf node '2-4' output: 3 (vgood)
+					***Leaf node '3-5more' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 2 (good)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 2 (good)
+					Inner node '2-4'...Split on Attr 4-lug_boot
+					(Children of 4:)
+						***Leaf node '0-small' output: 2 (good)
+						***Leaf node '1-med' output: 3 (vgood)
+						***Leaf node '2-big' output: 3 (vgood)
+					***Leaf node '3-5more' output: 2 (good)
+Original tree accuracy on validation set: 0.952457
+Number of nodes in original tree: 324
+Depth of original tree: 7
+Rep: 0, Fold: 5, Training Accuracy: 0.974936, Test Accuracy: 0.872093
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					Inner node '2-4'...Split on Attr 1-maint
+					(Children of 4:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 0 (unacc)
+						***Leaf node '3-low' output: 0 (unacc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					Inner node '2-4'...Split on Attr 1-maint
+					(Children of 4:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 0 (unacc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 2 (good)
+					***Leaf node '1-3' output: 2 (good)
+					***Leaf node '2-4' output: 3 (vgood)
+					***Leaf node '3-5more' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 3 (vgood)
+					Inner node '2-4'...Split on Attr 4-lug_boot
+					(Children of 4:)
+						***Leaf node '0-small' output: 1 (acc)
+						***Leaf node '1-med' output: 3 (vgood)
+						***Leaf node '2-big' output: 3 (vgood)
+					***Leaf node '3-5more' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+Original tree accuracy on validation set: 0.955586
+Number of nodes in original tree: 350
+Depth of original tree: 7
+Rep: 0, Fold: 6, Training Accuracy: 0.978792, Test Accuracy: 0.889535
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 0 (unacc)
+						***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+		Inner node '2-more'...Split on Attr 4-lug_boot
+		(Children of more:)
+			Inner node '0-small'...Split on Attr 0-buying
+			(Children of small:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+				Inner node '3-low'...Split on Attr 1-maint
+				(Children of low:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+			Inner node '1-med'...Split on Attr 0-buying
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 1-maint
+				(Children of vhigh:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 1-maint
+				(Children of high:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					Inner node '0-vhigh'...Split on Attr 2-doors
+					(Children of vhigh:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 2 (good)
+				Inner node '3-low'...Split on Attr 1-maint
+				(Children of low:)
+					Inner node '0-vhigh'...Split on Attr 2-doors
+					(Children of vhigh:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+			Inner node '2-big'...Split on Attr 0-buying
+			(Children of big:)
+				Inner node '0-vhigh'...Split on Attr 1-maint
+				(Children of vhigh:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 1-maint
+				(Children of high:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 2 (good)
+				Inner node '3-low'...Split on Attr 1-maint
+				(Children of low:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 2 (good)
+					***Leaf node '3-low' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 0 (unacc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 3 (vgood)
+					***Leaf node '1-3' output: 2 (good)
+					***Leaf node '2-4' output: 3 (vgood)
+					***Leaf node '3-5more' output: 3 (vgood)
+Original tree accuracy on validation set: 0.959535
+Number of nodes in original tree: 363
+Depth of original tree: 7
+Rep: 0, Fold: 7, Training Accuracy: 0.979434, Test Accuracy: 0.895349
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					Inner node '2-4'...Split on Attr 1-maint
+					(Children of 4:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 0 (unacc)
+						***Leaf node '2-med' output: 0 (unacc)
+						***Leaf node '3-low' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 0 (unacc)
+						***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+		Inner node '2-more'...Split on Attr 4-lug_boot
+		(Children of more:)
+			Inner node '0-small'...Split on Attr 0-buying
+			(Children of small:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 0 (unacc)
+					Inner node '1-3'...Split on Attr 1-maint
+					(Children of 3:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-med'...Split on Attr 0-buying
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 1-maint
+				(Children of vhigh:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					Inner node '2-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 1-maint
+				(Children of high:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					Inner node '1-high'...Split on Attr 2-doors
+					(Children of high:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-med' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+				Inner node '3-low'...Split on Attr 1-maint
+				(Children of low:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+			Inner node '2-big'...Split on Attr 1-maint
+			(Children of big:)
+				Inner node '0-vhigh'...Split on Attr 0-buying
+				(Children of vhigh:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 0 (unacc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 0-buying
+				(Children of high:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 0-buying
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 2 (good)
+				Inner node '3-low'...Split on Attr 0-buying
+				(Children of low:)
+					***Leaf node '0-vhigh' output: 1 (acc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 2 (good)
+					***Leaf node '3-low' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+Original tree accuracy on validation set: 0.970085
+Number of nodes in original tree: 338
+Depth of original tree: 7
+Rep: 0, Fold: 8, Training Accuracy: 0.985219, Test Accuracy: 0.906977
+**************
+Original Tree:
+Inner node '-1-Root'...Split on Attr 5-safety
+(Children of Root:)
+	***Leaf node '0-low' output: 0 (unacc)
+	Inner node '1-med'...Split on Attr 3-persons
+	(Children of med:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 2-doors
+				(Children of med:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 0 (unacc)
+					Inner node '2-4'...Split on Attr 1-maint
+					(Children of 4:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 1 (acc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+					Inner node '3-5more'...Split on Attr 1-maint
+					(Children of 5more:)
+						***Leaf node '0-vhigh' output: 0 (unacc)
+						***Leaf node '1-high' output: 0 (unacc)
+						***Leaf node '2-med' output: 1 (acc)
+						***Leaf node '3-low' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 4-lug_boot
+			(Children of high:)
+				***Leaf node '0-small' output: 0 (unacc)
+				Inner node '1-med'...Split on Attr 1-maint
+				(Children of med:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					Inner node '1-high'...Split on Attr 2-doors
+					(Children of high:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-med' output: 1 (acc)
+					Inner node '3-low'...Split on Attr 2-doors
+					(Children of low:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-big'...Split on Attr 1-maint
+				(Children of big:)
+					***Leaf node '0-vhigh' output: 0 (unacc)
+					***Leaf node '1-high' output: 1 (acc)
+					***Leaf node '2-med' output: 1 (acc)
+					***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 4-lug_boot
+				(Children of vhigh:)
+					***Leaf node '0-small' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 0 (unacc)
+					***Leaf node '1-med' output: 0 (unacc)
+					***Leaf node '2-big' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 2-doors
+				(Children of med:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 0 (unacc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					***Leaf node '0-2' output: 0 (unacc)
+					Inner node '1-3'...Split on Attr 4-lug_boot
+					(Children of 3:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 0 (unacc)
+				Inner node '1-high'...Split on Attr 2-doors
+				(Children of high:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					***Leaf node '1-med' output: 2 (good)
+					***Leaf node '2-big' output: 2 (good)
+	Inner node '2-high'...Split on Attr 3-persons
+	(Children of high:)
+		***Leaf node '0-2' output: 0 (unacc)
+		Inner node '1-4'...Split on Attr 0-buying
+		(Children of 4:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				***Leaf node '3-low' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					***Leaf node '0-small' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+		Inner node '2-more'...Split on Attr 0-buying
+		(Children of more:)
+			Inner node '0-vhigh'...Split on Attr 1-maint
+			(Children of vhigh:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 0 (unacc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '1-high'...Split on Attr 1-maint
+			(Children of high:)
+				***Leaf node '0-vhigh' output: 0 (unacc)
+				***Leaf node '1-high' output: 1 (acc)
+				***Leaf node '2-med' output: 1 (acc)
+				Inner node '3-low'...Split on Attr 2-doors
+				(Children of low:)
+					***Leaf node '0-2' output: 0 (unacc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+			Inner node '2-med'...Split on Attr 1-maint
+			(Children of med:)
+				Inner node '0-vhigh'...Split on Attr 2-doors
+				(Children of vhigh:)
+					Inner node '0-2'...Split on Attr 4-lug_boot
+					(Children of 2:)
+						***Leaf node '0-small' output: 0 (unacc)
+						***Leaf node '1-med' output: 1 (acc)
+						***Leaf node '2-big' output: 1 (acc)
+					***Leaf node '1-3' output: 1 (acc)
+					***Leaf node '2-4' output: 1 (acc)
+					***Leaf node '3-5more' output: 1 (acc)
+				***Leaf node '1-high' output: 1 (acc)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 0 (unacc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 2 (good)
+						***Leaf node '2-4' output: 0 (unacc)
+						***Leaf node '3-5more' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 0 (unacc)
+					***Leaf node '2-big' output: 3 (vgood)
+			Inner node '3-low'...Split on Attr 1-maint
+			(Children of low:)
+				***Leaf node '0-vhigh' output: 1 (acc)
+				Inner node '1-high'...Split on Attr 4-lug_boot
+				(Children of high:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 1 (acc)
+						***Leaf node '2-4' output: 1 (acc)
+						***Leaf node '3-5more' output: 1 (acc)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 1 (acc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '2-med'...Split on Attr 4-lug_boot
+				(Children of med:)
+					***Leaf node '0-small' output: 2 (good)
+					Inner node '1-med'...Split on Attr 2-doors
+					(Children of med:)
+						***Leaf node '0-2' output: 2 (good)
+						***Leaf node '1-3' output: 3 (vgood)
+						***Leaf node '2-4' output: 3 (vgood)
+						***Leaf node '3-5more' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+				Inner node '3-low'...Split on Attr 4-lug_boot
+				(Children of low:)
+					Inner node '0-small'...Split on Attr 2-doors
+					(Children of small:)
+						***Leaf node '0-2' output: 0 (unacc)
+						***Leaf node '1-3' output: 0 (unacc)
+						***Leaf node '2-4' output: 2 (good)
+						***Leaf node '3-5more' output: 2 (good)
+					***Leaf node '1-med' output: 3 (vgood)
+					***Leaf node '2-big' output: 3 (vgood)
+Original tree accuracy on validation set: 0.969551
+Number of nodes in original tree: 338
+Depth of original tree: 7
+Rep: 0, Fold: 9, Training Accuracy: 0.984576, Test Accuracy: 0.889535
+Training mean accuracy: 0.979306
+Mean predictive accuracy (on test set): 0.890116

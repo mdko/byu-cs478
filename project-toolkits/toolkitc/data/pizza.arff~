@@ -1,0 +1,39 @@
+%
+% This is a simple dataset for testing your decision tree
+% (The opinions expressed in this file are not necessarily
+% endorsed by anyone with good taste in pizza.)
+%
+@RELATION pizza
+
+@ATTRIBUTE cheese { none, some, lots }
+@ATTRIBUTE meat { vegetarian, meaty }
+@ATTRIBUTE sauce { sweet, salty }
+@ATTRIBUTE flour { low_gluten, high_gluten }
+@ATTRIBUTE class { awful, edible, stellar }
+
+@DATA
+none, vegetarian, sweet, low_gluten, awful
+some, vegetarian, sweet, low_gluten, awful
+lots, vegetarian, sweet, low_gluten, awful
+lots, vegetarian, sweet, low_gluten, edible
+none, meaty, sweet, low_gluten, awful
+some, meaty, sweet, low_gluten, edible
+lots, meaty, sweet, low_gluten, awful
+none, vegetarian, salty, low_gluten, awful
+some, vegetarian, salty, low_gluten, awful
+lots, vegetarian, salty, low_gluten, edible
+none, meaty, salty, low_gluten, awful
+some, meaty, salty, low_gluten, awful
+lots, meaty, salty, low_gluten, awful
+none, vegetarian, sweet, high_gluten, awful
+some, vegetarian, sweet, high_gluten, awful
+lots, vegetarian, sweet, high_gluten, edible
+none, meaty, sweet, high_gluten, awful
+some, meaty, sweet, high_gluten, edible
+lots, meaty, sweet, high_gluten, stellar
+none, vegetarian, salty, high_gluten, awful
+some, vegetarian, salty, high_gluten, edible
+lots, vegetarian, salty, high_gluten, stellar
+none, meaty, salty, high_gluten, edible
+some, meaty, salty, high_gluten, stellar
+lots, meaty, salty, high_gluten, stellar
